@@ -16,7 +16,7 @@ from statsmodels.stats import multicomp
 # In[2]:
 
 
-dfImrByCountyByRace = pd.read_csv("./IMR by county by race, 2007-2016.txt", sep='\t')
+dfImrByCountyByRace = pd.read_csv("datafiles/IMR by county by race, 2007-2016.txt", sep='\t')
 # dfImrByCountyByRace['Race'] = ["Unknown" if race is np.nan else race for race in dfImrByCountyByRace['Race']]
 
 dfImrByCountyByRace.dropna(subset=['Death Rate'], inplace=True)
@@ -43,12 +43,13 @@ asians = dfImrByCountyByRace.loc[dfImrByCountyByRace['Race Code'] == 'A-PI']['De
 unknown = dfImrByCountyByRace.loc[dfImrByCountyByRace['Race'] == 'Unknown']['Death Rate']
 
 
-# In[5]:
+# In[104]:
 
 
-ax = dfImrByCountyByRace.boxplot('Death Rate', by="Race", figsize=(20, 10))
+ax = dfImrByCountyByRace.boxplot('Death Rate', by="Race", figsize=(10, 6))
 fig = ax.get_figure()
-fig.savefig('Death Rate by Race.png')
+ax.set_xticklabels (['American Indian/\nAlaska native', 'Asian/\nPacific Islander', 'Black/\nAfrican American', 'White'])
+fig.savefig('Images/Death Rate by Race.png')
 
 
 # ### ANOVA shows that one (or more) race(s) is significantly different than the rest
@@ -70,14 +71,14 @@ blacksByCounty = blacksByCounty.loc[blacksByCounty['Death Rate'].notnull()]
 
 
 blacksHighestImrCounties = blacksByCounty.head(10)
-blacksHighestImrCounties.to_csv("./AfricanAmericanHighestImrCounties.csv")
+blacksHighestImrCounties.to_csv("datafiles/AfricanAmericanHighestImrCounties.csv")
 
 
 # In[9]:
 
 
 blacksLowestImrCounties = blacksByCounty.tail(10)
-blacksLowestImrCounties.to_csv("./AfricanAmericanLowestImrCounties.csv")
+blacksLowestImrCounties.to_csv("datafiles/AfricanAmericanLowestImrCounties.csv")
 
 
 # In[10]:
@@ -99,7 +100,7 @@ print(answer)
 # In[12]:
 
 
-dfImrByYearByRace = pd.read_csv("./imr by year by race, 2007-2016.txt", sep='\t')
+dfImrByYearByRace = pd.read_csv("datafiles/imr by year by race, 2007-2016.txt", sep='\t')
 
 
 # In[13]:
@@ -128,7 +129,7 @@ dfPlot.reset_index(inplace=True)
 dfPlot.head()
 
 
-# In[17]:
+# In[73]:
 
 
 plt.plot(dfPlot['Year of Death'], dfPlot['Unknown'], label='Unknown')
@@ -138,8 +139,11 @@ plt.plot(dfPlot['Year of Death'], dfPlot['Black or African American'], label='Bl
 plt.plot(dfPlot['Year of Death'], dfPlot['White'], label='White')
 plt.ylim(0, 20)
 plt.legend()
-plt.title ("IMR by Race, 2001-2016")
-plt.savefig("IMR by Race, 2001-2016.png")
+plt.xlabel("Year")
+plt.ylabel("Death Rate (per 1000)")
+plt.title ("IMR by Race, 2007-2016")
+plt.rcParams["figure.figsize"] = [8, 6]
+plt.savefig("Images/IMR by Race, 2007-2016.png")
 plt.show()
 
 
@@ -157,7 +161,7 @@ plt.show()
 
 
 # Death Rate by age
-dfImrByAgeByCause = pd.read_csv("./IMR by age by cause, 2007-2016.txt", sep='\t')
+dfImrByAgeByCause = pd.read_csv("datafiles/IMR by age by cause, 2007-2016.txt", sep='\t')
 
 # Convert NaN to Unknown for the age of infant
 dfImrByAgeByCause['Age of Infant at Death'] = ["Unknown" if age is np.nan else age for age in dfImrByAgeByCause['Age of Infant at Death']]
@@ -180,19 +184,20 @@ dfImrByAgeByCause.sort_values(by='Death Rate', ascending=False, inplace=True)
 dfImrByAgeByCause.head()
 
 
-# In[20]:
+# In[98]:
 
 
-rects = plt.barh(dfTotalsbyAgebyCause['Age of Infant at Death'], width=dfTotalsbyAgebyCause['Death Rate'], color='blue')
+rects = plt.barh(dfTotalsbyAgebyCause['Age of Infant at Death'], width=dfTotalsbyAgebyCause['Death Rate'], color='blue', alpha=.5, edgecolor='black')
 plt.title("IMR vs Age")
 plt.ylabel("Age of Infant at Death")
 plt.xlabel("Death Rate")
-plt.xlim(0, 4)
-plt.savefig("IMR vs age.png")
+plt.xlim(0, 3)
+plt.rcParams["figure.figsize"] = [11, 8]
+plt.savefig("Images/IMR vs age.png")
 plt.show()
 
 
-# In[21]:
+# In[95]:
 
 
 # removes rows that show total
@@ -207,14 +212,15 @@ indexedImrByAgeByCause.sort_values(["Age of Infant at Death Code", "Death Rate"]
 indexedImrByAgeByCause.head()
 
 
-# In[23]:
+# In[88]:
 
 
 x_axis = dfImrByAgeByCause['Cause of death'].head(6)
 
 y_axis = dfImrByAgeByCause['Death Rate'].head(6)
-rects = plt.bar(range(len(x_axis)),y_axis, color='teal')
-plt.xticks(range(len(x_axis)), x_axis, rotation='vertical')
+rects = plt.bar(range(len(x_axis)),y_axis, color='teal', alpha=0.5, edgecolor='black' )
+
+plt.xticks(range(len(x_axis)), ['Extreme\nImmaturity', 'Sudden\nInfant Death\nSyndrom\nSIDS', 'Extreme\nImmaturity', 'Other\nIll-defined/\nUnspecificed\nCauses', 'Accidental\nSuffocation\nStrangulation\nin bed', 'Other\nPreterm\nInfants'], rotation='horizontal')
 plt.xlim(-1,6)
 plt.ylim(0, 0.65)
 for rect in rects:
@@ -223,26 +229,27 @@ for rect in rects:
     plt.text(rect.get_x() + rect.get_width()/1.1, height + 0.02,
              dfImrByAgeByCause['Age of Infant at Death'].iloc[indx],
              ha='center', va='bottom', color='black', rotation = 45)
-    
+   
 plt.xlabel("Cause of Mortality")
 plt.ylabel("Mortality Rate (per 1000)")
 plt.title("Leading Causes of Infant Mortality")
-
-plt.savefig("Leading Causes of Infant Mortality.png")
+plt.rcParams["figure.figsize"] = [12, 8]
+# plt.tight_layout()
+plt.savefig("Images/Leading Causes of Infant Mortality.png")
 plt.show()
 
 
 # ## Leading cause of infant mortality by race
 # 
 
-# In[24]:
+# In[78]:
 
 
-dfImrByRaceByCause = pd.read_csv("./imr by race by cause, 2007-2016.txt", sep='\t')
+dfImrByRaceByCause = pd.read_csv("datafiles/imr by race by cause, 2007-2016.txt", sep='\t')
 
 # remove Unreliable from Death Rate colum (fewer than 20 reported cases)
-
 dfImrByRaceByCause = dfImrByRaceByCause.loc[dfImrByRaceByCause['Death Rate'].map(lambda x: 'Unreliable' not in str(x))]
+
 # remove totals
 dfImrByRaceByCause = dfImrByRaceByCause[(dfImrByRaceByCause['Notes']!='Total') & dfImrByRaceByCause['Death Rate'].notnull()]
 
@@ -253,33 +260,6 @@ dfImrByRaceByCause['Death Rate'] = dfImrByRaceByCause['Death Rate'].map(lambda x
 dfImrByRaceByCause = dfImrByRaceByCause.sort_values(['Race', 'Death Rate'], ascending=[True, False])
 
 dfImrByRaceByCause.head()
-
-
-# In[25]:
-
-
-leadingCauseOfDeathByRace = pd.DataFrame()
-for race in dfImrByRaceByCause['Race'].unique():
-       leadingCauseOfDeathByRace = leadingCauseOfDeathByRace.append(dfImrByRaceByCause[dfImrByRaceByCause['Race'] == race][['Race', 'Cause of death', 'Death Rate']].head(1))
-
-leadingCauseOfDeathByRace
-
-secondLeadingCauseOfDeathByRace = pd.DataFrame()
-for race in dfImrByRaceByCause['Race'].unique():
-       secondLeadingCauseOfDeathByRace = secondLeadingCauseOfDeathByRace.append(dfImrByRaceByCause[dfImrByRaceByCause['Race'] == race][['Race', 'Cause of death', 'Death Rate']].head(2).tail(1))
-
-secondLeadingCauseOfDeathByRace
-
-
-thirdLeadingCauseOfDeathByRace = pd.DataFrame()
-for race in dfImrByRaceByCause['Race'].unique():
-       thirdLeadingCauseOfDeathByRace = thirdLeadingCauseOfDeathByRace.append(dfImrByRaceByCause[dfImrByRaceByCause['Race'] == race][['Race', 'Cause of death', 'Death Rate']].head(3).tail(1))
-
-thirdLeadingCauseOfDeathByRace
-
-fourthLeadingCauseOfDeathByRace = pd.DataFrame()
-for race in dfImrByRaceByCause['Race'].unique():
-       fourthLeadingCauseOfDeathByRace = fourthLeadingCauseOfDeathByRace.append(dfImrByRaceByCause[dfImrByRaceByCause['Race'] == race][['Race', 'Cause of death', 'Death Rate']].head(4).tail(1))
 
 
 # In[26]:
@@ -319,12 +299,18 @@ dfImrByRaceByCausePlotting = dfImrByRaceByCausePlotting[[
  'Other preterm infants']]
 
 
-# In[28]:
+# In[101]:
 
 
-ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(8, 6), title="Leading Causes of of IMR by Race")
+ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(8, 6), title="Leading Causes of IMR by Race", rot=0)
 ax.set_ylabel("Death Rate (per 1000)")
-
+ax.set_xticklabels (['American Indian/\nAlaska native', 'Asian/\nPacific Islander', 'Black/\nAfrican American', 'White'])
 fig = ax.get_figure()
-fig.savefig('Leading Causes of IMR by Race.png')
+fig.savefig('Images/Leading Causes of IMR by Race.png')
+
+
+# In[ ]:
+
+
+
 
