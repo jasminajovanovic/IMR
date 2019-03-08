@@ -7,7 +7,7 @@ Logan Caldwell, John Chambers, Hyunsoo Kim, Jasmina Jovanovic, and Ediya Yumukof
 
 ## Project Description:
 
-An investigation of Infant Mortality Rates (IMR) in the United States and associated factors. 
+An investigation of Infant Mortality Rates (IMR) in the United States and the associated factors. 
 
 ## Research Questions to Answer:
 
