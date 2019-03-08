@@ -187,21 +187,38 @@ merge_table.head()
 # In[19]:
 
 
-merge_table.INTPTLONG.dtype
+def weighted_education(row):
+    a = row['Percent of adults with less than a high school diploma, 2013-17']*0.1
+    b = row['Percent of adults with a high school diploma only, 2013-17']*0.2
+    c = row["Percent of adults completing some college or associate's degree, 2013-17"]*0.5
+    d = row["Percent of adults with a bachelor's degree or higher, 2013-17"]*0.8
+    return (a+b+c+d)
 
 
 # In[20]:
+
+
+merge_table['Weighted Education Score'] = merge_table.apply(weighted_education, axis=1)
+
+
+# In[21]:
+
+
+merge_table.head()
+
+
+# In[22]:
 
 
 # Store latitude and longitude in locations
 locations = merge_table[["INTPTLAT", "INTPTLONG"]]
 # Plot Heatmap
 fig = gmaps.figure()
-BD = merge_table["Percent of adults with a bachelor's degree or higher, 2013-17"]
+BD = merge_table["Weighted Education Score"]
 # Create heat layer
 heat_layer = gmaps.heatmap_layer(locations, weights=BD , 
-                                 dissipating=False, max_intensity=10,
-                                 point_radius=0.25)
+                                 dissipating=False, max_intensity=100,
+                                 point_radius=0.5)
 
 
 # Add layer
@@ -209,4 +226,182 @@ fig.add_layer(heat_layer)
 
 # Display figure
 fig
+
+
+# ###  10 HIGHEST&LOWEST DEATH RATES by COUNTIES 
+
+# In[23]:
+
+
+higherfilename = 'Resources/AfricanAmericanHighestImrCounties.csv'
+higherfilename_df = pd.read_csv(higherfilename, encoding="ISO-8859-1")
+#higherfilename_df.head()
+
+
+# In[24]:
+
+
+higherfilename_df['County Code'] = higherfilename_df['County Code'].map(lambda x: int(x))
+higherfilename_df.head()
+
+
+# In[25]:
+
+
+lowerfilename = 'Resources/AfricanAmericanLowestImrCounties.csv'
+lowerfilename_df = pd.read_csv(lowerfilename, encoding="ISO-8859-1")
+#lowerfilename_df.head()
+
+
+# In[26]:
+
+
+lowerfilename_df['County Code'] = lowerfilename_df['County Code'].map(lambda x: int(x))
+lowerfilename_df.head()
+
+
+# ### FIND HIGHEST DEATH RATE COUNTIES ON MAP
+
+# In[27]:
+
+
+highestrenamed_code = higherfilename_df.rename(columns={"County Code":"GEOID"})
+highestmerge_table = pd.merge(highestrenamed_code, merge_table, on="GEOID")
+#highestmerge_table 
+
+
+# In[28]:
+
+
+del highestmerge_table['County']
+del highestmerge_table['Notes']
+del highestmerge_table["Deaths"]
+del highestmerge_table["Births"]
+del highestmerge_table['State']
+del highestmerge_table['Area name']
+highestmerge_table
+
+
+# In[29]:
+
+
+coordinates = [
+    (41.091855, -85.072230),
+    (32.577195, -93.882423),
+    (39.469354, -74.633758),
+    (39.196927, -84.544187),
+    (40.282503, -74.703724),
+    (36.761006, -119.655019),
+    (33.553444, -86.896536),
+    (42.588240, -73.974010),
+    (41.617699, -86.288159),
+    (37.681045, -97.461054)
+]
+
+
+# In[30]:
+
+
+figure_layout = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig = gmaps.figure(layout=figure_layout)
+
+
+# In[31]:
+
+
+# Assign the marker layer to a variable
+markers = gmaps.marker_layer(coordinates)
+# Add the layer to the map
+fig.add_layer(markers)
+#fig
+
+
+# In[32]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers)
+
+fig
+
+
+# ### FIND LOWEST DEATH RATE COUNTIES ON MAP
+
+# In[33]:
+
+
+lowestrenamed_code = lowerfilename_df.rename(columns={"County Code":"GEOID"})
+lowestmerge_table = pd.merge(lowestrenamed_code, merge_table, on="GEOID")
+del lowestmerge_table['County']
+del lowestmerge_table['Notes']
+del lowestmerge_table["Deaths"]
+del lowestmerge_table["Births"]
+del lowestmerge_table['State']
+del lowestmerge_table['Area name']
+lowestmerge_table
+
+
+# In[34]:
+
+
+coordinates2 = [
+    (44.670893, -93.062481),
+    (42.481711, -71.394917),
+    (40.848711, -73.852939	),
+    (61.174250, -149.284329),
+    (40.439621, -74.407430),
+    (41.987196, -70.741942),
+    (40.959698, -74.074727),
+    (41.037890, -74.298280),
+    (42.642711, -70.865107),
+    (37.220777, -121.690622)
+]
+
+
+# In[35]:
+
+
+figure_layout2 = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig2 = gmaps.figure(layout=figure_layout2)
+
+
+# In[36]:
+
+
+# Assign the marker layer to a variable
+markers2 = gmaps.marker_layer(coordinates2)
+# Add the layer to the map
+fig.add_layer(markers2)
+#fig
+
+
+# In[37]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers2)
+
+fig
+
+
+# In[ ]:
+
+
+
 
