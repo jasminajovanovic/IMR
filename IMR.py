@@ -43,7 +43,7 @@ asians = dfImrByCountyByRace.loc[dfImrByCountyByRace['Race Code'] == 'A-PI']['De
 unknown = dfImrByCountyByRace.loc[dfImrByCountyByRace['Race'] == 'Unknown']['Death Rate']
 
 
-# In[104]:
+# In[5]:
 
 
 ax = dfImrByCountyByRace.boxplot('Death Rate', by="Race", figsize=(10, 6))
@@ -129,7 +129,7 @@ dfPlot.reset_index(inplace=True)
 dfPlot.head()
 
 
-# In[73]:
+# In[17]:
 
 
 plt.plot(dfPlot['Year of Death'], dfPlot['Unknown'], label='Unknown')
@@ -184,7 +184,7 @@ dfImrByAgeByCause.sort_values(by='Death Rate', ascending=False, inplace=True)
 dfImrByAgeByCause.head()
 
 
-# In[98]:
+# In[28]:
 
 
 rects = plt.barh(dfTotalsbyAgebyCause['Age of Infant at Death'], width=dfTotalsbyAgebyCause['Death Rate'], color='blue', alpha=.5, edgecolor='black')
@@ -197,7 +197,7 @@ plt.savefig("Images/IMR vs age.png")
 plt.show()
 
 
-# In[95]:
+# In[21]:
 
 
 # removes rows that show total
@@ -212,7 +212,7 @@ indexedImrByAgeByCause.sort_values(["Age of Infant at Death Code", "Death Rate"]
 indexedImrByAgeByCause.head()
 
 
-# In[88]:
+# In[23]:
 
 
 x_axis = dfImrByAgeByCause['Cause of death'].head(6)
@@ -242,7 +242,7 @@ plt.show()
 # ## Leading cause of infant mortality by race
 # 
 
-# In[78]:
+# In[24]:
 
 
 dfImrByRaceByCause = pd.read_csv("datafiles/imr by race by cause, 2007-2016.txt", sep='\t')
@@ -262,14 +262,14 @@ dfImrByRaceByCause = dfImrByRaceByCause.sort_values(['Race', 'Death Rate'], asce
 dfImrByRaceByCause.head()
 
 
-# In[26]:
+# In[25]:
 
 
 causes = x_axis.unique()
 races = dfImrByRaceByCause['Race'].unique()
 
 
-# In[27]:
+# In[26]:
 
 
 mylist = []
@@ -299,7 +299,7 @@ dfImrByRaceByCausePlotting = dfImrByRaceByCausePlotting[[
  'Other preterm infants']]
 
 
-# In[101]:
+# In[27]:
 
 
 ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(8, 6), title="Leading Causes of IMR by Race", rot=0)
