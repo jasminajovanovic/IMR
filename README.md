@@ -20,6 +20,7 @@ An investigation of Infant Mortality Rates (IMR) in the United States and the as
 
 ## Datasets Used:
 
+(not sure if we want to list every single dataset we pulled, or something like "we got data from the CDC")
 https://wonder.cdc.gov/controller/datarequest/D69
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
 http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
@@ -46,3 +47,7 @@ USDA
 
 *The counties with the highest IMRs are in the southern and eastern United States.
 *The factors with the strongest correlations with IMR are x, y, and z.
+
+## Suggestions for Further Study
+
+*Examine racial differences in terms of rates of public versus private health insurance
