@@ -47,6 +47,7 @@ USDA
 
 *The counties with the highest IMRs are in the southern and eastern United States.
 *The factors with the strongest correlations with IMR are x, y, and z.
+*In addition to the above factors, there appears to be a strong racial component in IMR which deserves further examination. 
 
 ## Suggestions for Further Study
 
