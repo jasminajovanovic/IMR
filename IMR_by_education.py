@@ -23,7 +23,7 @@ gmaps.configure(api_key=gkey)
 # In[2]:
 
 
-filename = 'Resources/Education_Infant_Death_Records_2007_2016.csv'
+filename = 'datafiles/Education_Infant_Death_Records_2007_2016.csv'
 filename_df = pd.read_csv(filename, encoding="ISO-8859-1")
 filename_df
 
@@ -54,13 +54,13 @@ plt.plot(education_sorted["Death Rate"],
 # Incorporate the other graph properties
 plt.style.use('seaborn')
 plt.title(f"Death rate by Education level")
-plt.ylabel("Death Rate")
-plt.xlabel("Education")
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Education level")
 plt.grid(True)
 plt.xlim(0, 20)
 plt.ylim(0, 10)
 # Save the figure
-plt.savefig("Resources/Education.png")
+plt.savefig("Images/Education_lever_line.png")
 
 # Show plot
 plt.show()
@@ -77,14 +77,14 @@ plt.xlabel("Education")
 plt.bar(x_axis, y_axis, color="b", align="center")
 plt.xticks(education_sorted['Education'], rotation="vertical")
 
-plt.savefig("Resources/rated_by_Education.png")
+plt.savefig("Images/Education_level_barchart.png")
 plt.show()
 
 
 # In[7]:
 
 
-countyfilename = 'Resources/County_Infant_Death_Records_2007_2016.csv'
+countyfilename = 'datafiles/County_Infant_Death_Records_2007_2016.csv'
 countyfilename_df = pd.read_csv(countyfilename, encoding="ISO-8859-1")
 countyfilename_df.head()
 
@@ -106,7 +106,7 @@ exclude_unknown.head()
 # In[10]:
 
 
-usdafilename = 'Resources/Education_USDA.csv'
+usdafilename = 'datafiles/Education_USDA.csv'
 usdafilename_df = pd.read_csv(usdafilename, encoding="ISO-8859-1")
 usdafilename_df
 
@@ -140,7 +140,7 @@ renamed_code.head()
 # In[14]:
 
 
-gazfilename = 'Resources/2017_Gaz_counties_national.csv'
+gazfilename = 'datafiles/2017_Gaz_counties_national.csv'
 gazfilename_df = pd.read_csv(gazfilename, encoding="ISO-8859-1")
 gazfilename_df
 
@@ -188,9 +188,9 @@ merge_table.head()
 
 
 def weighted_education(row):
-    a = row['Percent of adults with less than a high school diploma, 2013-17']*0.1
-    b = row['Percent of adults with a high school diploma only, 2013-17']*0.2
-    c = row["Percent of adults completing some college or associate's degree, 2013-17"]*0.5
+    a = row['Percent of adults with less than a high school diploma, 2013-17']*0
+    b = row['Percent of adults with a high school diploma only, 2013-17']*0.4
+    c = row["Percent of adults completing some college or associate's degree, 2013-17"]*0.6
     d = row["Percent of adults with a bachelor's degree or higher, 2013-17"]*0.8
     return (a+b+c+d)
 
@@ -228,12 +228,12 @@ fig.add_layer(heat_layer)
 fig
 
 
-# ###  10 HIGHEST&LOWEST DEATH RATES by COUNTIES 
+# ###  10 HIGHEST&LOWEST DEATH RATES by RACE by COUNTIES
 
 # In[23]:
 
 
-higherfilename = 'Resources/AfricanAmericanHighestImrCounties.csv'
+higherfilename = 'datafiles/AfricanAmericanHighestImrCounties.csv'
 higherfilename_df = pd.read_csv(higherfilename, encoding="ISO-8859-1")
 #higherfilename_df.head()
 
@@ -248,7 +248,7 @@ higherfilename_df.head()
 # In[25]:
 
 
-lowerfilename = 'Resources/AfricanAmericanLowestImrCounties.csv'
+lowerfilename = 'datafiles/AfricanAmericanLowestImrCounties.csv'
 lowerfilename_df = pd.read_csv(lowerfilename, encoding="ISO-8859-1")
 #lowerfilename_df.head()
 
@@ -260,7 +260,7 @@ lowerfilename_df['County Code'] = lowerfilename_df['County Code'].map(lambda x: 
 lowerfilename_df.head()
 
 
-# ### FIND HIGHEST DEATH RATE COUNTIES ON MAP
+# ### FIND HIGHEST DEATH RATE (by RACE) COUNTIES ON MAP
 
 # In[27]:
 
@@ -333,7 +333,7 @@ fig.add_layer(markers)
 fig
 
 
-# ### FIND LOWEST DEATH RATE COUNTIES ON MAP
+# ### FIND LOWEST DEATH RATE (by RACE) COUNTIES ON MAP 
 
 # In[33]:
 
@@ -396,6 +396,67 @@ fig = gmaps.figure()
 
 fig.add_layer(heat_layer)
 fig.add_layer(markers2)
+
+fig
+
+
+# ### Education vs High IMR by counties
+
+# In[38]:
+
+
+highcounties = 'datafiles/high_IMR_county.csv'
+highcounties_df = pd.read_csv(highcounties, encoding="ISO-8859-1")
+highcounties_df
+
+
+# In[39]:
+
+
+coordinates3 = [
+    (32.577195, -93.882423),
+    (30.543930, -91.093131),
+    (32.267788, -90.466017),
+    (39.300032, -76.610476),
+    (33.553444, -86.896536),
+    (35.183794, -89.895397),
+    (38.635699, -90.244582),
+    (39.196927, -84.544187),
+    (42.284664, -83.261953),
+    (35.050192, -78.828719)
+]
+
+
+# In[40]:
+
+
+figure_layout3 = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig3 = gmaps.figure(layout=figure_layout3)
+
+
+# In[41]:
+
+
+# Assign the marker layer to a variable
+markers3 = gmaps.marker_layer(coordinates3)
+# Add the layer to the map
+fig.add_layer(markers3)
+#fig
+
+
+# In[42]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers3)
 
 fig
 
