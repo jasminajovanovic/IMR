@@ -184,15 +184,15 @@ dfImrByAgeByCause.sort_values(by='Death Rate', ascending=False, inplace=True)
 dfImrByAgeByCause.head()
 
 
-# In[28]:
+# In[46]:
 
 
 rects = plt.barh(dfTotalsbyAgebyCause['Age of Infant at Death'], width=dfTotalsbyAgebyCause['Death Rate'], color='blue', alpha=.5, edgecolor='black')
 plt.title("IMR vs Age")
 plt.ylabel("Age of Infant at Death")
 plt.xlabel("Death Rate")
-plt.xlim(0, 3)
-plt.rcParams["figure.figsize"] = [11, 8]
+plt.xlim(0, 2.5)
+plt.rcParams["figure.figsize"] = [11, 9]
 plt.savefig("Images/IMR vs age.png")
 plt.show()
 
@@ -239,10 +239,16 @@ plt.savefig("Images/Leading Causes of Infant Mortality.png")
 plt.show()
 
 
+# In[43]:
+
+
+# dfImrByAgeByCause.plot('Cause of death', "Death Rate", kind='bar')
+
+
 # ## Leading cause of infant mortality by race
 # 
 
-# In[24]:
+# In[25]:
 
 
 dfImrByRaceByCause = pd.read_csv("datafiles/imr by race by cause, 2007-2016.txt", sep='\t')
@@ -262,14 +268,14 @@ dfImrByRaceByCause = dfImrByRaceByCause.sort_values(['Race', 'Death Rate'], asce
 dfImrByRaceByCause.head()
 
 
-# In[25]:
+# In[26]:
 
 
 causes = x_axis.unique()
 races = dfImrByRaceByCause['Race'].unique()
 
 
-# In[26]:
+# In[27]:
 
 
 mylist = []
@@ -299,14 +305,123 @@ dfImrByRaceByCausePlotting = dfImrByRaceByCausePlotting[[
  'Other preterm infants']]
 
 
-# In[27]:
+# In[28]:
 
 
-ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(8, 6), title="Leading Causes of IMR by Race", rot=0)
+ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(11, 9),  width=0.75, title="Leading Causes of IMR by Race", rot=0)
 ax.set_ylabel("Death Rate (per 1000)")
 ax.set_xticklabels (['American Indian/\nAlaska native', 'Asian/\nPacific Islander', 'Black/\nAfrican American', 'White'])
 fig = ax.get_figure()
 fig.savefig('Images/Leading Causes of IMR by Race.png')
+
+
+# ## IMR by Month Prenatal Care Began
+# 
+
+# In[29]:
+
+
+dfImrByPrenatalCareStart = pd.read_csv("./datafiles/imr by prenatal care start, 2007-2016.txt", sep='\t')
+
+
+# In[30]:
+
+
+dfImrByPrenatalCareStart = dfImrByPrenatalCareStart[['Month Prenatal Care Began', 'Death Rate']].dropna(subset=["Month Prenatal Care Began", "Death Rate"])
+
+
+# In[31]:
+
+
+dfImrByPrenatalCareStart
+
+
+# In[32]:
+
+
+dfImrByPrenatalCareStart.plot("Month Prenatal Care Began", "Death Rate", kind='bar')
+
+
+# In[33]:
+
+
+dfImrByPrenatalByRace = pd.read_csv("datafiles/IMR By prenatal care by race, 2007-2016.txt", sep='\t')
+
+
+# In[34]:
+
+
+dfNoPrenatalcareByRace = dfImrByPrenatalByRace.loc[(dfImrByPrenatalByRace['Month Prenatal Care Began'] == 'No prenatal care') & (dfImrByPrenatalByRace['Notes']!='Total')]
+dfNoPrenatalcareByRace['Death Rate'] = [float(x) for x in dfNoPrenatalcareByRace['Death Rate']]
+
+
+# In[35]:
+
+
+df1stMonthPrenatalcareByRace = dfImrByPrenatalByRace.loc[(dfImrByPrenatalByRace['Month Prenatal Care Began'] == '1st month') & (dfImrByPrenatalByRace['Notes']!='Total')]
+df1stMonthPrenatalcareByRace['Death Rate'] = [0 if 'Unreliable' in str(x) else x for x in df1stMonthPrenatalcareByRace['Death Rate']]
+df1stMonthPrenatalcareByRace['Death Rate'] = [float(x) for x in df1stMonthPrenatalcareByRace['Death Rate']]
+
+
+# In[36]:
+
+
+# df1stMonthPrenatalcareByRace
+
+
+# In[37]:
+
+
+plt.bar(np.arange(len(dfNoPrenatalcareByRace['Race'])), dfNoPrenatalcareByRace['Death Rate'], label='No Prenatal Care', width=0.25)
+plt.bar(np.arange(len(df1stMonthPrenatalcareByRace['Race'])) + 0.25, df1stMonthPrenatalcareByRace['Death Rate'], label='1st Month Prenatal Care', width=0.25)
+plt.xticks(np.arange(len(dfNoPrenatalcareByRace['Race'])), dfNoPrenatalcareByRace['Race'])
+plt.legend()
+
+
+# In[38]:
+
+
+dfExtremePrematurityByRace = pd.read_csv("datafiles/percentage of extreme prematurity by race, 2007-2017.txt", sep='\t')
+
+
+# In[39]:
+
+
+dfExtremePrematurityByRace.dropna(subset=['Births'])
+
+
+# In[40]:
+
+
+dfHispanicByCause = pd.read_csv("datafiles/imr by hispanice origin by cause, 2007-2016.txt", sep='\t')
+
+
+# In[41]:
+
+
+dfHispanicByCause.sort_values(by=['Death Rate'], ascending=False).head(20)
+
+
+# In[50]:
+
+
+dfWhoByCountry = pd.read_csv("datafiles/who by country.csv.csv", header=1)
+
+
+# In[55]:
+
+
+len(dfWhoByCountry['Country'].unique())
+
+
+# In[61]:
+
+
+# for country in dfWhoByCountry['Country'].unique():
+#     plt.plot(dfWhoByCountry['Year'], dfWhoByCountry['Both sexes'], label=country)
+
+
+plt.legend()
 
 
 # In[ ]:
