@@ -510,7 +510,7 @@ plotImrByCountry.head()
 # plotImrByCountry.index
 
 
-# In[177]:
+# In[178]:
 
 
 rects = plt.barh(plotImrByCountry.index, plotImrByCountry['IMR'], alpha=0.5, edgecolor='black')
@@ -526,7 +526,7 @@ for rect in rects:
          ha='center', va='bottom', color='black', rotation = 'horizontal')
     
 rects[0].set_color('red')
-plt.rcParams["figure.figsize"] = [16, 6]
+plt.rcParams["figure.figsize"] = [18, 10]
 plt.savefig("Images/imr by country.png")
 plt.show()
 
