@@ -212,7 +212,7 @@ indexedImrByAgeByCause.sort_values(["Age of Infant at Death Code", "Death Rate"]
 indexedImrByAgeByCause.head()
 
 
-# In[23]:
+# In[148]:
 
 
 x_axis = dfImrByAgeByCause['Cause of death'].head(6)
@@ -230,7 +230,7 @@ for rect in rects:
              dfImrByAgeByCause['Age of Infant at Death'].iloc[indx],
              ha='center', va='bottom', color='black', rotation = 45)
    
-plt.xlabel("Cause of Mortality")
+plt.xlabel("Cause of Death")
 plt.ylabel("Mortality Rate (per 1000)")
 plt.title("Leading Causes of Infant Mortality")
 plt.rcParams["figure.figsize"] = [12, 8]
@@ -378,17 +378,90 @@ plt.xticks(np.arange(len(dfNoPrenatalcareByRace['Race'])), dfNoPrenatalcareByRac
 plt.legend()
 
 
-# In[38]:
+# ## Percent of Premature Births by Race
+
+# In[62]:
 
 
-dfExtremePrematurityByRace = pd.read_csv("datafiles/percentage of extreme prematurity by race, 2007-2017.txt", sep='\t')
+dfExtremePrematurityByRace = pd.read_csv("datafiles/extreme prematurity by race, 2007-2017.txt", sep='\t')
 
 
-# In[39]:
+# In[147]:
 
 
-dfExtremePrematurityByRace.dropna(subset=['Births'])
+# dfExtremePrematurityByRace.dropna(subset=['Births'])
 
+
+# In[66]:
+
+
+def totalForRace(df, race):
+    total = df.loc[df['Bridged Race'] == race]['Births'].mean()
+    return total
+    
+
+
+# In[87]:
+
+
+dfExtremePrematurityByRace.dropna(subset=['Births'], inplace=True)
+
+
+# In[67]:
+
+
+totalForRace(dfExtremePrematurityByRace, "White")
+
+
+# In[68]:
+
+
+totalForRace(dfExtremePrematurityByRace, "Black or African American")
+
+
+# In[90]:
+
+
+dfExtremePrematurityByRace['Total for Race'] = dfExtremePrematurityByRace.apply((lambda x: totalForRace(dfExtremePrematurityByRace, x['Bridged Race'])), axis=1) 
+
+
+# In[149]:
+
+
+# dfExtremePrematurityByRace
+
+
+# In[93]:
+
+
+dfExtremePrematurityAfricanAmerican = dfExtremePrematurityByRace.loc[dfExtremePrematurityByRace['Bridged Race'] == 'Black or African American']
+
+
+# In[95]:
+
+
+# dfExtremePrematurityAfricanAmerican
+
+
+# In[99]:
+
+
+dfExtremePrematurity20to27 = dfExtremePrematurityByRace.loc[dfExtremePrematurityByRace['OE Gestational Age 10'] == '20 - 27 weeks']
+
+
+# In[103]:
+
+
+dfExtremePrematurity20to27['Percent of Total Births'] = dfExtremePrematurity20to27.apply((lambda row: row['Births']/row['Total for Race']*100), axis=1)
+
+
+# In[102]:
+
+
+dfExtremePrematurity20to27
+
+
+# ## Include Hispanic Origin
 
 # In[40]:
 
@@ -396,32 +469,66 @@ dfExtremePrematurityByRace.dropna(subset=['Births'])
 dfHispanicByCause = pd.read_csv("datafiles/imr by hispanice origin by cause, 2007-2016.txt", sep='\t')
 
 
-# In[41]:
+# In[105]:
 
 
-dfHispanicByCause.sort_values(by=['Death Rate'], ascending=False).head(20)
+# dfHispanicByCause.sort_values(by=['Death Rate'], ascending=False).head(20)
 
 
-# In[50]:
+# ## US IMR Compared to Other Wealthy Nations
+
+# In[139]:
 
 
 dfWhoByCountry = pd.read_csv("datafiles/who by country.csv.csv", header=1)
 
 
-# In[55]:
+# In[140]:
 
 
-len(dfWhoByCountry['Country'].unique())
+dfWhoByCountry.rename(columns={'Both sexes':'IMR'}, inplace=True)
+dfWhoByCountry.loc[dfWhoByCountry['Country'] == 'United Kingdom of Great Britain and Northern Ireland', 'Country'] = 'United Kingdom'
+dfWhoByCountry.head()
 
 
-# In[61]:
+# In[141]:
 
 
-# for country in dfWhoByCountry['Country'].unique():
-#     plt.plot(dfWhoByCountry['Year'], dfWhoByCountry['Both sexes'], label=country)
+plotImrByCountry = dfWhoByCountry.groupby('Country').mean().sort_values(by='IMR', ascending=False)
 
 
-plt.legend()
+# In[142]:
+
+
+plotImrByCountry.head()
+
+
+# In[150]:
+
+
+# plt.bar(plotImrByCountry['Country'], plotImrByCountry['IMR'])
+# plotImrByCountry.index
+
+
+# In[177]:
+
+
+rects = plt.barh(plotImrByCountry.index, plotImrByCountry['IMR'], alpha=0.5, edgecolor='black')
+plt.title("IMR 2007-2017 ")
+plt.xlabel("Infant Deaths per 1000 Births")
+
+for rect in rects:
+    indx = rects.index(rect)
+    width = rect.get_width()
+
+    plt.text(width - 0.2, rect.get_y()+0.2,
+         plotImrByCountry['IMR'].iloc[indx].round(2),
+         ha='center', va='bottom', color='black', rotation = 'horizontal')
+    
+rects[0].set_color('red')
+plt.rcParams["figure.figsize"] = [16, 6]
+plt.savefig("Images/imr by country.png")
+plt.show()
 
 
 # In[ ]:
