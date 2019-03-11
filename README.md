@@ -1,6 +1,6 @@
 # Infant Mortality Rates
 
-![arrival delay by airline - 2015](Images/DeathRate_v_AfricanAmericanPoverty.png)
+![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
 ## Team Members:
 
