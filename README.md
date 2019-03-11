@@ -1,5 +1,6 @@
 # Infant Mortality Rates
 
+![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
 ## Team Members:
 
