@@ -4,7 +4,7 @@
 
 ## Team Members:
 
-Logan Caldwell, John Chambers, Hyunsoo Kim, Jasmina Jovanovic, and Ediya Yumukoff
+Logan Caldwell, John Chambers, Jasmina Jovanovic, Hyunsoo Kim, and Ediya Yumukoff
 
 ## Project Description:
 
@@ -38,6 +38,7 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 
 *Poverty and IMR have a postive correlation.
 
+Average poverty by county for 2007-2016. Markers represent top 15 states for IMR:
 ![Death Rate v African American Poverty](Images/heatmap_poverty_IMR.PNG)
 
 ![Linear regression of death rate versus poverty](Images/deathrateVpoverty_linregress.png)
