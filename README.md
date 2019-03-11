@@ -1,6 +1,6 @@
 # Infant Mortality Rates
 
-![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
+
 
 ## Team Members:
 
@@ -40,8 +40,24 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 
 *Poverty and IMR have a postive correlation.
 
+![Death Rate v African American Poverty](Images/heatmap_poverty_IMR.PNG)
+
+![Linear regression of death rate versus poverty](Images/deathrateVpoverty_linregress.png)
+
+![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)
+
+![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
+
+
 
 6) Does having health insurance lower the rate of IMR?
+
+![Death Rate v Total Insurance Level](Images/DeathRate_v_TotalInsurance.png)
+
+![Death Rate v Public Insurance Level](Images/DeathRate_v_PublicInsurance.png)
+
+![Death Rate v Private Insurance Level](Images/DeathRate_v_PrivateInsurance.png)
+
 
 *There is no correlation between overall rates of being insured and IMR.
 *However, there is a positive correlation between having public health insurance and IMR.
