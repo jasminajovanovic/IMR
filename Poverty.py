@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[91]:
+# In[1]:
 
 
 import pandas as pd
@@ -16,7 +16,7 @@ from scipy.stats import linregress
 
 
 #read census poverty data
-poverty_df = pd.read_csv('2007_2016_poverty.csv')
+poverty_df = pd.read_csv('datafiles/2007_2016_poverty.csv')
 
 
 # In[3]:
@@ -55,7 +55,7 @@ poverty_group.head()
 
 
 #read table of lat/lng cooridnates for counties
-location_df = pd.read_csv('2017_counties.csv', encoding="ISO-8859-1")
+location_df = pd.read_csv('datafiles/2017_counties.csv', encoding="ISO-8859-1")
 
 
 # In[9]:
@@ -140,7 +140,7 @@ fig
 
 
 #read CDC data on top 15 states for infant death rates
-death_rates_state_top_df = pd.read_csv('death_rates_state_top.csv')
+death_rates_state_top_df = pd.read_csv('datafiles/death_rates_state_top.csv')
 
 
 # In[21]:
@@ -182,7 +182,7 @@ fig
 
 
 #read CDC data on death rates per county for 2006-2017
-death_rates_county = pd.read_csv('death_rates.csv')
+death_rates_county = pd.read_csv('datafiles/death_rates.csv')
 
 
 # In[25]:
@@ -203,20 +203,20 @@ death_rates_county = death_rates_county.rename(columns={"County Code": "County I
 death_rates_county.head()
 
 
-# In[28]:
+# In[88]:
 
 
 #merge CDC data on death rates per county with poverty and county location data
 regress_df = pd.merge(death_rates_county, merge_group, on="County ID", how="left")
 
 
-# In[29]:
+# In[89]:
 
 
 regress_df.head()
 
 
-# In[30]:
+# In[90]:
 
 
 #remove all rows with missing values
@@ -251,7 +251,7 @@ fit = slope * x_axis + intercept
 slope, intercept, r_value, p_value, std_err = linregress(x_axis, y_axis)
 
 
-# In[90]:
+# In[35]:
 
 
 #perform linear regression of death rate versus poverty
@@ -281,7 +281,7 @@ p_value
 
 
 #start health insurance analysis
-insurance_df = pd.read_csv("insurance.csv")
+insurance_df = pd.read_csv("datafiles/insurance.csv")
 
 
 # In[38]:
@@ -293,7 +293,7 @@ insurance_df.head()
 # In[39]:
 
 
-death_rates_state = pd.read_csv("death_rates_state.txt", delimiter="\t")
+death_rates_state = pd.read_csv("datafiles/death_rates_state.txt", delimiter="\t")
 
 
 # In[40]:
@@ -460,7 +460,7 @@ p_value
 
 
 #Start new analysis on top ten and bottom ten african american counties regarding death rate
-AfricanAmerican20 = pd.read_csv("AfricanAmerican20.csv")
+AfricanAmerican20 = pd.read_csv("datafiles/AfricanAmerican20.csv")
 
 
 # In[60]:
@@ -509,7 +509,7 @@ african_merge.set_index("County ID").plot.bar("Death Rate")
 # In[67]:
 
 
-black_counties = pd.read_csv("black_counties.csv")
+black_counties = pd.read_csv("datafiles/black_counties.csv")
 
 
 # In[68]:
@@ -581,7 +581,7 @@ p_value
 # In[75]:
 
 
-white_counties = pd.read_csv("white_counties.csv")
+white_counties = pd.read_csv("datafiles/white_counties.csv")
 
 
 # In[76]:
@@ -636,44 +636,44 @@ plt.show()
 p_value
 
 
-# In[81]:
+# In[91]:
 
 
 #Heatmap with poverty per county and top ten counties deathrate
-regress_df = regress_df.sort_values(by=["Death Rate"], ascending=False)
+regress_df = regress_df.sort_values(by=["Death Rate"], ascending=True)
 
 
-# In[82]:
+# In[92]:
 
 
 regress_df = regress_df.reset_index()
 
 
-# In[85]:
+# In[93]:
 
 
 regress_df.head()
 
 
-# In[86]:
+# In[94]:
 
 
 regress_df = regress_df.iloc[0:10]
 
 
-# In[87]:
+# In[95]:
 
 
 regress_df
 
 
-# In[88]:
+# In[96]:
 
 
-regress_df.to_csv("high_IMR_county.csv")
+regress_df.to_csv("datafiles/low_IMR_county.csv")
 
 
-# In[89]:
+# In[87]:
 
 
 gmaps.configure(api_key=gkey)
