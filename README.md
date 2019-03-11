@@ -9,6 +9,8 @@ Logan Caldwell, John Chambers, Hyunsoo Kim, Jasmina Jovanovic, and Ediya Yumukof
 
 An investigation of Infant Mortality Rates (IMR) in the United States and the associated factors. 
 
+![IMR, US vs Other Countries],("Images/imr by country.png")
+
 ## Research Questions to Answer:
 
 1) Where is IMR the highest?
@@ -52,3 +54,4 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 ## Suggestions for Further Study
 
 *Examine racial differences in terms of rates of public versus private health insurance
+
