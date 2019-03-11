@@ -9,7 +9,7 @@ Logan Caldwell, John Chambers, Hyunsoo Kim, Jasmina Jovanovic, and Ediya Yumukof
 
 An investigation of Infant Mortality Rates (IMR) in the United States and the associated factors. 
 
-![IMR, US vs Other Countries],("Images/imr by country.png")
+![IMR, US vs Other Countries]("Images/imr by country.png")
 
 ## Research Questions to Answer:
 
