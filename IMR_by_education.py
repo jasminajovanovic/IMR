@@ -20,45 +20,57 @@ from config import gkey
 gmaps.configure(api_key=gkey)
 
 
+# ### Education levels vs Death Rate in USA by CDC
+
 # In[2]:
 
 
 filename = 'datafiles/Education_Infant_Death_Records_2007_2016.csv'
 filename_df = pd.read_csv(filename, encoding="ISO-8859-1")
-filename_df
 
 
 # In[3]:
 
 
 education_sorted =filename_df.sort_values(["Death Rate"],ascending=False)
-education_sorted
 
 
 # In[4]:
 
 
-del education_sorted['Deaths']
-del education_sorted['Education Code']
-del education_sorted['Births']
-del education_sorted['Notes']
-education_sorted.head()
+exclude_unknown = education_sorted.loc[education_sorted['Education']!= "Unknown/Not on certificate"]
 
 
 # In[5]:
 
 
-plt.plot(education_sorted["Death Rate"], 
-            education_sorted["Education"])
+del exclude_unknown['Deaths']
+del exclude_unknown['Education Code']
+del exclude_unknown['Births']
+del exclude_unknown['Notes']
+exclude_unknown.head()
+
+
+# In[ ]:
+
+
+
+
+
+# In[6]:
+
+
+plt.plot(exclude_unknown["Death Rate"], 
+            exclude_unknown["Education"])
 
 # Incorporate the other graph properties
 plt.style.use('seaborn')
-plt.title(f"Death rate by Education level")
+plt.title(f"Death rate by Education level 2007-2016")
 plt.ylabel("Death Rate (per 1000)")
 plt.xlabel("Education level")
 plt.grid(True)
-plt.xlim(0, 20)
-plt.ylim(0, 10)
+plt.xlim(2, 10)
+plt.ylim(0, 9)
 # Save the figure
 plt.savefig("Images/Education_lever_line.png")
 
@@ -66,52 +78,31 @@ plt.savefig("Images/Education_lever_line.png")
 plt.show()
 
 
-# In[6]:
+# In[7]:
 
 
-x_axis = education_sorted['Education']
-y_axis = education_sorted['Death Rate']
+x_axis = exclude_unknown['Education']
+y_axis = exclude_unknown['Death Rate']
 plt.tight_layout()
-plt.ylabel("Death Rate")
-plt.xlabel("Education")
+plt.ylabel("Death Rate per 1000")
+plt.xlabel("Education level 2007-2016")
 plt.bar(x_axis, y_axis, color="b", align="center")
-plt.xticks(education_sorted['Education'], rotation="vertical")
+plt.xticks(exclude_unknown['Education'], rotation="vertical")
 
 plt.savefig("Images/Education_level_barchart.png")
 plt.show()
 
 
-# In[7]:
-
-
-countyfilename = 'datafiles/County_Infant_Death_Records_2007_2016.csv'
-countyfilename_df = pd.read_csv(countyfilename, encoding="ISO-8859-1")
-countyfilename_df.head()
-
+# ### Education level in USA by USDA
 
 # In[8]:
 
 
-#county_sorted.loc[county_sorted['Education']!= "Unknown/Not on certificate"]
+usdafilename = 'datafiles/Education_USDA.csv'
+usdafilename_df = pd.read_csv(usdafilename, encoding="ISO-8859-1")
 
 
 # In[9]:
-
-
-county_sorted =countyfilename_df.sort_values(["Death Rate"],ascending=False)
-exclude_unknown = county_sorted.loc[county_sorted['Education']!= "Unknown/Not on certificate"]
-exclude_unknown.head()
-
-
-# In[10]:
-
-
-usdafilename = 'datafiles/Education_USDA.csv'
-usdafilename_df = pd.read_csv(usdafilename, encoding="ISO-8859-1")
-usdafilename_df
-
-
-# In[11]:
 
 
 del usdafilename_df['Less than a high school diploma, 2013-17']
@@ -122,30 +113,29 @@ del usdafilename_df["Unnamed: 11"]
         
 
 
-# In[12]:
+# In[10]:
 
 
 usdafilename_df = usdafilename_df.dropna()
          
 
 
-# In[13]:
+# In[11]:
 
 
 renamed_code = usdafilename_df.rename(columns={"FIPS Code":"GEOID"})
 renamed_code['GEOID'] = renamed_code['GEOID'].map(lambda x: int(x))
-renamed_code.head()
+renamed_code
 
 
-# In[14]:
+# In[12]:
 
 
 gazfilename = 'datafiles/2017_Gaz_counties_national.csv'
 gazfilename_df = pd.read_csv(gazfilename, encoding="ISO-8859-1")
-gazfilename_df
 
 
-# In[15]:
+# In[13]:
 
 
 del gazfilename_df['USPS']
@@ -158,20 +148,19 @@ del gazfilename_df["AWATER_SQMI"]
 gazfilename_df.head()
 
 
-# In[16]:
+# In[14]:
 
 
 merge_table = pd.merge(renamed_code, gazfilename_df, on="GEOID")
-merge_table 
 
 
-# In[17]:
+# In[15]:
 
 
 merge_table.columns
 
 
-# In[18]:
+# In[16]:
 
 
 merge_table.columns = ['GEOID', 'State', 'Area name',
@@ -184,7 +173,7 @@ merge_table.columns = ['GEOID', 'State', 'Area name',
 merge_table.head()
 
 
-# In[19]:
+# In[17]:
 
 
 def weighted_education(row):
@@ -195,19 +184,19 @@ def weighted_education(row):
     return (a+b+c+d)
 
 
-# In[20]:
+# In[18]:
 
 
 merge_table['Weighted Education Score'] = merge_table.apply(weighted_education, axis=1)
 
 
-# In[21]:
+# In[19]:
 
 
-merge_table.head()
+merge_table
 
 
-# In[22]:
+# In[20]:
 
 
 # Store latitude and longitude in locations
@@ -228,181 +217,9 @@ fig.add_layer(heat_layer)
 fig
 
 
-# ###  10 HIGHEST&LOWEST DEATH RATES by RACE by COUNTIES
-
-# In[23]:
-
-
-higherfilename = 'datafiles/AfricanAmericanHighestImrCounties.csv'
-higherfilename_df = pd.read_csv(higherfilename, encoding="ISO-8859-1")
-#higherfilename_df.head()
-
-
-# In[24]:
-
-
-higherfilename_df['County Code'] = higherfilename_df['County Code'].map(lambda x: int(x))
-higherfilename_df.head()
-
-
-# In[25]:
-
-
-lowerfilename = 'datafiles/AfricanAmericanLowestImrCounties.csv'
-lowerfilename_df = pd.read_csv(lowerfilename, encoding="ISO-8859-1")
-#lowerfilename_df.head()
-
-
-# In[26]:
-
-
-lowerfilename_df['County Code'] = lowerfilename_df['County Code'].map(lambda x: int(x))
-lowerfilename_df.head()
-
-
-# ### FIND HIGHEST DEATH RATE (by RACE) COUNTIES ON MAP
-
-# In[27]:
-
-
-highestrenamed_code = higherfilename_df.rename(columns={"County Code":"GEOID"})
-highestmerge_table = pd.merge(highestrenamed_code, merge_table, on="GEOID")
-#highestmerge_table 
-
-
-# In[28]:
-
-
-del highestmerge_table['County']
-del highestmerge_table['Notes']
-del highestmerge_table["Deaths"]
-del highestmerge_table["Births"]
-del highestmerge_table['State']
-del highestmerge_table['Area name']
-highestmerge_table
-
-
-# In[29]:
-
-
-coordinates = [
-    (41.091855, -85.072230),
-    (32.577195, -93.882423),
-    (39.469354, -74.633758),
-    (39.196927, -84.544187),
-    (40.282503, -74.703724),
-    (36.761006, -119.655019),
-    (33.553444, -86.896536),
-    (42.588240, -73.974010),
-    (41.617699, -86.288159),
-    (37.681045, -97.461054)
-]
-
-
-# In[30]:
-
-
-figure_layout = {
-    'width': '400px',
-    'height': '300px',
-    'border': '1px solid black',
-    'padding': '1px',
-    'margin': '0 auto 0 auto'
-}
-fig = gmaps.figure(layout=figure_layout)
-
-
-# In[31]:
-
-
-# Assign the marker layer to a variable
-markers = gmaps.marker_layer(coordinates)
-# Add the layer to the map
-fig.add_layer(markers)
-#fig
-
-
-# In[32]:
-
-
-fig = gmaps.figure()
-
-fig.add_layer(heat_layer)
-fig.add_layer(markers)
-
-fig
-
-
-# ### FIND LOWEST DEATH RATE (by RACE) COUNTIES ON MAP 
-
-# In[33]:
-
-
-lowestrenamed_code = lowerfilename_df.rename(columns={"County Code":"GEOID"})
-lowestmerge_table = pd.merge(lowestrenamed_code, merge_table, on="GEOID")
-del lowestmerge_table['County']
-del lowestmerge_table['Notes']
-del lowestmerge_table["Deaths"]
-del lowestmerge_table["Births"]
-del lowestmerge_table['State']
-del lowestmerge_table['Area name']
-lowestmerge_table
-
-
-# In[34]:
-
-
-coordinates2 = [
-    (44.670893, -93.062481),
-    (42.481711, -71.394917),
-    (40.848711, -73.852939	),
-    (61.174250, -149.284329),
-    (40.439621, -74.407430),
-    (41.987196, -70.741942),
-    (40.959698, -74.074727),
-    (41.037890, -74.298280),
-    (42.642711, -70.865107),
-    (37.220777, -121.690622)
-]
-
-
-# In[35]:
-
-
-figure_layout2 = {
-    'width': '400px',
-    'height': '300px',
-    'border': '1px solid black',
-    'padding': '1px',
-    'margin': '0 auto 0 auto'
-}
-fig2 = gmaps.figure(layout=figure_layout2)
-
-
-# In[36]:
-
-
-# Assign the marker layer to a variable
-markers2 = gmaps.marker_layer(coordinates2)
-# Add the layer to the map
-fig.add_layer(markers2)
-#fig
-
-
-# In[37]:
-
-
-fig = gmaps.figure()
-
-fig.add_layer(heat_layer)
-fig.add_layer(markers2)
-
-fig
-
-
 # ### Education vs High IMR by counties
 
-# In[38]:
+# In[21]:
 
 
 highcounties = 'datafiles/high_IMR_county.csv'
@@ -410,7 +227,7 @@ highcounties_df = pd.read_csv(highcounties, encoding="ISO-8859-1")
 highcounties_df
 
 
-# In[39]:
+# In[22]:
 
 
 coordinates3 = [
@@ -427,7 +244,7 @@ coordinates3 = [
 ]
 
 
-# In[40]:
+# In[23]:
 
 
 figure_layout3 = {
@@ -440,7 +257,7 @@ figure_layout3 = {
 fig3 = gmaps.figure(layout=figure_layout3)
 
 
-# In[41]:
+# In[24]:
 
 
 # Assign the marker layer to a variable
@@ -450,7 +267,7 @@ fig.add_layer(markers3)
 #fig
 
 
-# In[42]:
+# In[25]:
 
 
 fig = gmaps.figure()
@@ -459,6 +276,134 @@ fig.add_layer(heat_layer)
 fig.add_layer(markers3)
 
 fig
+
+
+# ### Education vs Low IMR by counties
+
+# In[26]:
+
+
+lowcounties = 'datafiles/low_IMR_county.csv'
+lowcounties_df = pd.read_csv(lowcounties, encoding="ISO-8859-1")
+lowcounties_df
+
+
+# In[27]:
+
+
+coordinates4 = [
+    (38.051817, -122.745974),
+    (39.865669, -74.258864),
+    (37.414672, -122.371546),
+    (39.325414, -104.925987),
+    (40.959698, -74.074727),
+    (40.858896, -74.547292),
+    (37.220777, -121.690622),
+    (37.727239, -123.032229),
+    (40.565527, -74.619938),
+    (40.287048, -74.152446)
+]
+
+
+# In[28]:
+
+
+figure_layout4 = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig4 = gmaps.figure(layout=figure_layout4)
+
+
+# In[29]:
+
+
+# Assign the marker layer to a variable
+markers4 = gmaps.marker_layer(coordinates4)
+# Add the layer to the map
+fig.add_layer(markers4)
+#fig
+
+
+# In[30]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers4)
+
+fig
+
+
+# ### AAR Education vs Death Rate
+
+# In[31]:
+
+
+aareducation = 'datafiles/Death_Rate_by_AAR_by_Education.csv'
+aareducation_df = pd.read_csv(aareducation, encoding="ISO-8859-1")
+
+
+# In[32]:
+
+
+aareducation_sorted =aareducation_df.sort_values(["Death Rate"],ascending=False)
+
+
+# In[33]:
+
+
+exclude_unknown_aar = aareducation_sorted.loc[aareducation_sorted['Education']!= "Unknown/Not on certificate"]
+exclude_unknown_aar
+
+
+# In[34]:
+
+
+x_axis = exclude_unknown_aar['Education']
+y_axis = exclude_unknown_aar['Death Rate']
+plt.tight_layout()
+plt.ylabel("Death Rate %")
+plt.xlabel("Education level of African American Race")
+plt.bar(x_axis, y_axis, color="b", align="center")
+plt.xticks(exclude_unknown_aar['Education'], rotation="vertical")
+
+plt.savefig("Images/Education_of_AAR.png")
+plt.show()
+
+
+# In[35]:
+
+
+censusaareducation = 'datafiles/AAR_Education_2013_2017.csv'
+censusaareducation_df = pd.read_csv(censusaareducation, encoding="ISO-8859-1")
+
+
+# In[36]:
+
+
+censusaareducation_df.dropna()
+
+
+# ### Level of Education of African Americans 2013-2017
+
+# In[37]:
+
+
+x_axis = censusaareducation_df['Education']
+y_axis = censusaareducation_df['Average']
+plt.tight_layout()
+plt.ylabel("Average %")
+plt.xlabel("Education level of African American Race")
+plt.bar(x_axis, y_axis, color="b", align="center")
+plt.xticks(censusaareducation_df['Education'], rotation="vertical")
+
+plt.savefig("Images/Census_Education_of_AAR.png")
+plt.show()
 
 
 # In[ ]:

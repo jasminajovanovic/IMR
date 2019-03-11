@@ -1,0 +1,972 @@
+Notes,GEOID,Race,Education,Death Rate
+,1073,Black or African American,9th through 12th grade with no diploma,14.18
+,1073,Black or African American,High school graduate or GED completed,12.23
+,1073,Black or African American,"Some college credit, but not a degree",14.79
+,1073,Black or African American,"Associate degree (AA, AS)",14.75
+,1073,Black or African American,"Bachelor's degree (BA, AB, BS)",15.37
+,1073,Black or African American,Excluded,16.08
+,1089,Black or African American,9th through 12th grade with no diploma,24.61
+,1089,Black or African American,High school graduate or GED completed,10.77
+,1089,Black or African American,"Some college credit, but not a degree",11.24
+,1089,Black or African American,Excluded,12.31
+,1097,Black or African American,9th through 12th grade with no diploma,15.01
+,1097,Black or African American,High school graduate or GED completed,14.33
+,1097,Black or African American,"Some college credit, but not a degree",12.89
+,1097,Black or African American,Excluded,11.87
+,1999,Black or African American,9th through 12th grade with no diploma,14.14
+,1999,Black or African American,High school graduate or GED completed,14.26
+,1999,Black or African American,"Some college credit, but not a degree",12.45
+,1999,Black or African American,"Associate degree (AA, AS)",10.19
+,1999,Black or African American,"Bachelor's degree (BA, AB, BS)",13.11
+,1999,Black or African American,"Master's degree (MA, MS)",10.26
+,1999,Black or African American,Excluded,12.84
+,2020,Black or African American,Excluded,7.36
+,2999,Black or African American,Excluded,9.83
+,4013,Black or African American,9th through 12th grade with no diploma,10.43
+,4013,Black or African American,High school graduate or GED completed,10
+,4013,Black or African American,"Some college credit, but not a degree",9.7
+,4013,Black or African American,"Bachelor's degree (BA, AB, BS)",10.02
+,4013,Black or African American,Excluded,12.43
+,4019,Black or African American,Excluded,11.25
+,4999,Black or African American,Excluded,9.79
+,5119,Black or African American,9th through 12th grade with no diploma,17.68
+,5119,Black or African American,High school graduate or GED completed,10.61
+,5119,Black or African American,"Some college credit, but not a degree",8.22
+,5119,Black or African American,Excluded,13.13
+,5999,Black or African American,9th through 12th grade with no diploma,11.93
+,5999,Black or African American,High school graduate or GED completed,12.7
+,5999,Black or African American,"Some college credit, but not a degree",9.7
+,5999,Black or African American,"Bachelor's degree (BA, AB, BS)",11.48
+,5999,Black or African American,Excluded,10.77
+,6001,Black or African American,9th through 12th grade with no diploma,9.91
+,6001,Black or African American,High school graduate or GED completed,9.98
+,6001,Black or African American,"Some college credit, but not a degree",6.46
+,6001,Black or African American,"Associate degree (AA, AS)",13.32
+,6001,Black or African American,"Bachelor's degree (BA, AB, BS)",5.48
+,6001,Black or African American,Unknown/Not on certificate,15.77
+,6013,Black or African American,9th through 12th grade with no diploma,10.27
+,6013,Black or African American,High school graduate or GED completed,9.11
+,6013,Black or African American,"Some college credit, but not a degree",7.86
+,6019,Black or African American,9th through 12th grade with no diploma,16.5
+,6019,Black or African American,High school graduate or GED completed,14.8
+,6019,Black or African American,"Some college credit, but not a degree",16.57
+,6019,Black or African American,"Associate degree (AA, AS)",19.12
+,6019,Black or African American,Unknown/Not on certificate,25.88
+,6029,Black or African American,9th through 12th grade with no diploma,19.42
+,6029,Black or African American,High school graduate or GED completed,7.33
+,6029,Black or African American,"Some college credit, but not a degree",8.56
+,6037,Black or African American,9th through 12th grade with no diploma,11.03
+,6037,Black or African American,High school graduate or GED completed,9.72
+,6037,Black or African American,"Some college credit, but not a degree",8.09
+,6037,Black or African American,"Associate degree (AA, AS)",6.96
+,6037,Black or African American,"Bachelor's degree (BA, AB, BS)",7.11
+,6037,Black or African American,"Master's degree (MA, MS)",4.4
+,6037,Black or African American,"Doctorate (PHD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",6.79
+,6037,Black or African American,Unknown/Not on certificate,25.36
+,6059,Black or African American,High school graduate or GED completed,7.7
+,6059,Black or African American,"Some college credit, but not a degree",8.66
+,6065,Black or African American,9th through 12th grade with no diploma,12.31
+,6065,Black or African American,High school graduate or GED completed,9.5
+,6065,Black or African American,"Some college credit, but not a degree",9
+,6065,Black or African American,"Associate degree (AA, AS)",8.17
+,6065,Black or African American,"Bachelor's degree (BA, AB, BS)",6.97
+,6065,Black or African American,Unknown/Not on certificate,22.83
+,6067,Black or African American,9th through 12th grade with no diploma,12.63
+,6067,Black or African American,High school graduate or GED completed,10.9
+,6067,Black or African American,"Some college credit, but not a degree",8.11
+,6067,Black or African American,Unknown/Not on certificate,14.07
+,6071,Black or African American,9th through 12th grade with no diploma,10.64
+,6071,Black or African American,High school graduate or GED completed,12.26
+,6071,Black or African American,"Some college credit, but not a degree",11.54
+,6071,Black or African American,"Associate degree (AA, AS)",14.58
+,6071,Black or African American,"Bachelor's degree (BA, AB, BS)",5.28
+,6071,Black or African American,"Master's degree (MA, MS)",10.5
+,6073,Black or African American,9th through 12th grade with no diploma,4.81
+,6073,Black or African American,High school graduate or GED completed,9.43
+,6073,Black or African American,"Some college credit, but not a degree",7.75
+,6073,Black or African American,"Associate degree (AA, AS)",10.25
+,6073,Black or African American,"Bachelor's degree (BA, AB, BS)",7.07
+,6073,Black or African American,Unknown/Not on certificate,12.18
+,6075,Black or African American,9th through 12th grade with no diploma,10.48
+,6075,Black or African American,High school graduate or GED completed,12.62
+,6075,Black or African American,"Some college credit, but not a degree",8.56
+,6075,Black or African American,Unknown/Not on certificate,42.02
+,6077,Black or African American,9th through 12th grade with no diploma,13.91
+,6077,Black or African American,High school graduate or GED completed,12.85
+,6077,Black or African American,"Some college credit, but not a degree",13.08
+,6085,Black or African American,"Some college credit, but not a degree",7.78
+,6095,Black or African American,High school graduate or GED completed,10.87
+,6095,Black or African American,"Some college credit, but not a degree",7.76
+,6099,Black or African American,High school graduate or GED completed,14.33
+,6999,Black or African American,High school graduate or GED completed,6.55
+,6999,Black or African American,"Some college credit, but not a degree",12.47
+,8001,Black or African American,"Some college credit, but not a degree",19.45
+,8005,Black or African American,9th through 12th grade with no diploma,13.05
+,8005,Black or African American,High school graduate or GED completed,9.25
+,8005,Black or African American,"Some college credit, but not a degree",8.23
+,8005,Black or African American,"Bachelor's degree (BA, AB, BS)",15
+,8005,Black or African American,Excluded,15.34
+,8031,Black or African American,9th through 12th grade with no diploma,10.9
+,8031,Black or African American,High school graduate or GED completed,12.19
+,8031,Black or African American,"Some college credit, but not a degree",7.57
+,8031,Black or African American,Excluded,10.93
+,8041,Black or African American,High school graduate or GED completed,12.22
+,8041,Black or African American,"Some college credit, but not a degree",8.35
+,9001,Black or African American,Excluded,10.51
+,9003,Black or African American,Excluded,11.3
+,9009,Black or African American,Excluded,10.52
+,9011,Black or African American,Excluded,10.33
+,9999,Black or African American,Excluded,9.46
+,10003,Black or African American,9th through 12th grade with no diploma,14.63
+,10003,Black or African American,High school graduate or GED completed,17.79
+,10003,Black or African American,"Some college credit, but not a degree",12.59
+,10003,Black or African American,"Associate degree (AA, AS)",19.25
+,10003,Black or African American,"Bachelor's degree (BA, AB, BS)",9.51
+,10003,Black or African American,"Master's degree (MA, MS)",8.25
+,10003,Black or African American,Unknown/Not on certificate,48.89
+,10999,Black or African American,9th through 12th grade with no diploma,8.66
+,10999,Black or African American,High school graduate or GED completed,10.5
+,10999,Black or African American,"Some college credit, but not a degree",9.45
+,11001,Black or African American,9th through 12th grade with no diploma,9.66
+,11001,Black or African American,High school graduate or GED completed,10.74
+,11001,Black or African American,"Some college credit, but not a degree",9.59
+,11001,Black or African American,"Associate degree (AA, AS)",16.1
+,11001,Black or African American,"Bachelor's degree (BA, AB, BS)",10.39
+,11001,Black or African American,Unknown/Not on certificate,82.27
+,11001,Black or African American,Excluded,14.18
+,12009,Black or African American,9th through 12th grade with no diploma,18.82
+,12009,Black or African American,High school graduate or GED completed,10.12
+,12009,Black or African American,"Some college credit, but not a degree",12.21
+,12011,Black or African American,8th grade or less,11.21
+,12011,Black or African American,9th through 12th grade with no diploma,9.04
+,12011,Black or African American,High school graduate or GED completed,9.07
+,12011,Black or African American,"Some college credit, but not a degree",7.29
+,12011,Black or African American,"Associate degree (AA, AS)",6.68
+,12011,Black or African American,"Bachelor's degree (BA, AB, BS)",6.75
+,12011,Black or African American,"Master's degree (MA, MS)",7.57
+,12011,Black or African American,Unknown/Not on certificate,59.45
+,12021,Black or African American,High school graduate or GED completed,13.22
+,12031,Black or African American,8th grade or less,10.87
+,12031,Black or African American,9th through 12th grade with no diploma,12.93
+,12031,Black or African American,High school graduate or GED completed,11.25
+,12031,Black or African American,"Some college credit, but not a degree",12.73
+,12031,Black or African American,"Associate degree (AA, AS)",7.19
+,12031,Black or African American,"Bachelor's degree (BA, AB, BS)",13.25
+,12031,Black or African American,"Master's degree (MA, MS)",10.29
+,12031,Black or African American,Unknown/Not on certificate,210.14
+,12033,Black or African American,9th through 12th grade with no diploma,15.23
+,12033,Black or African American,High school graduate or GED completed,12.4
+,12033,Black or African American,"Some college credit, but not a degree",11.51
+,12057,Black or African American,8th grade or less,18.55
+,12057,Black or African American,9th through 12th grade with no diploma,16.07
+,12057,Black or African American,High school graduate or GED completed,14.21
+,12057,Black or African American,"Some college credit, but not a degree",14.88
+,12057,Black or African American,"Associate degree (AA, AS)",13.43
+,12057,Black or African American,"Bachelor's degree (BA, AB, BS)",8.8
+,12057,Black or African American,Unknown/Not on certificate,102.47
+,12069,Black or African American,High school graduate or GED completed,20.44
+,12071,Black or African American,9th through 12th grade with no diploma,10.95
+,12071,Black or African American,High school graduate or GED completed,13.99
+,12071,Black or African American,"Some college credit, but not a degree",13.11
+,12073,Black or African American,High school graduate or GED completed,10.34
+,12073,Black or African American,"Some college credit, but not a degree",9.56
+,12081,Black or African American,9th through 12th grade with no diploma,15.08
+,12081,Black or African American,High school graduate or GED completed,15.72
+,12083,Black or African American,9th through 12th grade with no diploma,14.42
+,12083,Black or African American,High school graduate or GED completed,16.45
+,12083,Black or African American,"Some college credit, but not a degree",11.18
+,12086,Black or African American,8th grade or less,15.01
+,12086,Black or African American,9th through 12th grade with no diploma,11.99
+,12086,Black or African American,High school graduate or GED completed,9.23
+,12086,Black or African American,"Some college credit, but not a degree",7.59
+,12086,Black or African American,"Associate degree (AA, AS)",7.83
+,12086,Black or African American,"Bachelor's degree (BA, AB, BS)",6.87
+,12086,Black or African American,"Master's degree (MA, MS)",6.88
+,12086,Black or African American,Unknown/Not on certificate,85.25
+,12095,Black or African American,9th through 12th grade with no diploma,12.25
+,12095,Black or African American,High school graduate or GED completed,10.92
+,12095,Black or African American,"Some college credit, but not a degree",11.55
+,12095,Black or African American,"Associate degree (AA, AS)",10.75
+,12095,Black or African American,"Bachelor's degree (BA, AB, BS)",8.22
+,12095,Black or African American,"Master's degree (MA, MS)",8.54
+,12095,Black or African American,Unknown/Not on certificate,121.09
+,12099,Black or African American,8th grade or less,8.02
+,12099,Black or African American,9th through 12th grade with no diploma,10.95
+,12099,Black or African American,High school graduate or GED completed,9.73
+,12099,Black or African American,"Some college credit, but not a degree",6.7
+,12099,Black or African American,"Associate degree (AA, AS)",8.1
+,12099,Black or African American,"Bachelor's degree (BA, AB, BS)",5.19
+,12099,Black or African American,Unknown/Not on certificate,31.25
+,12101,Black or African American,High school graduate or GED completed,9.98
+,12103,Black or African American,9th through 12th grade with no diploma,15.51
+,12103,Black or African American,High school graduate or GED completed,12.66
+,12103,Black or African American,"Some college credit, but not a degree",12.39
+,12103,Black or African American,"Associate degree (AA, AS)",14.1
+,12103,Black or African American,Unknown/Not on certificate,53.25
+,12105,Black or African American,9th through 12th grade with no diploma,10.1
+,12105,Black or African American,High school graduate or GED completed,12.75
+,12105,Black or African American,"Some college credit, but not a degree",11.92
+,12105,Black or African American,"Associate degree (AA, AS)",10.81
+,12105,Black or African American,Unknown/Not on certificate,200
+,12111,Black or African American,High school graduate or GED completed,9.69
+,12115,Black or African American,High school graduate or GED completed,7.3
+,12117,Black or African American,9th through 12th grade with no diploma,21.2
+,12117,Black or African American,High school graduate or GED completed,11.05
+,12117,Black or African American,"Some college credit, but not a degree",7.58
+,12117,Black or African American,"Bachelor's degree (BA, AB, BS)",12.4
+,12127,Black or African American,9th through 12th grade with no diploma,12.77
+,12127,Black or African American,High school graduate or GED completed,13.17
+,12127,Black or African American,"Some college credit, but not a degree",10
+,12999,Black or African American,8th grade or less,15.52
+,12999,Black or African American,9th through 12th grade with no diploma,14.18
+,12999,Black or African American,High school graduate or GED completed,12.1
+,12999,Black or African American,"Some college credit, but not a degree",11.23
+,12999,Black or African American,"Associate degree (AA, AS)",11.41
+,12999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.65
+,12999,Black or African American,"Master's degree (MA, MS)",8.98
+,12999,Black or African American,Unknown/Not on certificate,37.29
+,13051,Black or African American,9th through 12th grade with no diploma,17.62
+,13051,Black or African American,High school graduate or GED completed,12.99
+,13051,Black or African American,"Some college credit, but not a degree",9.74
+,13063,Black or African American,High school graduate or GED completed,13.81
+,13063,Black or African American,"Some college credit, but not a degree",8.08
+,13067,Black or African American,9th through 12th grade with no diploma,13.52
+,13067,Black or African American,High school graduate or GED completed,10.39
+,13067,Black or African American,"Some college credit, but not a degree",9.39
+,13067,Black or African American,"Bachelor's degree (BA, AB, BS)",9.23
+,13067,Black or African American,"Master's degree (MA, MS)",7.54
+,13067,Black or African American,Unknown/Not on certificate,22.29
+,13067,Black or African American,Excluded,11.92
+,13089,Black or African American,9th through 12th grade with no diploma,9.51
+,13089,Black or African American,High school graduate or GED completed,10.03
+,13089,Black or African American,"Some college credit, but not a degree",7.61
+,13089,Black or African American,"Associate degree (AA, AS)",7.69
+,13089,Black or African American,"Bachelor's degree (BA, AB, BS)",7.69
+,13089,Black or African American,"Master's degree (MA, MS)",6.53
+,13089,Black or African American,Unknown/Not on certificate,26.14
+,13089,Black or African American,Excluded,10.28
+,13121,Black or African American,8th grade or less,12.73
+,13121,Black or African American,9th through 12th grade with no diploma,10.37
+,13121,Black or African American,High school graduate or GED completed,9.29
+,13121,Black or African American,"Some college credit, but not a degree",9.08
+,13121,Black or African American,"Associate degree (AA, AS)",9.21
+,13121,Black or African American,"Bachelor's degree (BA, AB, BS)",7.08
+,13121,Black or African American,"Master's degree (MA, MS)",7.25
+,13121,Black or African American,Unknown/Not on certificate,16.29
+,13121,Black or African American,Excluded,12.41
+,13135,Black or African American,9th through 12th grade with no diploma,8.14
+,13135,Black or African American,High school graduate or GED completed,9.68
+,13135,Black or African American,"Some college credit, but not a degree",8.82
+,13135,Black or African American,"Associate degree (AA, AS)",6.78
+,13135,Black or African American,"Bachelor's degree (BA, AB, BS)",7.5
+,13135,Black or African American,"Master's degree (MA, MS)",6.14
+,13135,Black or African American,Unknown/Not on certificate,27.69
+,13135,Black or African American,Excluded,10.08
+,13999,Black or African American,8th grade or less,10.78
+,13999,Black or African American,9th through 12th grade with no diploma,12.5
+,13999,Black or African American,High school graduate or GED completed,11.67
+,13999,Black or African American,"Some college credit, but not a degree",10.18
+,13999,Black or African American,"Associate degree (AA, AS)",10.92
+,13999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.64
+,13999,Black or African American,"Master's degree (MA, MS)",9.26
+,13999,Black or African American,Unknown/Not on certificate,26.31
+,13999,Black or African American,Excluded,13.06
+,15003,Black or African American,Excluded,13.32
+,17031,Black or African American,8th grade or less,14.66
+,17031,Black or African American,9th through 12th grade with no diploma,14.12
+,17031,Black or African American,High school graduate or GED completed,13.39
+,17031,Black or African American,"Some college credit, but not a degree",10.6
+,17031,Black or African American,"Associate degree (AA, AS)",12.51
+,17031,Black or African American,"Bachelor's degree (BA, AB, BS)",11.36
+,17031,Black or African American,"Master's degree (MA, MS)",10.39
+,17031,Black or African American,Unknown/Not on certificate,32.6
+,17031,Black or African American,Excluded,13.48
+,17043,Black or African American,"Some college credit, but not a degree",8.44
+,17043,Black or African American,Excluded,16.13
+,17089,Black or African American,9th through 12th grade with no diploma,22.88
+,17089,Black or African American,High school graduate or GED completed,11.96
+,17089,Black or African American,Excluded,7.7
+,17097,Black or African American,9th through 12th grade with no diploma,15.87
+,17097,Black or African American,High school graduate or GED completed,16.83
+,17097,Black or African American,"Some college credit, but not a degree",10.2
+,17097,Black or African American,Excluded,9.5
+,17119,Black or African American,9th through 12th grade with no diploma,27.33
+,17119,Black or African American,"Some college credit, but not a degree",14.29
+,17119,Black or African American,Excluded,12.96
+,17163,Black or African American,9th through 12th grade with no diploma,14.81
+,17163,Black or African American,High school graduate or GED completed,9.14
+,17163,Black or African American,"Some college credit, but not a degree",13.54
+,17163,Black or African American,Excluded,11.31
+,17197,Black or African American,High school graduate or GED completed,12.94
+,17197,Black or African American,"Some college credit, but not a degree",10.66
+,17197,Black or African American,Excluded,13.65
+,17201,Black or African American,9th through 12th grade with no diploma,12.24
+,17201,Black or African American,High school graduate or GED completed,11.84
+,17201,Black or African American,Excluded,15.6
+,17999,Black or African American,9th through 12th grade with no diploma,17.23
+,17999,Black or African American,High school graduate or GED completed,13.89
+,17999,Black or African American,"Some college credit, but not a degree",13.03
+,17999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.91
+,17999,Black or African American,"Master's degree (MA, MS)",17.43
+,17999,Black or African American,Excluded,14.68
+,18003,Black or African American,9th through 12th grade with no diploma,17.8
+,18003,Black or African American,High school graduate or GED completed,20.07
+,18003,Black or African American,"Some college credit, but not a degree",18.47
+,18003,Black or African American,Excluded,16.76
+,18089,Black or African American,9th through 12th grade with no diploma,11.75
+,18089,Black or African American,High school graduate or GED completed,13.44
+,18089,Black or African American,"Some college credit, but not a degree",11.66
+,18089,Black or African American,"Associate degree (AA, AS)",13.21
+,18089,Black or African American,"Bachelor's degree (BA, AB, BS)",10.36
+,18089,Black or African American,Unknown/Not on certificate,45.28
+,18089,Black or African American,Excluded,12.48
+,18097,Black or African American,9th through 12th grade with no diploma,12.8
+,18097,Black or African American,High school graduate or GED completed,14.52
+,18097,Black or African American,"Some college credit, but not a degree",12.06
+,18097,Black or African American,"Associate degree (AA, AS)",11.42
+,18097,Black or African American,"Bachelor's degree (BA, AB, BS)",12.4
+,18097,Black or African American,Excluded,14.95
+,18141,Black or African American,9th through 12th grade with no diploma,15.16
+,18141,Black or African American,High school graduate or GED completed,18.98
+,18141,Black or African American,"Some college credit, but not a degree",12.22
+,18141,Black or African American,Excluded,22.19
+,18999,Black or African American,9th through 12th grade with no diploma,13.18
+,18999,Black or African American,High school graduate or GED completed,15.98
+,18999,Black or African American,"Some college credit, but not a degree",8.3
+,18999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.15
+,18999,Black or African American,Excluded,15.68
+,19153,Black or African American,9th through 12th grade with no diploma,9.57
+,19153,Black or African American,High school graduate or GED completed,16.01
+,19153,Black or African American,"Some college credit, but not a degree",7.52
+,19153,Black or African American,Excluded,17.18
+,19999,Black or African American,9th through 12th grade with no diploma,12.67
+,19999,Black or African American,High school graduate or GED completed,10.22
+,19999,Black or African American,"Some college credit, but not a degree",9.2
+,19999,Black or African American,Excluded,9.86
+,20091,Black or African American,High school graduate or GED completed,15.48
+,20091,Black or African American,"Some college credit, but not a degree",12.58
+,20173,Black or African American,9th through 12th grade with no diploma,18.92
+,20173,Black or African American,High school graduate or GED completed,14.96
+,20173,Black or African American,"Some college credit, but not a degree",12.87
+,20173,Black or African American,"Associate degree (AA, AS)",33.51
+,20999,Black or African American,9th through 12th grade with no diploma,13.39
+,20999,Black or African American,High school graduate or GED completed,13.54
+,20999,Black or African American,"Some college credit, but not a degree",10.4
+,20999,Black or African American,"Associate degree (AA, AS)",13.7
+,21067,Black or African American,9th through 12th grade with no diploma,10.95
+,21067,Black or African American,High school graduate or GED completed,8.4
+,21067,Black or African American,"Some college credit, but not a degree",12.46
+,21111,Black or African American,9th through 12th grade with no diploma,12.27
+,21111,Black or African American,High school graduate or GED completed,11.29
+,21111,Black or African American,"Some college credit, but not a degree",9.73
+,21111,Black or African American,"Associate degree (AA, AS)",9.09
+,21111,Black or African American,"Bachelor's degree (BA, AB, BS)",6.33
+,21999,Black or African American,9th through 12th grade with no diploma,10.41
+,21999,Black or African American,High school graduate or GED completed,13.41
+,21999,Black or African American,"Some college credit, but not a degree",10.5
+,21999,Black or African American,"Associate degree (AA, AS)",14.05
+,21999,Black or African American,"Bachelor's degree (BA, AB, BS)",7.07
+,22017,Black or African American,9th through 12th grade with no diploma,18.25
+,22017,Black or African American,High school graduate or GED completed,14.4
+,22017,Black or African American,"Some college credit, but not a degree",15.52
+,22017,Black or African American,Excluded,18.83
+,22033,Black or African American,8th grade or less,16.23
+,22033,Black or African American,9th through 12th grade with no diploma,19.02
+,22033,Black or African American,High school graduate or GED completed,15.11
+,22033,Black or African American,"Some college credit, but not a degree",15.31
+,22033,Black or African American,"Bachelor's degree (BA, AB, BS)",10.75
+,22033,Black or African American,"Master's degree (MA, MS)",19.15
+,22033,Black or African American,Excluded,14.17
+,22051,Black or African American,9th through 12th grade with no diploma,11.72
+,22051,Black or African American,High school graduate or GED completed,9.63
+,22051,Black or African American,"Some college credit, but not a degree",8.88
+,22051,Black or African American,"Bachelor's degree (BA, AB, BS)",12.78
+,22051,Black or African American,Excluded,9.98
+,22071,Black or African American,9th through 12th grade with no diploma,9.78
+,22071,Black or African American,High school graduate or GED completed,9.92
+,22071,Black or African American,"Some college credit, but not a degree",6.87
+,22071,Black or African American,Excluded,10.32
+,22999,Black or African American,8th grade or less,9.52
+,22999,Black or African American,9th through 12th grade with no diploma,11.58
+,22999,Black or African American,High school graduate or GED completed,11.76
+,22999,Black or African American,"Some college credit, but not a degree",9.27
+,22999,Black or African American,"Associate degree (AA, AS)",10.76
+,22999,Black or African American,"Bachelor's degree (BA, AB, BS)",7.49
+,22999,Black or African American,"Master's degree (MA, MS)",12.01
+,22999,Black or African American,Unknown/Not on certificate,23.35
+,22999,Black or African American,Excluded,11.37
+,23005,Black or African American,Excluded,9.7
+,23999,Black or African American,Excluded,10.33
+,24003,Black or African American,"Some college credit, but not a degree",10.43
+,24003,Black or African American,"Bachelor's degree (BA, AB, BS)",8.93
+,24003,Black or African American,Excluded,10.5
+,24005,Black or African American,9th through 12th grade with no diploma,13.34
+,24005,Black or African American,High school graduate or GED completed,9.96
+,24005,Black or African American,"Some college credit, but not a degree",9.67
+,24005,Black or African American,"Associate degree (AA, AS)",13.54
+,24005,Black or African American,"Bachelor's degree (BA, AB, BS)",7.73
+,24005,Black or African American,"Master's degree (MA, MS)",7.37
+,24005,Black or African American,Unknown/Not on certificate,124.09
+,24005,Black or African American,Excluded,12.37
+,24031,Black or African American,9th through 12th grade with no diploma,10.15
+,24031,Black or African American,High school graduate or GED completed,11.33
+,24031,Black or African American,"Some college credit, but not a degree",7.99
+,24031,Black or African American,"Associate degree (AA, AS)",8.03
+,24031,Black or African American,"Bachelor's degree (BA, AB, BS)",8.29
+,24031,Black or African American,"Master's degree (MA, MS)",7.67
+,24031,Black or African American,Unknown/Not on certificate,48.31
+,24031,Black or African American,Excluded,9.39
+,24033,Black or African American,9th through 12th grade with no diploma,12.73
+,24033,Black or African American,High school graduate or GED completed,11.08
+,24033,Black or African American,"Some college credit, but not a degree",9.69
+,24033,Black or African American,"Associate degree (AA, AS)",7.63
+,24033,Black or African American,"Bachelor's degree (BA, AB, BS)",8.12
+,24033,Black or African American,"Master's degree (MA, MS)",7.42
+,24033,Black or African American,Unknown/Not on certificate,46.36
+,24033,Black or African American,Excluded,12.38
+,24510,Black or African American,9th through 12th grade with no diploma,10.04
+,24510,Black or African American,High school graduate or GED completed,13.89
+,24510,Black or African American,"Some college credit, but not a degree",8.81
+,24510,Black or African American,"Associate degree (AA, AS)",9.55
+,24510,Black or African American,"Bachelor's degree (BA, AB, BS)",8.23
+,24510,Black or African American,"Master's degree (MA, MS)",11.55
+,24510,Black or African American,Unknown/Not on certificate,218.54
+,24510,Black or African American,Excluded,15.78
+,24999,Black or African American,9th through 12th grade with no diploma,11.92
+,24999,Black or African American,High school graduate or GED completed,14.3
+,24999,Black or African American,"Some college credit, but not a degree",11.55
+,24999,Black or African American,"Associate degree (AA, AS)",9.7
+,24999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.5
+,24999,Black or African American,"Master's degree (MA, MS)",6.21
+,24999,Black or African American,Unknown/Not on certificate,71.01
+,24999,Black or African American,Excluded,11.81
+,25005,Black or African American,Excluded,11.54
+,25009,Black or African American,Excluded,6.49
+,25013,Black or African American,Excluded,9.59
+,25017,Black or African American,"Some college credit, but not a degree",6.9
+,25017,Black or African American,Excluded,7.4
+,25021,Black or African American,Excluded,5.49
+,25023,Black or African American,Excluded,7.83
+,25025,Black or African American,9th through 12th grade with no diploma,6.52
+,25025,Black or African American,High school graduate or GED completed,9.74
+,25025,Black or African American,"Some college credit, but not a degree",7.35
+,25025,Black or African American,"Bachelor's degree (BA, AB, BS)",8.41
+,25025,Black or African American,Excluded,7.57
+,25027,Black or African American,"Some college credit, but not a degree",11.78
+,25027,Black or African American,Excluded,9.17
+,25999,Black or African American,Excluded,9.15
+,26049,Black or African American,9th through 12th grade with no diploma,16.27
+,26049,Black or African American,High school graduate or GED completed,12.03
+,26049,Black or African American,"Some college credit, but not a degree",14.97
+,26049,Black or African American,Excluded,14.58
+,26065,Black or African American,High school graduate or GED completed,12.56
+,26065,Black or African American,"Some college credit, but not a degree",9.83
+,26065,Black or African American,Excluded,12.71
+,26081,Black or African American,9th through 12th grade with no diploma,13.43
+,26081,Black or African American,High school graduate or GED completed,11.9
+,26081,Black or African American,"Some college credit, but not a degree",13.86
+,26081,Black or African American,Excluded,10.97
+,26099,Black or African American,9th through 12th grade with no diploma,15.07
+,26099,Black or African American,High school graduate or GED completed,7.75
+,26099,Black or African American,"Some college credit, but not a degree",8.2
+,26099,Black or African American,"Associate degree (AA, AS)",17.14
+,26099,Black or African American,Unknown/Not on certificate,32.84
+,26099,Black or African American,Excluded,11.88
+,26125,Black or African American,9th through 12th grade with no diploma,10.01
+,26125,Black or African American,High school graduate or GED completed,14.68
+,26125,Black or African American,"Some college credit, but not a degree",13.12
+,26125,Black or African American,"Associate degree (AA, AS)",11.5
+,26125,Black or African American,"Bachelor's degree (BA, AB, BS)",8.19
+,26125,Black or African American,Excluded,13.93
+,26161,Black or African American,High school graduate or GED completed,15.37
+,26161,Black or African American,"Some college credit, but not a degree",9.18
+,26161,Black or African American,Excluded,13.95
+,26163,Black or African American,9th through 12th grade with no diploma,15.13
+,26163,Black or African American,High school graduate or GED completed,12.57
+,26163,Black or African American,"Some college credit, but not a degree",13.64
+,26163,Black or African American,"Associate degree (AA, AS)",9.29
+,26163,Black or African American,"Bachelor's degree (BA, AB, BS)",7.48
+,26163,Black or African American,Unknown/Not on certificate,40.08
+,26163,Black or African American,Excluded,15.63
+,26999,Black or African American,9th through 12th grade with no diploma,16.92
+,26999,Black or African American,High school graduate or GED completed,15.29
+,26999,Black or African American,"Some college credit, but not a degree",12.1
+,26999,Black or African American,Excluded,15.25
+,27003,Black or African American,Excluded,8.75
+,27037,Black or African American,Excluded,6.28
+,27053,Black or African American,9th through 12th grade with no diploma,14.42
+,27053,Black or African American,High school graduate or GED completed,11.1
+,27053,Black or African American,"Some college credit, but not a degree",6.71
+,27053,Black or African American,"Associate degree (AA, AS)",8.9
+,27053,Black or African American,Unknown/Not on certificate,24.63
+,27053,Black or African American,Excluded,9.63
+,27123,Black or African American,9th through 12th grade with no diploma,15.35
+,27123,Black or African American,High school graduate or GED completed,10.88
+,27123,Black or African American,"Some college credit, but not a degree",8.15
+,27123,Black or African American,Excluded,10.31
+,27999,Black or African American,8th grade or less,7.36
+,27999,Black or African American,High school graduate or GED completed,13.43
+,27999,Black or African American,"Some college credit, but not a degree",9.32
+,27999,Black or African American,Excluded,9.32
+,28049,Black or African American,Excluded,12.55
+,28999,Black or African American,8th grade or less,12.49
+,28999,Black or African American,9th through 12th grade with no diploma,11.29
+,28999,Black or African American,High school graduate or GED completed,12.78
+,28999,Black or African American,"Some college credit, but not a degree",10.8
+,28999,Black or African American,"Associate degree (AA, AS)",10.07
+,28999,Black or African American,"Bachelor's degree (BA, AB, BS)",8.18
+,28999,Black or African American,"Master's degree (MA, MS)",8.9
+,28999,Black or African American,Unknown/Not on certificate,178.57
+,28999,Black or African American,Excluded,13.15
+,29095,Black or African American,9th through 12th grade with no diploma,10.42
+,29095,Black or African American,High school graduate or GED completed,10.65
+,29095,Black or African American,"Some college credit, but not a degree",9.6
+,29095,Black or African American,Excluded,11.52
+,29189,Black or African American,9th through 12th grade with no diploma,12.86
+,29189,Black or African American,High school graduate or GED completed,12.27
+,29189,Black or African American,"Some college credit, but not a degree",12.03
+,29189,Black or African American,"Associate degree (AA, AS)",12.32
+,29189,Black or African American,"Bachelor's degree (BA, AB, BS)",9.11
+,29189,Black or African American,Excluded,14.93
+,29510,Black or African American,9th through 12th grade with no diploma,12.72
+,29510,Black or African American,High school graduate or GED completed,12.22
+,29510,Black or African American,"Some college credit, but not a degree",14.08
+,29510,Black or African American,Excluded,14.24
+,29999,Black or African American,9th through 12th grade with no diploma,16.67
+,29999,Black or African American,High school graduate or GED completed,11.63
+,29999,Black or African American,"Some college credit, but not a degree",9.6
+,29999,Black or African American,Excluded,12.66
+,31055,Black or African American,9th through 12th grade with no diploma,13.96
+,31055,Black or African American,High school graduate or GED completed,12.87
+,31055,Black or African American,"Some college credit, but not a degree",11.5
+,31055,Black or African American,"Associate degree (AA, AS)",16.52
+,31999,Black or African American,9th through 12th grade with no diploma,15.17
+,32003,Black or African American,9th through 12th grade with no diploma,10.21
+,32003,Black or African American,High school graduate or GED completed,7.79
+,32003,Black or African American,"Some college credit, but not a degree",9.65
+,32003,Black or African American,"Bachelor's degree (BA, AB, BS)",13.15
+,32003,Black or African American,Excluded,10.27
+,32031,Black or African American,Excluded,14.29
+,34001,Black or African American,Excluded,16.35
+,34003,Black or African American,Excluded,6.38
+,34005,Black or African American,Excluded,10.17
+,34007,Black or African American,Excluded,14.94
+,34013,Black or African American,Excluded,10.04
+,34015,Black or African American,Excluded,14.51
+,34017,Black or African American,Excluded,7.49
+,34021,Black or African American,Excluded,15.77
+,34023,Black or African American,Excluded,6.66
+,34025,Black or African American,Excluded,9.05
+,34027,Black or African American,Excluded,9.55
+,34029,Black or African American,Excluded,9.24
+,34031,Black or African American,Excluded,6.3
+,34035,Black or African American,Excluded,7.38
+,34039,Black or African American,Excluded,7.76
+,34999,Black or African American,Excluded,12.05
+,35999,Black or African American,"Some college credit, but not a degree",14.87
+,36001,Black or African American,9th through 12th grade with no diploma,15.77
+,36001,Black or African American,High school graduate or GED completed,17.97
+,36001,Black or African American,"Some college credit, but not a degree",13.98
+,36001,Black or African American,"Associate degree (AA, AS)",14.66
+,36005,Black or African American,8th grade or less,9.17
+,36005,Black or African American,9th through 12th grade with no diploma,8.35
+,36005,Black or African American,High school graduate or GED completed,6.57
+,36005,Black or African American,"Some college credit, but not a degree",5.09
+,36005,Black or African American,"Associate degree (AA, AS)",6.15
+,36005,Black or African American,"Bachelor's degree (BA, AB, BS)",4.46
+,36005,Black or African American,"Master's degree (MA, MS)",6.78
+,36005,Black or African American,Unknown/Not on certificate,21.08
+,36005,Black or African American,Excluded,7.76
+,36027,Black or African American,High school graduate or GED completed,15.31
+,36027,Black or African American,"Some college credit, but not a degree",10.47
+,36029,Black or African American,9th through 12th grade with no diploma,15.1
+,36029,Black or African American,High school graduate or GED completed,16.54
+,36029,Black or African American,"Some college credit, but not a degree",11.38
+,36029,Black or African American,"Associate degree (AA, AS)",11.03
+,36029,Black or African American,"Bachelor's degree (BA, AB, BS)",10.46
+,36029,Black or African American,Unknown/Not on certificate,61.7
+,36047,Black or African American,8th grade or less,4.32
+,36047,Black or African American,9th through 12th grade with no diploma,9.28
+,36047,Black or African American,High school graduate or GED completed,8.45
+,36047,Black or African American,"Some college credit, but not a degree",6.36
+,36047,Black or African American,"Associate degree (AA, AS)",6.55
+,36047,Black or African American,"Bachelor's degree (BA, AB, BS)",5.01
+,36047,Black or African American,"Master's degree (MA, MS)",3.92
+,36047,Black or African American,Unknown/Not on certificate,23.26
+,36047,Black or African American,Excluded,8.71
+,36055,Black or African American,9th through 12th grade with no diploma,15.74
+,36055,Black or African American,High school graduate or GED completed,13.7
+,36055,Black or African American,"Some college credit, but not a degree",11.46
+,36055,Black or African American,"Associate degree (AA, AS)",9.54
+,36059,Black or African American,9th through 12th grade with no diploma,10.38
+,36059,Black or African American,High school graduate or GED completed,14.66
+,36059,Black or African American,"Some college credit, but not a degree",7.24
+,36059,Black or African American,"Associate degree (AA, AS)",9.97
+,36059,Black or African American,"Bachelor's degree (BA, AB, BS)",9.27
+,36059,Black or African American,"Master's degree (MA, MS)",7.32
+,36061,Black or African American,8th grade or less,12.5
+,36061,Black or African American,9th through 12th grade with no diploma,7.59
+,36061,Black or African American,High school graduate or GED completed,10.28
+,36061,Black or African American,"Some college credit, but not a degree",8.73
+,36061,Black or African American,"Associate degree (AA, AS)",7.05
+,36061,Black or African American,"Bachelor's degree (BA, AB, BS)",6.4
+,36061,Black or African American,Excluded,8.84
+,36067,Black or African American,9th through 12th grade with no diploma,15.77
+,36067,Black or African American,High school graduate or GED completed,9.5
+,36067,Black or African American,"Some college credit, but not a degree",12.99
+,36071,Black or African American,9th through 12th grade with no diploma,14.51
+,36071,Black or African American,High school graduate or GED completed,9.42
+,36071,Black or African American,"Some college credit, but not a degree",14.83
+,36081,Black or African American,9th through 12th grade with no diploma,9.88
+,36081,Black or African American,High school graduate or GED completed,7.04
+,36081,Black or African American,"Some college credit, but not a degree",7.5
+,36081,Black or African American,"Associate degree (AA, AS)",7.37
+,36081,Black or African American,"Bachelor's degree (BA, AB, BS)",5.17
+,36081,Black or African American,"Master's degree (MA, MS)",8.31
+,36081,Black or African American,Excluded,8.43
+,36085,Black or African American,9th through 12th grade with no diploma,11.42
+,36085,Black or African American,High school graduate or GED completed,7.96
+,36085,Black or African American,"Some college credit, but not a degree",8
+,36085,Black or African American,"Bachelor's degree (BA, AB, BS)",10.88
+,36085,Black or African American,Excluded,10.53
+,36087,Black or African American,High school graduate or GED completed,14.08
+,36087,Black or African American,Unknown/Not on certificate,42.8
+,36103,Black or African American,9th through 12th grade with no diploma,7.65
+,36103,Black or African American,High school graduate or GED completed,9.08
+,36103,Black or African American,"Some college credit, but not a degree",6.73
+,36103,Black or African American,"Bachelor's degree (BA, AB, BS)",6.21
+,36103,Black or African American,Unknown/Not on certificate,71.66
+,36119,Black or African American,9th through 12th grade with no diploma,9.92
+,36119,Black or African American,High school graduate or GED completed,8.25
+,36119,Black or African American,"Some college credit, but not a degree",8.99
+,36119,Black or African American,"Associate degree (AA, AS)",12.32
+,36119,Black or African American,"Bachelor's degree (BA, AB, BS)",6.8
+,36119,Black or African American,Unknown/Not on certificate,18.07
+,36999,Black or African American,9th through 12th grade with no diploma,14.7
+,36999,Black or African American,High school graduate or GED completed,13.89
+,36999,Black or African American,"Some college credit, but not a degree",9.15
+,36999,Black or African American,"Associate degree (AA, AS)",14.64
+,36999,Black or African American,"Bachelor's degree (BA, AB, BS)",11.04
+,36999,Black or African American,Unknown/Not on certificate,29.72
+,37051,Black or African American,9th through 12th grade with no diploma,15.7
+,37051,Black or African American,High school graduate or GED completed,17.32
+,37051,Black or African American,"Some college credit, but not a degree",12.23
+,37051,Black or African American,"Associate degree (AA, AS)",15.87
+,37051,Black or African American,"Bachelor's degree (BA, AB, BS)",11.19
+,37051,Black or African American,Excluded,13.11
+,37063,Black or African American,9th through 12th grade with no diploma,13.26
+,37063,Black or African American,"Some college credit, but not a degree",12.48
+,37067,Black or African American,High school graduate or GED completed,13.55
+,37067,Black or African American,"Some college credit, but not a degree",10
+,37067,Black or African American,Excluded,19.39
+,37081,Black or African American,9th through 12th grade with no diploma,9.93
+,37081,Black or African American,High school graduate or GED completed,12.63
+,37081,Black or African American,"Some college credit, but not a degree",10.2
+,37081,Black or African American,"Associate degree (AA, AS)",13.38
+,37081,Black or African American,"Bachelor's degree (BA, AB, BS)",10.1
+,37081,Black or African American,"Master's degree (MA, MS)",14.86
+,37081,Black or African American,Excluded,13.97
+,37119,Black or African American,9th through 12th grade with no diploma,9.65
+,37119,Black or African American,High school graduate or GED completed,11.1
+,37119,Black or African American,"Some college credit, but not a degree",10.53
+,37119,Black or African American,"Associate degree (AA, AS)",7.71
+,37119,Black or African American,"Bachelor's degree (BA, AB, BS)",8.07
+,37119,Black or African American,"Master's degree (MA, MS)",10.05
+,37119,Black or African American,Excluded,10.74
+,37183,Black or African American,9th through 12th grade with no diploma,15.85
+,37183,Black or African American,High school graduate or GED completed,11.52
+,37183,Black or African American,"Some college credit, but not a degree",11
+,37183,Black or African American,"Associate degree (AA, AS)",9.86
+,37183,Black or African American,"Bachelor's degree (BA, AB, BS)",8.75
+,37183,Black or African American,"Master's degree (MA, MS)",8.96
+,37183,Black or African American,Excluded,13.27
+,37999,Black or African American,8th grade or less,7.25
+,37999,Black or African American,9th through 12th grade with no diploma,14.29
+,37999,Black or African American,High school graduate or GED completed,13.59
+,37999,Black or African American,"Some college credit, but not a degree",12.04
+,37999,Black or African American,"Associate degree (AA, AS)",9.92
+,37999,Black or African American,"Bachelor's degree (BA, AB, BS)",10.39
+,37999,Black or African American,"Master's degree (MA, MS)",13.59
+,37999,Black or African American,Unknown/Not on certificate,52.91
+,37999,Black or African American,Excluded,14.04
+,38999,Black or African American,"Some college credit, but not a degree",11.76
+,39017,Black or African American,High school graduate or GED completed,16.55
+,39017,Black or African American,"Some college credit, but not a degree",9.48
+,39035,Black or African American,9th through 12th grade with no diploma,15.64
+,39035,Black or African American,High school graduate or GED completed,14.52
+,39035,Black or African American,"Some college credit, but not a degree",13.81
+,39035,Black or African American,"Associate degree (AA, AS)",11.29
+,39035,Black or African American,"Bachelor's degree (BA, AB, BS)",8.82
+,39035,Black or African American,"Master's degree (MA, MS)",8.18
+,39035,Black or African American,Unknown/Not on certificate,85.83
+,39049,Black or African American,8th grade or less,7.83
+,39049,Black or African American,9th through 12th grade with no diploma,14.54
+,39049,Black or African American,High school graduate or GED completed,13.12
+,39049,Black or African American,"Some college credit, but not a degree",12.49
+,39049,Black or African American,"Associate degree (AA, AS)",15.65
+,39049,Black or African American,"Bachelor's degree (BA, AB, BS)",10.69
+,39049,Black or African American,"Master's degree (MA, MS)",12.29
+,39049,Black or African American,Unknown/Not on certificate,26.45
+,39061,Black or African American,9th through 12th grade with no diploma,17.92
+,39061,Black or African American,High school graduate or GED completed,15.22
+,39061,Black or African American,"Some college credit, but not a degree",14.49
+,39061,Black or African American,"Associate degree (AA, AS)",12.86
+,39061,Black or African American,"Bachelor's degree (BA, AB, BS)",10.23
+,39061,Black or African American,Unknown/Not on certificate,55.17
+,39093,Black or African American,9th through 12th grade with no diploma,12.61
+,39093,Black or African American,High school graduate or GED completed,12.12
+,39093,Black or African American,"Some college credit, but not a degree",11.09
+,39095,Black or African American,9th through 12th grade with no diploma,13.46
+,39095,Black or African American,High school graduate or GED completed,10.94
+,39095,Black or African American,"Some college credit, but not a degree",12.83
+,39099,Black or African American,9th through 12th grade with no diploma,21.57
+,39099,Black or African American,High school graduate or GED completed,10.14
+,39099,Black or African American,"Some college credit, but not a degree",18.15
+,39113,Black or African American,9th through 12th grade with no diploma,16.56
+,39113,Black or African American,High school graduate or GED completed,11.64
+,39113,Black or African American,"Some college credit, but not a degree",12.15
+,39113,Black or African American,"Associate degree (AA, AS)",12.23
+,39151,Black or African American,9th through 12th grade with no diploma,17.94
+,39151,Black or African American,High school graduate or GED completed,15.85
+,39151,Black or African American,"Some college credit, but not a degree",14.75
+,39153,Black or African American,9th through 12th grade with no diploma,16.69
+,39153,Black or African American,High school graduate or GED completed,10.47
+,39153,Black or African American,"Some college credit, but not a degree",12.92
+,39153,Black or African American,"Associate degree (AA, AS)",10.85
+,39999,Black or African American,9th through 12th grade with no diploma,15.51
+,39999,Black or African American,High school graduate or GED completed,13.97
+,39999,Black or African American,"Some college credit, but not a degree",10.36
+,39999,Black or African American,"Associate degree (AA, AS)",11.86
+,39999,Black or African American,"Bachelor's degree (BA, AB, BS)",5.91
+,39999,Black or African American,Unknown/Not on certificate,25.51
+,40109,Black or African American,9th through 12th grade with no diploma,11.16
+,40109,Black or African American,High school graduate or GED completed,15.4
+,40109,Black or African American,"Some college credit, but not a degree",10.32
+,40109,Black or African American,Excluded,13.54
+,40143,Black or African American,9th through 12th grade with no diploma,15.59
+,40143,Black or African American,High school graduate or GED completed,16.12
+,40143,Black or African American,"Some college credit, but not a degree",17.12
+,40143,Black or African American,Excluded,13.63
+,40999,Black or African American,9th through 12th grade with no diploma,9.75
+,40999,Black or African American,High school graduate or GED completed,11.14
+,40999,Black or African American,"Some college credit, but not a degree",14.01
+,40999,Black or African American,"Associate degree (AA, AS)",19.92
+,40999,Black or African American,Excluded,12.31
+,41051,Black or African American,9th through 12th grade with no diploma,10.82
+,41051,Black or African American,High school graduate or GED completed,9.75
+,41051,Black or African American,"Some college credit, but not a degree",8.14
+,41051,Black or African American,Excluded,13.59
+,42003,Black or African American,9th through 12th grade with no diploma,14.51
+,42003,Black or African American,High school graduate or GED completed,14.98
+,42003,Black or African American,"Some college credit, but not a degree",13.78
+,42003,Black or African American,"Associate degree (AA, AS)",9.82
+,42003,Black or African American,"Bachelor's degree (BA, AB, BS)",7.27
+,42003,Black or African American,Unknown/Not on certificate,195.4
+,42011,Black or African American,9th through 12th grade with no diploma,11.92
+,42011,Black or African American,High school graduate or GED completed,17.86
+,42011,Black or African American,"Some college credit, but not a degree",16.84
+,42017,Black or African American,Unknown/Not on certificate,30.88
+,42029,Black or African American,High school graduate or GED completed,7.97
+,42029,Black or African American,"Some college credit, but not a degree",11.66
+,42043,Black or African American,9th through 12th grade with no diploma,12.11
+,42043,Black or African American,High school graduate or GED completed,12.45
+,42043,Black or African American,"Some college credit, but not a degree",12.28
+,42045,Black or African American,9th through 12th grade with no diploma,11.41
+,42045,Black or African American,High school graduate or GED completed,11.72
+,42045,Black or African American,"Some college credit, but not a degree",13.18
+,42045,Black or African American,"Associate degree (AA, AS)",17.24
+,42045,Black or African American,"Bachelor's degree (BA, AB, BS)",9.17
+,42045,Black or African American,Unknown/Not on certificate,85.3
+,42049,Black or African American,9th through 12th grade with no diploma,10.44
+,42049,Black or African American,High school graduate or GED completed,16.84
+,42049,Black or African American,"Some college credit, but not a degree",12.42
+,42071,Black or African American,9th through 12th grade with no diploma,11.32
+,42071,Black or African American,High school graduate or GED completed,13.53
+,42077,Black or African American,9th through 12th grade with no diploma,6.93
+,42077,Black or African American,High school graduate or GED completed,14.39
+,42077,Black or African American,"Some college credit, but not a degree",9.42
+,42079,Black or African American,9th through 12th grade with no diploma,14.81
+,42079,Black or African American,"Some college credit, but not a degree",17.8
+,42091,Black or African American,9th through 12th grade with no diploma,15.22
+,42091,Black or African American,High school graduate or GED completed,12.65
+,42091,Black or African American,"Some college credit, but not a degree",10.09
+,42091,Black or African American,"Master's degree (MA, MS)",11.31
+,42095,Black or African American,High school graduate or GED completed,14.12
+,42101,Black or African American,8th grade or less,5.99
+,42101,Black or African American,9th through 12th grade with no diploma,12.75
+,42101,Black or African American,High school graduate or GED completed,10.47
+,42101,Black or African American,"Some college credit, but not a degree",9.21
+,42101,Black or African American,"Associate degree (AA, AS)",8.61
+,42101,Black or African American,"Bachelor's degree (BA, AB, BS)",9.13
+,42101,Black or African American,"Master's degree (MA, MS)",5.59
+,42101,Black or African American,Unknown/Not on certificate,114.45
+,42133,Black or African American,High school graduate or GED completed,11.09
+,42133,Black or African American,"Some college credit, but not a degree",15.1
+,42999,Black or African American,9th through 12th grade with no diploma,17.22
+,42999,Black or African American,High school graduate or GED completed,12.21
+,42999,Black or African American,"Some college credit, but not a degree",10.54
+,42999,Black or African American,"Associate degree (AA, AS)",9.68
+,42999,Black or African American,"Bachelor's degree (BA, AB, BS)",12.94
+,42999,Black or African American,Unknown/Not on certificate,35.04
+,44007,Black or African American,Excluded,10.1
+,44999,Black or African American,Excluded,13.1
+,45019,Black or African American,9th through 12th grade with no diploma,10.88
+,45019,Black or African American,High school graduate or GED completed,10.22
+,45019,Black or African American,"Some college credit, but not a degree",9.09
+,45019,Black or African American,"Bachelor's degree (BA, AB, BS)",9.21
+,45019,Black or African American,Unknown/Not on certificate,106.67
+,45045,Black or African American,9th through 12th grade with no diploma,12.9
+,45045,Black or African American,High school graduate or GED completed,11.68
+,45045,Black or African American,"Some college credit, but not a degree",11.03
+,45045,Black or African American,"Associate degree (AA, AS)",9.67
+,45079,Black or African American,9th through 12th grade with no diploma,11.53
+,45079,Black or African American,High school graduate or GED completed,12.32
+,45079,Black or African American,"Some college credit, but not a degree",9.43
+,45079,Black or African American,"Associate degree (AA, AS)",11.47
+,45079,Black or African American,"Bachelor's degree (BA, AB, BS)",7.59
+,45079,Black or African American,"Master's degree (MA, MS)",7.88
+,45083,Black or African American,9th through 12th grade with no diploma,8.17
+,45083,Black or African American,High school graduate or GED completed,8.72
+,45083,Black or African American,"Some college credit, but not a degree",8.19
+,45999,Black or African American,8th grade or less,10.93
+,45999,Black or African American,9th through 12th grade with no diploma,11.79
+,45999,Black or African American,High school graduate or GED completed,11.95
+,45999,Black or African American,"Some college credit, but not a degree",10.76
+,45999,Black or African American,"Associate degree (AA, AS)",11.63
+,45999,Black or African American,"Bachelor's degree (BA, AB, BS)",11.53
+,45999,Black or African American,"Master's degree (MA, MS)",11.56
+,45999,Black or African American,Unknown/Not on certificate,45.93
+,46999,Black or African American,High school graduate or GED completed,12.79
+,47037,Black or African American,8th grade or less,7.92
+,47037,Black or African American,9th through 12th grade with no diploma,14.36
+,47037,Black or African American,High school graduate or GED completed,11.44
+,47037,Black or African American,"Some college credit, but not a degree",9.08
+,47037,Black or African American,"Associate degree (AA, AS)",12.42
+,47037,Black or African American,"Bachelor's degree (BA, AB, BS)",8.79
+,47037,Black or African American,Unknown/Not on certificate,78.19
+,47065,Black or African American,9th through 12th grade with no diploma,15
+,47065,Black or African American,High school graduate or GED completed,13.84
+,47065,Black or African American,"Some college credit, but not a degree",11.95
+,47093,Black or African American,9th through 12th grade with no diploma,13.99
+,47093,Black or African American,High school graduate or GED completed,9.45
+,47093,Black or African American,"Some college credit, but not a degree",15.02
+,47157,Black or African American,8th grade or less,12.8
+,47157,Black or African American,9th through 12th grade with no diploma,14.96
+,47157,Black or African American,High school graduate or GED completed,14.36
+,47157,Black or African American,"Some college credit, but not a degree",12.82
+,47157,Black or African American,"Associate degree (AA, AS)",15.04
+,47157,Black or African American,"Bachelor's degree (BA, AB, BS)",11.95
+,47157,Black or African American,"Master's degree (MA, MS)",9.42
+,47157,Black or African American,Unknown/Not on certificate,27.3
+,47999,Black or African American,8th grade or less,10.77
+,47999,Black or African American,9th through 12th grade with no diploma,13.12
+,47999,Black or African American,High school graduate or GED completed,11.4
+,47999,Black or African American,"Some college credit, but not a degree",10.53
+,47999,Black or African American,"Associate degree (AA, AS)",9.37
+,47999,Black or African American,"Bachelor's degree (BA, AB, BS)",6.17
+,48027,Black or African American,High school graduate or GED completed,7.44
+,48027,Black or African American,"Some college credit, but not a degree",9.08
+,48029,Black or African American,9th through 12th grade with no diploma,12.39
+,48029,Black or African American,High school graduate or GED completed,8.21
+,48029,Black or African American,"Some college credit, but not a degree",8.49
+,48029,Black or African American,"Associate degree (AA, AS)",7.12
+,48029,Black or African American,"Bachelor's degree (BA, AB, BS)",11.21
+,48085,Black or African American,High school graduate or GED completed,6.99
+,48085,Black or African American,"Some college credit, but not a degree",7.23
+,48085,Black or African American,"Bachelor's degree (BA, AB, BS)",4.09
+,48085,Black or African American,"Master's degree (MA, MS)",9.23
+,48113,Black or African American,9th through 12th grade with no diploma,12.72
+,48113,Black or African American,High school graduate or GED completed,12.48
+,48113,Black or African American,"Some college credit, but not a degree",10.48
+,48113,Black or African American,"Associate degree (AA, AS)",13.68
+,48113,Black or African American,"Bachelor's degree (BA, AB, BS)",10.42
+,48113,Black or African American,"Master's degree (MA, MS)",9.11
+,48113,Black or African American,Unknown/Not on certificate,111.84
+,48121,Black or African American,High school graduate or GED completed,10.01
+,48121,Black or African American,"Some college credit, but not a degree",9.85
+,48121,Black or African American,"Bachelor's degree (BA, AB, BS)",6.18
+,48141,Black or African American,High school graduate or GED completed,12.13
+,48141,Black or African American,"Some college credit, but not a degree",12.29
+,48157,Black or African American,High school graduate or GED completed,10.93
+,48157,Black or African American,"Some college credit, but not a degree",7.03
+,48157,Black or African American,"Bachelor's degree (BA, AB, BS)",6.54
+,48157,Black or African American,"Master's degree (MA, MS)",7.69
+,48167,Black or African American,High school graduate or GED completed,9.87
+,48167,Black or African American,"Some college credit, but not a degree",11.34
+,48201,Black or African American,8th grade or less,10.21
+,48201,Black or African American,9th through 12th grade with no diploma,12
+,48201,Black or African American,High school graduate or GED completed,11.3
+,48201,Black or African American,"Some college credit, but not a degree",9.53
+,48201,Black or African American,"Associate degree (AA, AS)",10.2
+,48201,Black or African American,"Bachelor's degree (BA, AB, BS)",7.44
+,48201,Black or African American,"Master's degree (MA, MS)",8.14
+,48201,Black or African American,Unknown/Not on certificate,117.32
+,48245,Black or African American,9th through 12th grade with no diploma,11.04
+,48245,Black or African American,High school graduate or GED completed,13.25
+,48245,Black or African American,"Some college credit, but not a degree",9.25
+,48245,Black or African American,"Associate degree (AA, AS)",24.29
+,48339,Black or African American,High school graduate or GED completed,12.01
+,48439,Black or African American,9th through 12th grade with no diploma,12.94
+,48439,Black or African American,High school graduate or GED completed,15.18
+,48439,Black or African American,"Some college credit, but not a degree",10.42
+,48439,Black or African American,"Associate degree (AA, AS)",10.33
+,48439,Black or African American,"Bachelor's degree (BA, AB, BS)",9.72
+,48439,Black or African American,"Master's degree (MA, MS)",9.63
+,48453,Black or African American,9th through 12th grade with no diploma,16.57
+,48453,Black or African American,High school graduate or GED completed,7.75
+,48453,Black or African American,"Some college credit, but not a degree",9.53
+,48453,Black or African American,"Bachelor's degree (BA, AB, BS)",11.75
+,48999,Black or African American,8th grade or less,7.14
+,48999,Black or African American,9th through 12th grade with no diploma,10.73
+,48999,Black or African American,High school graduate or GED completed,11.5
+,48999,Black or African American,"Some college credit, but not a degree",9.75
+,48999,Black or African American,"Associate degree (AA, AS)",9.41
+,48999,Black or African American,"Bachelor's degree (BA, AB, BS)",9.65
+,48999,Black or African American,"Master's degree (MA, MS)",5.2
+,48999,Black or African American,Unknown/Not on certificate,56.87
+,49035,Black or African American,High school graduate or GED completed,15.56
+,49035,Black or African American,Excluded,9.29
+,51041,Black or African American,Excluded,9.12
+,51059,Black or African American,"Some college credit, but not a degree",11.37
+,51059,Black or African American,Excluded,8.24
+,51087,Black or African American,High school graduate or GED completed,14.93
+,51087,Black or African American,Excluded,11.35
+,51153,Black or African American,Excluded,10.93
+,51810,Black or African American,High school graduate or GED completed,15.4
+,51810,Black or African American,"Some college credit, but not a degree",7.4
+,51810,Black or African American,Excluded,11.13
+,51999,Black or African American,9th through 12th grade with no diploma,11.93
+,51999,Black or African American,High school graduate or GED completed,10.59
+,51999,Black or African American,"Some college credit, but not a degree",10.26
+,51999,Black or African American,"Associate degree (AA, AS)",7.54
+,51999,Black or African American,"Bachelor's degree (BA, AB, BS)",10.52
+,51999,Black or African American,"Master's degree (MA, MS)",7.83
+,51999,Black or African American,Unknown/Not on certificate,50.68
+,51999,Black or African American,Excluded,13.47
+,53033,Black or African American,8th grade or less,6.73
+,53033,Black or African American,9th through 12th grade with no diploma,7.13
+,53033,Black or African American,High school graduate or GED completed,7.47
+,53033,Black or African American,"Some college credit, but not a degree",7.37
+,53033,Black or African American,"Associate degree (AA, AS)",9.34
+,53033,Black or African American,"Bachelor's degree (BA, AB, BS)",5.19
+,53033,Black or African American,Unknown/Not on certificate,18.9
+,53053,Black or African American,9th through 12th grade with no diploma,10.53
+,53053,Black or African American,High school graduate or GED completed,11.03
+,53053,Black or African American,"Some college credit, but not a degree",8.16
+,53999,Black or African American,High school graduate or GED completed,7.87
+,53999,Black or African American,"Some college credit, but not a degree",9.08
+,54999,Black or African American,Excluded,10.92
+,55025,Black or African American,High school graduate or GED completed,12.58
+,55025,Black or African American,"Some college credit, but not a degree",16.44
+,55025,Black or African American,Excluded,14.92
+,55079,Black or African American,9th through 12th grade with no diploma,14.84
+,55079,Black or African American,High school graduate or GED completed,11.15
+,55079,Black or African American,"Some college credit, but not a degree",16.16
+,55079,Black or African American,"Associate degree (AA, AS)",12.71
+,55079,Black or African American,"Bachelor's degree (BA, AB, BS)",10.02
+,55079,Black or African American,Unknown/Not on certificate,73.77
+,55079,Black or African American,Excluded,14.07
+,55999,Black or African American,9th through 12th grade with no diploma,17.09
+,55999,Black or African American,High school graduate or GED completed,13.71
+,55999,Black or African American,"Some college credit, but not a degree",15.27
+,55999,Black or African American,Excluded,12.52
