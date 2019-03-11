@@ -1,6 +1,6 @@
 # Infant Mortality Rates
 
-![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
+
 
 ## Team Members:
 
@@ -37,7 +37,6 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 2) Is there a correlation between poverty and IMR?
 
 *Poverty and IMR have a postive correlation.
-
 
 ![Death Rate v African American Poverty](Images/heatmap_poverty_IMR.PNG)
 
