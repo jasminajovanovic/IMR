@@ -49,10 +49,6 @@ https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&fil
 - The leading cause of infant death is extreme immaturity, followed by Sudden Infant Death Syndrome (SIDS). Extremely premature babies are babies born before 28 weeks of gestational age. (Note that there is a correlation between the two leading causes of infant death, since SIDS rates are higher amont premature babies.)
 - Most infant deaths occur either in the first 24 hours after birth as a result of extreme immaturity, or between one month and one year, as a result of SIDS 
 
-![5 Leading Causes of Infant Deaths by Race](Images/Leading%20Causes%20of%20IMR%20by%20Race.png)
-
-- African American babies have double the rate of every leading cause of death compared to White babies
-- It is possible that there are inaccuracies in the cause of death for the American Indian / Alaska Native race
 
 ### 2) Where is IMR the highest?
 
@@ -77,9 +73,15 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 *Even though the correlation holds for both whites and African Americans, African Americans experience higher levels of IMR than whites for similar poverty levels. 
 
 ### 4) Do different races experience different levels of IMR?
+
 ![IMR by Race](Images/Death%20Rate%20by%20Race.png)
 
-![Leading Causes of Infant Death by Race](Images/Leading%20Causes%20of%20IMR%20by%20Race.png)
+- We performed a ANOVA test and a pairwise tukeyhsd test, which confirmed that the differences in rate of IMR across races is statistically significant 
+
+![5 Leading Causes of Infant Deaths by Race](Images/Leading%20Causes%20of%20IMR%20by%20Race.png)
+
+- African American babies have double the rate of every leading cause of death compared to White babies
+- It is possible that there are inaccuracies in the cause of death for the American Indian / Alaska Native race
 
 
 ### 5) How does the education level of the mother relate to IMR?
