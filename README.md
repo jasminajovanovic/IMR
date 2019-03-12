@@ -57,7 +57,7 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
-* Even though the correlation holds for both whites and African Americans, African Americans experience higher levels of IMR than whites for similar poverty levels. 
+* Even though the correlation holds for both Whites and African Americans, African Americans experience higher levels of IMR than Whites for similar poverty levels. 
 
 ### 3) Do different races experience different levels of IMR?
 
@@ -83,15 +83,11 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ![Death Rate v Total Insurance Level](Images/DeathRate_v_TotalInsurance.png)
 
-*There is no correlation between IMR and total rates of insurance.
+* There is no correlation between IMR and total rates of insurance.
 
-![Death Rate v Public Insurance Level](Images/DeathRate_v_PublicInsurance.png)
+![Death Rate v Public Insurance Level](Images/DeathRate_v_PublicInsurance.png)![Death Rate v Private Insurance Level](Images/DeathRate_v_PrivateInsurance.png)
 
-*There is a positive correlation between IMR and having public insurance.
-
-![Death Rate v Private Insurance Level](Images/DeathRate_v_PrivateInsurance.png)
-
-*There is also a correlation between IMR and having private insurance. 
+* There is a positive correlation between IMR and having public insurance or private insurance
 
 ### 7) Does infants' birthweight affect the IMR?
 
