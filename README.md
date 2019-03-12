@@ -76,6 +76,10 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ### 4) How does the education level of the mother relate to IMR?
 
+![Education level](Images/Education_lever_line.png)
+
+### 6) Does the age of the mother play a role in IMR?
+=======
 ### 5) Does the age of the mother play a role in IMR?
 
 ### 6) Does having health insurance lower the rate of IMR?
