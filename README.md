@@ -24,14 +24,18 @@ The United States has a higher Infant Mortaility Rate than any other wealthy cou
 
 ## Datasets Used:
 
-CDC
+* CDC
 https://wonder.cdc.gov/
-US Census
+
+* US Census
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
+
 http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
-USDA
+
+* USDA
 https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
-World Health Organization
+
+* World Health Organization
 https://www.who.int/gho/database/en/
 
 
