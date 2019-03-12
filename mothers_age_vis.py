@@ -15,7 +15,7 @@ import pandas as pd
 import numpy as np
 import random
 
-mothers_age_state_csv = "mothers_age_state_grouped.csv"
+mothers_age_state_csv = "datafiles/mothers_age_state_grouped.csv"
 
 df_mothers_age_state = pd.read_csv(mothers_age_state_csv)
 
