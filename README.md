@@ -40,9 +40,6 @@ https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&fil
 
 ![IMR by Age](https://github.com/jasminajovanovic/IMR/blob/master/Images/IMR%20vs%20age.png)
 
-- There is a strong correlation between race and IMR
-- African Americans have the highest IMR of all races, followed by American Indian/Alasks Native and then by Asians and Whites
-- The IMR among African American babies is more than twice as high as that of White infants
 
 ![Leading Causes of Infant Death in the US](Images/Leading%20Causes%20of%20Infant%20Mortality.png)
 
@@ -76,9 +73,13 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ![IMR by Race](Images/Death%20Rate%20by%20Race.png)
 
+- There is a strong correlation between race and IMR
+- African Americans have the highest IMR of all races, followed by American Indian/Alasks Native and then by Asians and Whites
+- The IMR among African American babies is more than twice as high as that of White infants
 - We performed a ANOVA test and a pairwise tukeyhsd test, which confirmed that the differences in rate of IMR across races is statistically significant 
 
 ![5 Leading Causes of Infant Deaths by Race](Images/Leading%20Causes%20of%20IMR%20by%20Race.png)
+
 
 - African American babies have double the rate of every leading cause of death compared to White babies
 - It is possible that there are inaccuracies in the cause of death for the American Indian / Alaska Native race
