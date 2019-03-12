@@ -38,9 +38,6 @@ https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&fil
 
 ### 1) What are the leading casuses of infant deaths in the US?
 
-![IMR by Age](https://github.com/jasminajovanovic/IMR/blob/master/Images/IMR%20vs%20age.png)
-
-
 ![Leading Causes of Infant Death in the US](Images/Leading%20Causes%20of%20Infant%20Mortality.png)
 
 - The leading cause of infant death is extreme immaturity, followed by Sudden Infant Death Syndrome (SIDS). Extremely premature babies are babies born before 28 weeks of gestational age. (Note that there is a correlation between the two leading causes of infant death, since SIDS rates are higher amont premature babies.)
