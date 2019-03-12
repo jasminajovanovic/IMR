@@ -24,12 +24,17 @@ The United States has a higher Infant Mortaility Rate than any other wealthy cou
 
 ## Datasets Used:
 
+* CDC
+https://wonder.cdc.gov/
 
-https://wonder.cdc.gov/controller/datarequest/D69
+* US Census
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
-http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
+
+* USDA
 https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
-https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&filter=data&islDatasource=BRFSS&islTopic=T9&islFilterby=2&go=GO
+
+* World Health Organization
+https://www.who.int/gho/database/en/
 
 
 
@@ -76,11 +81,11 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ### 4) How does the education level of the mother relate to IMR?
 
-![Education level](Images/Education_lever_line.png)
+![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
 
-### 6) Does the age of the mother play a role in IMR?
-=======
 ### 5) Does the age of the mother play a role in IMR?
+
+![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
 
 ### 6) Does having health insurance lower the rate of IMR?
 
