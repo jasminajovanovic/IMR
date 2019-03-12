@@ -111,6 +111,6 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ## Suggestions for Further Study
 
-*Examine racial differences in terms of rates of public versus private health insurance
-* Examine
+* Examine racial differences in terms of rates of public versus private health insurance
+* Examine correlation between vitamin D defficiency and premature labor between different races
 
