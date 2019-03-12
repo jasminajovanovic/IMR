@@ -98,7 +98,13 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 * There is a positive correlation between IMR and having public insurance or private insurance
 
 ### 7) Does infants' birthweight affect the IMR?
+![Infant Mortality Rate by Birth Weight](Images/bw_Birth%20Weights%20Infant%20Mortality%20Rate.png)
 
+- Babies with less than 1 kg (2.2 lb) of newborn babies have the highest mortality rate.
+
+![Factors of having preterm baby or low birth weight baby](Images/bw_IMR%20Factors%20by%20Race.png)
+
+- Overweight was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
 
 ## Conclusions
 
