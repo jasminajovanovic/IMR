@@ -35,12 +35,12 @@ https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&fil
 
 ## Questions - Answered
 
-1) Where is IMR the highest?
+### 1) Where is IMR the highest?
 
 *IMR is the highest in the southern and eastern United States.
 
 
-2) Is there a correlation between poverty and IMR?
+### 2) Is there a correlation between poverty and IMR?
 
 *Poverty and IMR have a postive correlation.
 
@@ -57,7 +57,13 @@ Average poverty by county for 2007-2016. Markers represent top 15 states for IMR
 
 *Even though the correlation holds for both whites and African Americans, African Americans experience higher levels of IMR than whites for similar poverty levels. 
 
-6) Does having health insurance lower the rate of IMR?
+### 3) Do different races experience different levels of IMR?
+
+### 4) How does the education level of the mother relate to IMR?
+
+### 5) Does the age of the mother play a role in IMR?
+
+### 6) Does having health insurance lower the rate of IMR?
 
 ![Death Rate v Total Insurance Level](Images/DeathRate_v_TotalInsurance.png)
 
@@ -72,7 +78,6 @@ Average poverty by county for 2007-2016. Markers represent top 15 states for IMR
 *There is also a correlation between IMR and having private insurance. 
 
 
-
 ## Conclusions
 
 *The counties with the highest IMRs are in the southern and eastern United States.
@@ -82,4 +87,5 @@ Average poverty by county for 2007-2016. Markers represent top 15 states for IMR
 ## Suggestions for Further Study
 
 *Examine racial differences in terms of rates of public versus private health insurance
+* Examine
 
