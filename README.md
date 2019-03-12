@@ -53,9 +53,8 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 * There is a clear correlation between IMR and poverty levels. 
 
-![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)
+![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
-![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
 * Even though the correlation holds for both Whites and African Americans, African Americans experience higher levels of IMR than Whites for similar poverty levels. 
 
