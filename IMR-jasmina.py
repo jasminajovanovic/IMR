@@ -147,17 +147,10 @@ plt.savefig("Images/IMR by Race, 2007-2016.png")
 plt.show()
 
 
-# In[18]:
-
-
-# TODO
-# WHO rates by country
-
-
 # ## Leading cause of infant mortality by age
 # 
 
-# In[19]:
+# In[18]:
 
 
 # Death Rate by age
@@ -184,7 +177,7 @@ dfImrByAgeByCause.sort_values(by='Death Rate', ascending=False, inplace=True)
 dfImrByAgeByCause.head()
 
 
-# In[46]:
+# In[61]:
 
 
 rects = plt.barh(dfTotalsbyAgebyCause['Age of Infant at Death'], width=dfTotalsbyAgebyCause['Death Rate'], color='blue', alpha=.5, edgecolor='black')
@@ -192,19 +185,20 @@ plt.title("IMR vs Age")
 plt.ylabel("Age of Infant at Death")
 plt.xlabel("Death Rate")
 plt.xlim(0, 2.5)
-plt.rcParams["figure.figsize"] = [11, 9]
+plt.rcParams["figure.figsize"] = [10, 6]
+plt.tight_layout()
 plt.savefig("Images/IMR vs age.png")
 plt.show()
 
 
-# In[21]:
+# In[20]:
 
 
 # removes rows that show total
 dfImrByAgeByCause = dfImrByAgeByCause.loc[(dfImrByAgeByCause['Notes'] != 'Total')].sort_values(by=['Death Rate'], ascending=False).head(20)
 
 
-# In[22]:
+# In[21]:
 
 
 indexedImrByAgeByCause = dfImrByAgeByCause.set_index(["Age of Infant at Death", "Cause of death"])
@@ -212,7 +206,7 @@ indexedImrByAgeByCause.sort_values(["Age of Infant at Death Code", "Death Rate"]
 indexedImrByAgeByCause.head()
 
 
-# In[148]:
+# In[70]:
 
 
 x_axis = dfImrByAgeByCause['Cause of death'].head(6)
@@ -228,7 +222,8 @@ for rect in rects:
     height = rect.get_height()
     plt.text(rect.get_x() + rect.get_width()/1.1, height + 0.02,
              dfImrByAgeByCause['Age of Infant at Death'].iloc[indx],
-             ha='center', va='bottom', color='black', rotation = 45)
+             ha='center', va='bottom', color='purple', rotation = 45)
+plt.text(4.5,0.6, "Infant's Age at Death", color="purple", bbox=dict(facecolor='none', edgecolor='purple'))
    
 plt.xlabel("Cause of Death")
 plt.ylabel("Mortality Rate (per 1000)")
@@ -239,7 +234,7 @@ plt.savefig("Images/Leading Causes of Infant Mortality.png")
 plt.show()
 
 
-# In[43]:
+# In[23]:
 
 
 # dfImrByAgeByCause.plot('Cause of death', "Death Rate", kind='bar')
@@ -248,7 +243,7 @@ plt.show()
 # ## Leading cause of infant mortality by race
 # 
 
-# In[25]:
+# In[24]:
 
 
 dfImrByRaceByCause = pd.read_csv("datafiles/imr by race by cause, 2007-2016.txt", sep='\t')
@@ -268,14 +263,14 @@ dfImrByRaceByCause = dfImrByRaceByCause.sort_values(['Race', 'Death Rate'], asce
 dfImrByRaceByCause.head()
 
 
-# In[26]:
+# In[25]:
 
 
 causes = x_axis.unique()
 races = dfImrByRaceByCause['Race'].unique()
 
 
-# In[27]:
+# In[26]:
 
 
 mylist = []
@@ -305,7 +300,7 @@ dfImrByRaceByCausePlotting = dfImrByRaceByCausePlotting[[
  'Other preterm infants']]
 
 
-# In[28]:
+# In[27]:
 
 
 ax = dfImrByRaceByCausePlotting.plot.bar(stacked=True, ylim=(0,7), figsize=(11, 9),  width=0.75, title="Leading Causes of IMR by Race", rot=0)
@@ -318,44 +313,44 @@ fig.savefig('Images/Leading Causes of IMR by Race.png')
 # ## IMR by Month Prenatal Care Began
 # 
 
-# In[29]:
+# In[28]:
 
 
 dfImrByPrenatalCareStart = pd.read_csv("./datafiles/imr by prenatal care start, 2007-2016.txt", sep='\t')
 
 
-# In[30]:
+# In[29]:
 
 
 dfImrByPrenatalCareStart = dfImrByPrenatalCareStart[['Month Prenatal Care Began', 'Death Rate']].dropna(subset=["Month Prenatal Care Began", "Death Rate"])
 
 
-# In[31]:
+# In[30]:
 
 
 dfImrByPrenatalCareStart
 
 
-# In[32]:
+# In[31]:
 
 
 dfImrByPrenatalCareStart.plot("Month Prenatal Care Began", "Death Rate", kind='bar')
 
 
-# In[33]:
+# In[32]:
 
 
 dfImrByPrenatalByRace = pd.read_csv("datafiles/IMR By prenatal care by race, 2007-2016.txt", sep='\t')
 
 
-# In[34]:
+# In[33]:
 
 
 dfNoPrenatalcareByRace = dfImrByPrenatalByRace.loc[(dfImrByPrenatalByRace['Month Prenatal Care Began'] == 'No prenatal care') & (dfImrByPrenatalByRace['Notes']!='Total')]
 dfNoPrenatalcareByRace['Death Rate'] = [float(x) for x in dfNoPrenatalcareByRace['Death Rate']]
 
 
-# In[35]:
+# In[34]:
 
 
 df1stMonthPrenatalcareByRace = dfImrByPrenatalByRace.loc[(dfImrByPrenatalByRace['Month Prenatal Care Began'] == '1st month') & (dfImrByPrenatalByRace['Notes']!='Total')]
@@ -363,13 +358,13 @@ df1stMonthPrenatalcareByRace['Death Rate'] = [0 if 'Unreliable' in str(x) else x
 df1stMonthPrenatalcareByRace['Death Rate'] = [float(x) for x in df1stMonthPrenatalcareByRace['Death Rate']]
 
 
-# In[36]:
+# In[35]:
 
 
 # df1stMonthPrenatalcareByRace
 
 
-# In[37]:
+# In[36]:
 
 
 plt.bar(np.arange(len(dfNoPrenatalcareByRace['Race'])), dfNoPrenatalcareByRace['Death Rate'], label='No Prenatal Care', width=0.25)
@@ -380,19 +375,19 @@ plt.legend()
 
 # ## Percent of Premature Births by Race
 
-# In[62]:
+# In[37]:
 
 
 dfExtremePrematurityByRace = pd.read_csv("datafiles/extreme prematurity by race, 2007-2017.txt", sep='\t')
 
 
-# In[147]:
+# In[38]:
 
 
 # dfExtremePrematurityByRace.dropna(subset=['Births'])
 
 
-# In[66]:
+# In[39]:
 
 
 def totalForRace(df, race):
@@ -401,61 +396,61 @@ def totalForRace(df, race):
     
 
 
-# In[87]:
+# In[40]:
 
 
 dfExtremePrematurityByRace.dropna(subset=['Births'], inplace=True)
 
 
-# In[67]:
+# In[41]:
 
 
 totalForRace(dfExtremePrematurityByRace, "White")
 
 
-# In[68]:
+# In[42]:
 
 
 totalForRace(dfExtremePrematurityByRace, "Black or African American")
 
 
-# In[90]:
+# In[43]:
 
 
 dfExtremePrematurityByRace['Total for Race'] = dfExtremePrematurityByRace.apply((lambda x: totalForRace(dfExtremePrematurityByRace, x['Bridged Race'])), axis=1) 
 
 
-# In[149]:
+# In[44]:
 
 
 # dfExtremePrematurityByRace
 
 
-# In[93]:
+# In[45]:
 
 
 dfExtremePrematurityAfricanAmerican = dfExtremePrematurityByRace.loc[dfExtremePrematurityByRace['Bridged Race'] == 'Black or African American']
 
 
-# In[95]:
+# In[46]:
 
 
 # dfExtremePrematurityAfricanAmerican
 
 
-# In[99]:
+# In[47]:
 
 
 dfExtremePrematurity20to27 = dfExtremePrematurityByRace.loc[dfExtremePrematurityByRace['OE Gestational Age 10'] == '20 - 27 weeks']
 
 
-# In[103]:
+# In[48]:
 
 
 dfExtremePrematurity20to27['Percent of Total Births'] = dfExtremePrematurity20to27.apply((lambda row: row['Births']/row['Total for Race']*100), axis=1)
 
 
-# In[102]:
+# In[49]:
 
 
 dfExtremePrematurity20to27
@@ -463,13 +458,13 @@ dfExtremePrematurity20to27
 
 # ## Include Hispanic Origin
 
-# In[40]:
+# In[50]:
 
 
 dfHispanicByCause = pd.read_csv("datafiles/imr by hispanice origin by cause, 2007-2016.txt", sep='\t')
 
 
-# In[105]:
+# In[51]:
 
 
 # dfHispanicByCause.sort_values(by=['Death Rate'], ascending=False).head(20)
@@ -477,13 +472,13 @@ dfHispanicByCause = pd.read_csv("datafiles/imr by hispanice origin by cause, 200
 
 # ## US IMR Compared to Other Wealthy Nations
 
-# In[139]:
+# In[52]:
 
 
 dfWhoByCountry = pd.read_csv("datafiles/who by country.csv.csv", header=1)
 
 
-# In[140]:
+# In[53]:
 
 
 dfWhoByCountry.rename(columns={'Both sexes':'IMR'}, inplace=True)
@@ -491,26 +486,26 @@ dfWhoByCountry.loc[dfWhoByCountry['Country'] == 'United Kingdom of Great Britain
 dfWhoByCountry.head()
 
 
-# In[141]:
+# In[54]:
 
 
 plotImrByCountry = dfWhoByCountry.groupby('Country').mean().sort_values(by='IMR', ascending=False)
 
 
-# In[142]:
+# In[55]:
 
 
 plotImrByCountry.head()
 
 
-# In[150]:
+# In[56]:
 
 
 # plt.bar(plotImrByCountry['Country'], plotImrByCountry['IMR'])
 # plotImrByCountry.index
 
 
-# In[178]:
+# In[57]:
 
 
 rects = plt.barh(plotImrByCountry.index, plotImrByCountry['IMR'], alpha=0.5, edgecolor='black')
@@ -529,6 +524,1680 @@ rects[0].set_color('red')
 plt.rcParams["figure.figsize"] = [18, 10]
 plt.savefig("Images/imr by country.png")
 plt.show()
+
+
+# In[ ]:
+
+
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import requests
+import csv
+import os
+import pandas as pd
+import scipy.stats as stats
+import gmaps
+from config import gkey
+
+# Configure gmaps
+gmaps.configure(api_key=gkey)
+
+
+# ### Education levels vs Death Rate in USA by CDC
+
+# In[2]:
+
+
+filename = 'datafiles/Education_Infant_Death_Records_2007_2016.csv'
+filename_df = pd.read_csv(filename, encoding="ISO-8859-1")
+
+
+# In[3]:
+
+
+education_sorted =filename_df.sort_values(["Death Rate"],ascending=False)
+
+
+# In[4]:
+
+
+exclude_unknown = education_sorted.loc[education_sorted['Education']!= "Unknown/Not on certificate"]
+
+
+# In[5]:
+
+
+del exclude_unknown['Deaths']
+del exclude_unknown['Education Code']
+del exclude_unknown['Births']
+del exclude_unknown['Notes']
+exclude_unknown
+
+
+# In[ ]:
+
+
+
+
+
+# In[49]:
+
+
+x_axis = exclude_unknown['Education']
+y_axis = exclude_unknown['Death Rate']
+
+# plt.plot(exclude_unknown["Education"],
+#          exclude_unknown["Death Rate"]
+         
+#          )
+plt.plot(x_axis, y_axis)
+
+
+# Incorporate the other graph properties
+plt.style.use('seaborn')
+plt.title(f"Death rate by Education level 2007-2016")
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Education level")
+plt.grid(True)
+plt.xticks((range(len(x_axis))), ["9-12th\ngrade", "HS\nor GED", "Excluded", "8th\ngrade\nor less", "Some\ncollege\ncredit", "Associate\ndegree",  "Bachelor's\ndegree", "Master's\ndegree", "Doctorate\ndegree"])
+plt.xlim(-0.5, 8.2)
+plt.ylim(3, 9)
+# Save the figure
+plt.savefig("Images/Education_lever_line.png")
+
+# Show plot
+plt.show()
+
+
+# In[48]:
+
+
+x_axis = exclude_unknown['Education']
+y_axis = exclude_unknown['Death Rate']
+plt.tight_layout()
+plt.ylabel("Death Rate per 1000")
+plt.xlabel("Education level 2007-2016")
+plt.bar(x_axis, y_axis, color="b", align="center")
+plt.xticks(exclude_unknown['Education'], rotation="vertical")
+
+plt.savefig("Images/Education_level_barchart.png")
+plt.show()
+
+
+# ### Education level in USA by USDA
+
+# In[8]:
+
+
+usdafilename = 'datafiles/Education_USDA.csv'
+usdafilename_df = pd.read_csv(usdafilename, encoding="ISO-8859-1")
+
+
+# In[9]:
+
+
+del usdafilename_df['Less than a high school diploma, 2013-17']
+del usdafilename_df['High school diploma only, 2013-17']
+del usdafilename_df["Some college or associate's degree, 2013-17"]
+del usdafilename_df["Bachelor's degree or higher, 2013-17"]
+del usdafilename_df["Unnamed: 11"]
+        
+
+
+# In[10]:
+
+
+usdafilename_df = usdafilename_df.dropna()
+         
+
+
+# In[11]:
+
+
+renamed_code = usdafilename_df.rename(columns={"FIPS Code":"GEOID"})
+renamed_code['GEOID'] = renamed_code['GEOID'].map(lambda x: int(x))
+renamed_code
+
+
+# In[12]:
+
+
+gazfilename = 'datafiles/2017_Gaz_counties_national.csv'
+gazfilename_df = pd.read_csv(gazfilename, encoding="ISO-8859-1")
+
+
+# In[13]:
+
+
+del gazfilename_df['USPS']
+del gazfilename_df['ANSICODE']
+del gazfilename_df["NAME"]
+del gazfilename_df["ALAND"]
+del gazfilename_df['AWATER']
+del gazfilename_df['ALAND_SQMI']
+del gazfilename_df["AWATER_SQMI"]
+gazfilename_df.head()
+
+
+# In[14]:
+
+
+merge_table = pd.merge(renamed_code, gazfilename_df, on="GEOID")
+
+
+# In[15]:
+
+
+merge_table.columns
+
+
+# In[16]:
+
+
+merge_table.columns = ['GEOID', 'State', 'Area name',
+       'Percent of adults with less than a high school diploma, 2013-17',
+       'Percent of adults with a high school diploma only, 2013-17',
+       'Percent of adults completing some college or associate\'s degree, 2013-17',
+       'Percent of adults with a bachelor\'s degree or higher, 2013-17',
+       'INTPTLAT',
+       'INTPTLONG']
+merge_table.head()
+
+
+# In[17]:
+
+
+def weighted_education(row):
+    a = row['Percent of adults with less than a high school diploma, 2013-17']*0
+    b = row['Percent of adults with a high school diploma only, 2013-17']*0.4
+    c = row["Percent of adults completing some college or associate's degree, 2013-17"]*0.6
+    d = row["Percent of adults with a bachelor's degree or higher, 2013-17"]*0.8
+    return (a+b+c+d)
+
+
+# In[18]:
+
+
+merge_table['Weighted Education Score'] = merge_table.apply(weighted_education, axis=1)
+
+
+# In[19]:
+
+
+merge_table
+
+
+# In[38]:
+
+
+# Store latitude and longitude in locations
+locations = merge_table[["INTPTLAT", "INTPTLONG"]]
+# Plot Heatmap
+fig = gmaps.figure()
+BD = merge_table["Weighted Education Score"]
+# Create heat layer
+heat_layer = gmaps.heatmap_layer(locations, weights=BD , 
+                                 dissipating=False, max_intensity=100,
+                                 point_radius=0.5)
+
+
+# Add layer
+fig.add_layer(heat_layer)
+
+# Display figure
+fig
+
+
+# ### Education vs High IMR by counties
+
+# In[21]:
+
+
+highcounties = 'datafiles/high_IMR_county.csv'
+highcounties_df = pd.read_csv(highcounties, encoding="ISO-8859-1")
+highcounties_df
+
+
+# In[39]:
+
+
+coordinates3 = [
+    (32.577195, -93.882423),
+    (30.543930, -91.093131),
+    (32.267788, -90.466017),
+    (39.300032, -76.610476),
+    (33.553444, -86.896536),
+    (35.183794, -89.895397),
+    (38.635699, -90.244582),
+    (39.196927, -84.544187),
+    (42.284664, -83.261953),
+    (35.050192, -78.828719)
+]
+
+
+# In[40]:
+
+
+figure_layout3 = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig3 = gmaps.figure(layout=figure_layout3)
+
+
+# In[41]:
+
+
+# Assign the marker layer to a variable
+markers3 = gmaps.marker_layer(coordinates3)
+# Add the layer to the map
+fig.add_layer(markers3)
+#fig
+
+
+# In[42]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers3)
+
+fig
+
+
+# ### Education vs Low IMR by counties
+
+# In[26]:
+
+
+lowcounties = 'datafiles/low_IMR_county.csv'
+lowcounties_df = pd.read_csv(lowcounties, encoding="ISO-8859-1")
+lowcounties_df
+
+
+# In[43]:
+
+
+coordinates4 = [
+    (38.051817, -122.745974),
+    (39.865669, -74.258864),
+    (37.414672, -122.371546),
+    (39.325414, -104.925987),
+    (40.959698, -74.074727),
+    (40.858896, -74.547292),
+    (37.220777, -121.690622),
+    (37.727239, -123.032229),
+    (40.565527, -74.619938),
+    (40.287048, -74.152446)
+]
+
+
+# In[44]:
+
+
+figure_layout4 = {
+    'width': '400px',
+    'height': '300px',
+    'border': '1px solid black',
+    'padding': '1px',
+    'margin': '0 auto 0 auto'
+}
+fig4 = gmaps.figure(layout=figure_layout4)
+
+
+# In[45]:
+
+
+# Assign the marker layer to a variable
+markers4 = gmaps.marker_layer(coordinates4)
+# Add the layer to the map
+fig.add_layer(markers4)
+#fig
+
+
+# In[46]:
+
+
+fig = gmaps.figure()
+
+fig.add_layer(heat_layer)
+fig.add_layer(markers4)
+
+fig
+
+
+# ### AAR Education vs Death Rate
+
+# In[53]:
+
+
+aareducation = 'datafiles/Death_Rate_by_AAR_by_Education.csv'
+aareducation_df = pd.read_csv(aareducation, encoding="ISO-8859-1")
+
+
+# In[54]:
+
+
+aareducation_sorted =aareducation_df.sort_values(["Death Rate"],ascending=False)
+
+
+# In[55]:
+
+
+exclude_unknown_aar = aareducation_sorted.loc[aareducation_sorted['Education']!= "Unknown/Not on certificate"]
+exclude_unknown_aar
+
+
+# In[62]:
+
+
+x_axis = exclude_unknown_aar['Education']
+y_axis = exclude_unknown_aar['Death Rate']
+plt.tight_layout()
+plt.ylabel("Death Rate %")
+plt.xlabel("Education level of African American Race")
+plt.bar(x_axis, y_axis, color="b", align="center")
+plt.xticks(range(len(x_axis)), ["9-12th\ngrade", "Excluded", "HS\nor GED", "Some\ncollege\ncredit" , "Associate\ndegree", "8th\ngrade\nor less", "Bachelor's\ndegree", "Master's\ndegree", "Doctorate\ndegree"] )
+
+plt.savefig("Images/Education_of_AAR.png")
+plt.show()
+
+
+# In[63]:
+
+
+censusaareducation = 'datafiles/AAR_Education_2013_2017.csv'
+censusaareducation_df = pd.read_csv(censusaareducation, encoding="ISO-8859-1")
+
+
+# In[36]:
+
+
+censusaareducation_df.dropna()
+
+
+# ### Level of Education of African Americans 2013-2017
+
+# In[37]:
+
+
+x_axis = censusaareducation_df['Education']
+y_axis = censusaareducation_df['Average']
+plt.tight_layout()
+plt.ylabel("Average %")
+plt.xlabel("Education level of African American Race")
+plt.bar(x_axis, y_axis, color="b", align="center")
+plt.xticks(censusaareducation_df['Education'], rotation="vertical")
+
+plt.savefig("Images/Census_Education_of_AAR.png")
+plt.show()
+
+
+# In[ ]:
+
+
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import csv 
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+# In[2]:
+
+
+file= "datafiles/birth_weight.csv"
+birthweight_df=pd.read_csv(file)
+birthweight_df
+
+
+# In[3]:
+
+
+total_rate = list(birthweight_df["Death Rate Per 1,000"])
+
+
+# In[4]:
+
+
+birthweight_df
+
+
+# In[5]:
+
+
+list_rate = []
+sum_rate = birthweight_df["Death Rate Per 1,000"].sum()
+for rate in total_rate:
+    rate_percent = (rate / sum_rate) * 100
+    list_rate.append(rate_percent)
+
+
+# In[6]:
+
+
+birthweight_df["Deaths Rate"] =list_rate
+birthweight_df["Deaths Percent (%)"] = birthweight_df["Deaths Rate"].map("{0:.2f}%".format)
+
+
+# In[7]:
+
+
+birthweight_df
+
+
+# In[8]:
+
+
+rate_percent = list(birthweight_df["Deaths Rate"])
+birth_weight = list(birthweight_df["Birth Weight Code"])
+
+
+# In[9]:
+
+
+bw_x_axis = birth_weight
+bw_y_axis = rate_percent
+
+
+# In[10]:
+
+
+birthweight_df["Birth Weight Code"]
+
+
+# In[11]:
+
+
+birthweight_df["Deaths Rate"]
+
+
+# In[12]:
+
+
+label = [" ~ 0.5kg", "~0.9kg", "~1.5kg", "~ 1.9kg", "~2.5kg", "~3.0kg", "~3.5kg","~4.0kg","~4.5kg", "~5.0kg","5.0~8.1 kg","Not Stated"]
+plt.figure(figsize=(10,8))
+plt.bar(bw_x_axis, bw_y_axis, color = "#D35400", alpha = 0.5,align ="center")
+plt.title(f"Birth Weights Infant Mortality Rate",fontsize=15)
+plt.xlabel("Weights", fontsize= 10)
+plt.ylabel("Infant Mortality Rate",fontsize= 10)
+plt.xticks(bw_x_axis, label, fontsize=10, rotation=30)
+plt.savefig("Images/bw_Birth Weights Infant Mortality Rate.png")
+plt.show()
+
+
+# In[13]:
+
+
+file= "datafiles/total_low_brith_weight_by_race.csv"
+total_birthweight_df=pd.read_csv(file)
+total_birthweight_df
+
+
+# In[14]:
+
+
+for i in range(6,10):
+    total_birthweight_df[f"200{i}"]=total_birthweight_df[f"200{i}"].str.replace("%", "")
+
+
+# In[15]:
+
+
+for i in range(10,16):
+    total_birthweight_df[f"20{i}"]=total_birthweight_df[f"20{i}"].str.replace("%", "")
+
+
+# In[16]:
+
+
+total_birthweight_df
+
+
+# In[17]:
+
+
+for i in range(6,10):
+    total_birthweight_df[f"200{i}"]=total_birthweight_df[f"200{i}"].str.replace(",", "")
+    total_birthweight_df[f"200{i}"]=total_birthweight_df[f"200{i}"].astype(float)
+
+
+# In[18]:
+
+
+for i in range(10,16):
+    total_birthweight_df[f"20{i}"]=total_birthweight_df[f"20{i}"].str.replace(",", "")
+    total_birthweight_df[f"20{i}"]=total_birthweight_df[f"20{i}"].astype(float)
+
+
+# In[19]:
+
+
+total_birthweight_df['2006'].astype(float)
+total_birthweight_df.dtypes
+
+
+# In[20]:
+
+
+percent_race_df = pd.DataFrame(total_birthweight_df[total_birthweight_df["Data Type"].isin(["Percent"])])
+total_race_df =pd.DataFrame(total_birthweight_df[total_birthweight_df["Data Type"].isin(["Number"])])
+
+
+# In[21]:
+
+
+race_list = list(total_race_df["Race"])
+
+
+# In[22]:
+
+
+race_list = race_list[0:5]
+
+
+# In[23]:
+
+
+percent_race_df=percent_race_df.iloc[0:5]
+
+
+# In[24]:
+
+
+percent_race_df["Race"] = race_list
+
+
+# In[25]:
+
+
+percent_race_df=percent_race_df.set_index("Race")
+total_race_df=total_race_df.set_index("Race")
+
+
+# In[26]:
+
+
+percent_race_df = percent_race_df.drop("Data Type",axis=1)
+
+
+# In[27]:
+
+
+total_race_df=total_race_df.drop("Data Type",axis=1)
+
+
+# In[28]:
+
+
+average_percent_race_list = []
+for race in race_list :
+    average_percent_race_list.append(percent_race_df.loc[f"{race}"].mean())
+
+
+# In[29]:
+
+
+percent_race_df["Average %"] = average_percent_race_list
+
+
+# In[30]:
+
+
+percent_race_df.dtypes
+
+
+# In[31]:
+
+
+percent_race_df
+
+
+# In[32]:
+
+
+bw_race_x_axis = race_list 
+bw_race_y_axis = list(percent_race_df["Average %"])
+
+
+# In[33]:
+
+
+bw_race_y_axis
+
+
+# In[34]:
+
+
+label = ['American Indian', 'Asian and Pacific Islander', 'African American', 'Hispanic or Latino', 'Non-Hispanic White']
+plt.figure(figsize=(7,5))
+plt.bar(bw_race_x_axis, bw_race_y_axis, color = "#7FB3D5", alpha = 0.5,align ="center")
+plt.title(f"Birth Weights Infant Mortality Rate by Race",fontsize=15)
+plt.xlabel("Race", fontsize= 10)
+plt.ylabel("Infant Mortality Rate (Average %)",fontsize= 10)
+plt.xticks(bw_race_x_axis, label, fontsize=10, rotation=90)
+plt.savefig("Images/bw_Birth Weights Infant Mortality Rate by Race.png")
+plt.show()
+
+
+# In[35]:
+
+
+file= "datafiles/overweight_rates.csv"
+overweight_df=pd.read_csv(file)
+overweight_df
+
+
+# In[36]:
+
+
+overweight_df = overweight_df.set_index("Location")
+
+
+# In[37]:
+
+
+list_overweight = list(overweight_df.loc['United States'])
+
+
+# In[38]:
+
+
+list_overweight
+
+
+# In[39]:
+
+
+overweight_df.dtypes
+
+
+# In[40]:
+
+
+label = ['American Indian', 'Asian and Pacific Islander', 'African American', 'Hispanic or Latino', 'Non-Hispanic White']
+plt.figure(figsize=(10,8))
+plt.bar(label,list_overweight, color = "#8E44AD", alpha = 0.5,align ="center")
+plt.title(f"Overweight and Obesity Rates for Adults by Race/Ethnicity",fontsize=15)
+plt.xlabel("Race", fontsize= 10)
+plt.ylabel("Average %",fontsize= 10)
+plt.xticks(fontsize=10, rotation=90)
+plt.ylim(0,100)
+plt.savefig("Images/bw_Overweight and Obesity Rates for Adults by Race.png")
+plt.show()
+#plt.xticks(x_axis, label, fontsize=10, rotation=90)
+
+
+# In[41]:
+
+
+file= "datafiles/total_rate_hypertension_race.csv"
+hypertension_df=pd.read_csv(file)
+hypertension_df
+
+
+# In[42]:
+
+
+hypertension_df.dtypes
+
+
+# In[43]:
+
+
+hypertension_df =hypertension_df.set_index("Location")
+
+
+# In[44]:
+
+
+list_hypertension=list(hypertension_df.loc["United States"])
+
+
+# In[45]:
+
+
+list_hypertension
+
+
+# In[46]:
+
+
+label = ['American Indian', 'Asian and Pacific Islander', 'African American', 'Hispanic or Latino', 'Non-Hispanic White']
+plt.figure(figsize=(10,8))
+plt.bar(label,list_hypertension, color = "#EC7063", alpha = 0.5,align ="center")
+plt.title(f"Prevalence of hypertension among US adults (18+)",fontsize=15)
+plt.xlabel("Race", fontsize= 10)
+plt.ylabel("Average %",fontsize= 10)
+plt.xticks(fontsize=10, rotation=90)
+plt.ylim(0,100)
+plt.savefig("Images/bw_Prevalence of hypertension among US adults.png")
+plt.show()
+
+
+# In[47]:
+
+
+file= "datafiles/IMR_by_race.csv"
+IMR_df=pd.read_csv(file)
+IMR_df
+
+
+# In[48]:
+
+
+IMR_df=IMR_df.set_index("Location")
+
+
+# In[49]:
+
+
+list_IMR_rate=list(IMR_df.loc["United States"])
+
+
+# In[51]:
+
+
+label = ['American Indian', 'Asian and Pacific Islander', 'African American', 'Hispanic or Latino', 'Non-Hispanic White']
+bar_width=0.3
+plt.figure(figsize=(10,8))
+r1=np.arange(len(label))
+r2=[x + bar_width for x in r1]
+r3=[x + bar_width for x in r2]
+plt.bar(r1, bw_race_y_axis,color = "#7fe5b9",width=bar_width,edgecolor='white', label='Preterm Baby')
+plt.bar(r2,list_hypertension, color = "#bde592",width=bar_width,edgecolor='white', label='Hypertension')
+plt.bar(r3,list_overweight, color = "#ffba50", width=bar_width,edgecolor='white', label='Overweight')
+plt.plot(label, list_IMR_rate,label = "IMR Rate",color = "#fc6060", marker='o', linestyle='dashed',linewidth=2, markersize=12)
+plt.title(f"Infant Mortality Rate Factors by Race",fontsize=15)
+plt.xlabel("Race", fontsize= 10)
+plt.ylabel("Rate (Average %)",fontsize= 10)
+plt.xticks([r+bar_width for r in range(len(label))],['American Indian', 'Asian and Pacific Islander', 'African American', 'Hispanic or Latino', 'Non-Hispanic White'], fontsize=10, rotation=90)
+plt.ylim(0,100)
+plt.legend()
+plt.savefig("Images/bw_IMR Factors by Race.png", bb)
+plt.show()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import gmaps
+from config import gkey
+from scipy.stats import linregress
+
+
+# In[2]:
+
+
+#read census poverty data
+poverty_df = pd.read_csv('datafiles/2007_2016_poverty.csv')
+
+
+# In[3]:
+
+
+poverty_df.head()
+
+
+# In[4]:
+
+
+#only keep needed columns
+poverty_df = poverty_df[["Year","County ID","State / County Name","All Ages in Poverty Percent"]]
+
+
+# In[5]:
+
+
+poverty_df.head()
+
+
+# In[6]:
+
+
+#group by the County ID
+poverty_group = poverty_df.groupby(["County ID"]).mean()
+
+
+# In[7]:
+
+
+poverty_group.head()
+
+
+# In[8]:
+
+
+#read table of lat/lng cooridnates for counties
+location_df = pd.read_csv('datafiles/2017_counties.csv', encoding="ISO-8859-1")
+
+
+# In[9]:
+
+
+location_df = location_df.rename(columns={'GEOID': "County ID","INTPTLAT": "Lat","INTPTLONG": "Lng"})
+
+
+# In[10]:
+
+
+location_df.head()
+
+
+# In[11]:
+
+
+#combine poverty data with county location data
+merge_table = pd.merge(poverty_df, location_df, on="County ID", how="left")
+
+
+# In[12]:
+
+
+merge_table.head()
+
+
+# In[13]:
+
+
+#group by County ID
+merge_group = merge_table.groupby(["County ID"]).mean()
+
+
+# In[14]:
+
+
+merge_group.head()
+
+
+# In[15]:
+
+
+#remove rows with missing values
+merge_group = merge_group.dropna(how="any")
+
+
+# In[16]:
+
+
+merge_group.head()
+
+
+# In[17]:
+
+
+#load API key
+gmaps.configure(api_key=gkey)
+
+
+# In[18]:
+
+
+#construct heat map of poverty levels from 2007-2016
+locations = merge_group[["Lat", "Lng"]].astype(float)
+poverty_rate = merge_group["All Ages in Poverty Percent"].astype(float)
+fig = gmaps.figure()
+heat_layer = gmaps.heatmap_layer(locations, weights=poverty_rate, 
+                                 dissipating=False, max_intensity=100,
+                                 point_radius = .6)
+
+
+# In[19]:
+
+
+fig.add_layer(heat_layer)
+
+fig
+
+
+# In[20]:
+
+
+#read CDC data on top 15 states for infant death rates
+death_rates_state_top_df = pd.read_csv('datafiles/death_rates_state_top.csv')
+
+
+# In[21]:
+
+
+death_rates_state_top_df
+
+
+# In[22]:
+
+
+#drop location markers on the 15 states
+locations_state = death_rates_state_top_df[["Lat", "Lng"]].astype(float)
+state_layer = gmaps.symbol_layer(
+    locations_state, fill_color='rgba(0, 150, 0, 0.4)',
+    stroke_color='rgba(0, 0, 150, 0.4)', scale=4)
+
+#state_layer.markers[10].scale=20
+
+
+
+fig = gmaps.figure()
+fig.add_layer(state_layer)
+
+fig
+
+
+# In[23]:
+
+
+#combine poverty heatmap with state location
+fig = gmaps.figure()
+fig.add_layer(heat_layer)
+fig.add_layer(state_layer)
+fig
+
+
+# In[24]:
+
+
+#read CDC data on death rates per county for 2006-2017
+death_rates_county = pd.read_csv('datafiles/death_rates.csv')
+
+
+# In[25]:
+
+
+death_rates_county.head()
+
+
+# In[26]:
+
+
+death_rates_county = death_rates_county.rename(columns={"County Code": "County ID"})
+
+
+# In[27]:
+
+
+death_rates_county.head()
+
+
+# In[204]:
+
+
+#merge CDC data on death rates per county with poverty and county location data
+regress_df = pd.merge(death_rates_county, merge_group, on="County ID", how="left")
+
+
+# In[89]:
+
+
+regress_df.head()
+
+
+# In[205]:
+
+
+#remove all rows with missing values
+regress_df = regress_df.dropna(how="any")
+
+
+# In[31]:
+
+
+regress_df.head()
+
+
+# In[32]:
+
+
+#define x and y axis for regression analsys
+x_axis = regress_df["All Ages in Poverty Percent"]
+y_axis = regress_df["Death Rate"]
+
+
+# In[33]:
+
+
+(slope, intercept, _, _, _) = linregress(x_axis, y_axis)
+fit = slope * x_axis + intercept
+
+
+# In[34]:
+
+
+#calculate statistical values
+slope, intercept, r_value, p_value, std_err = linregress(x_axis, y_axis)
+
+
+# In[35]:
+
+
+#perform linear regression of death rate versus poverty
+fig, ax = plt.subplots()
+
+fig.suptitle("Death Rate v Poverty 2007-2016", fontsize=16, fontweight="bold")
+
+ax.set_xlim(0,35)
+ax.set_ylim(0,15)
+
+ax.set_xlabel("Poverty Rate (%)")
+ax.set_ylabel("Death Rate (per 1000)")
+
+ax.plot(x_axis, y_axis, linewidth=0, marker='o')
+ax.plot(x_axis, fit, 'b--')
+plt.savefig("Images/deathrateVpoverty_linregress.png")
+plt.show()
+
+
+# In[36]:
+
+
+p_value
+
+
+# In[37]:
+
+
+#start health insurance analysis
+insurance_df = pd.read_csv("datafiles/insurance.csv")
+
+
+# In[38]:
+
+
+insurance_df.head()
+
+
+# In[39]:
+
+
+death_rates_state = pd.read_csv("datafiles/death_rates_state.txt", delimiter="\t")
+
+
+# In[40]:
+
+
+death_rates_state = death_rates_state[["State","Death Rate"]]
+
+
+# In[41]:
+
+
+death_rates_state = death_rates_state.dropna(how="any")
+
+
+# In[42]:
+
+
+death_rates_state.head()
+
+
+# In[43]:
+
+
+insurance_group = insurance_df.groupby("State").mean()
+
+
+# In[44]:
+
+
+insurance_group.head()
+
+
+# In[45]:
+
+
+insurance_merge = pd.merge(death_rates_state, insurance_group, on="State", how="left")
+
+
+# In[46]:
+
+
+insurance_merge.head()
+
+
+# In[47]:
+
+
+x_axis = insurance_merge["Total"]
+y_axis = insurance_merge["Death Rate"]
+
+
+# In[48]:
+
+
+#graph the death rate versus total rate of insurance for all states
+plt.scatter(x_axis, y_axis)
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Rate of Insurance Coverage (%)")
+plt.title("Death Rate v Total Insurance Rate")
+plt.savefig("Images/DeathRate_v_TotalInsurance.png")
+
+
+# In[49]:
+
+
+(slope, intercept, _, _, _) = linregress(x_axis, y_axis)
+fit = slope * x_axis + intercept
+slope, intercept, r_value, p_value, std_err = linregress(x_axis, y_axis)
+
+
+# In[50]:
+
+
+p_value
+
+
+# In[51]:
+
+
+x2_axis = insurance_merge["Public"]
+
+
+# In[52]:
+
+
+insurance_merge = insurance_merge.dropna(how="any")
+
+
+# In[53]:
+
+
+insurance_merge.dtypes
+
+
+# In[54]:
+
+
+#plot death rate versus rate of public insurance
+(slope, intercept, _, _, _) = linregress(x2_axis, y_axis)
+fit = slope * x2_axis + intercept
+slope, intercept, r_value, p_value, std_err = linregress(x2_axis, y_axis)
+
+fig, ax = plt.subplots()
+
+fig.suptitle("", fontsize=16, fontweight="bold")
+
+ax.set_xlim(15,55)
+ax.set_ylim(4,10)
+
+ax.plot(x2_axis, y_axis, linewidth=0, marker='o')
+ax.plot(x2_axis, fit, 'b--')
+plt.scatter(x2_axis, y_axis)
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Rate of Public Insurance Coverage (%)")
+plt.title("Death Rate v Public Insurance Rate")
+plt.savefig("Images/DeathRate_v_PublicInsurance.png")
+plt.show()
+
+
+# In[55]:
+
+
+p_value
+
+
+# In[56]:
+
+
+x3_axis = insurance_merge["Private"]
+
+
+# In[57]:
+
+
+#plot death rate versus rate of private insurance
+(slope, intercept, _, _, _) = linregress(x3_axis, y_axis)
+fit = slope * x3_axis + intercept
+slope, intercept, r_value, p_value, std_err = linregress(x3_axis, y_axis)
+
+fig, ax = plt.subplots()
+
+fig.suptitle("", fontsize=16, fontweight="bold")
+
+ax.set_xlim(40,80)
+ax.set_ylim(4,10)
+
+ax.plot(x3_axis, y_axis, linewidth=0, marker='o')
+ax.plot(x3_axis, fit, 'b--')
+plt.scatter(x3_axis, y_axis)
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Rate of Private Insurance Coverage (%)")
+plt.title("Death Rate v Private Insurance Rate")
+plt.savefig("Images/DeathRate_v_PrivateInsurance")
+plt.show()
+
+
+# In[58]:
+
+
+p_value
+
+
+# In[59]:
+
+
+#Start new analysis on top ten and bottom ten african american counties regarding death rate
+AfricanAmerican20 = pd.read_csv("datafiles/AfricanAmerican20.csv")
+
+
+# In[60]:
+
+
+AfricanAmerican20
+
+
+# In[61]:
+
+
+AfricanAmerican20 = AfricanAmerican20.rename(columns={"County Code": "County ID"})
+
+
+# In[62]:
+
+
+african_merge = pd.merge(AfricanAmerican20, merge_group, on="County ID", how="left")
+
+
+# In[63]:
+
+
+african_merge = african_merge[["County ID","Death Rate","All Ages in Poverty Percent"]]
+
+
+# In[64]:
+
+
+african_merge
+
+
+# In[65]:
+
+
+x_axis = african_merge["All Ages in Poverty Percent"]
+y_axis = african_merge["Death Rate"]
+
+
+# In[66]:
+
+
+african_merge.set_index("County ID").plot.bar("Death Rate")
+
+
+# In[67]:
+
+
+black_counties = pd.read_csv("datafiles/black_counties.csv")
+
+
+# In[68]:
+
+
+black_counties.head()
+
+
+# In[69]:
+
+
+black_merge = pd.merge(black_counties, merge_group, on="County ID", how="left")
+
+
+# In[70]:
+
+
+black_merge = black_merge.dropna(how="any")
+
+
+# In[71]:
+
+
+black_merge.head()
+
+
+# In[72]:
+
+
+x_axis = black_merge["All Ages in Poverty Percent"]
+y_axis = black_merge["Death Rate"]
+plt.scatter(x_axis, y_axis)
+
+
+# In[73]:
+
+
+#plot death rate versus poverty rate for African Americans
+(slope, intercept, _, _, _) = linregress(x_axis, y_axis)
+fit = slope * x_axis + intercept
+slope, intercept, r_value, p_value, std_err = linregress(x_axis, y_axis)
+
+fig, ax = plt.subplots()
+
+fig.suptitle("", fontsize=16, fontweight="bold")
+
+ax.set_xlim(4,31)
+ax.set_ylim(5,18)
+
+# ax.set_xlabel("Poverty Rate (%)")
+# ax.set_ylabel("Death Rate (%)")
+
+ax.plot(x_axis, y_axis, linewidth=0, marker='o')
+ax.plot(x_axis, fit, 'b--')
+plt.scatter(x_axis, y_axis)
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Poverty Rate (%)")
+plt.title("Death Rate v Poverty Rate for African Americans")
+plt.savefig("Images/DeathRate_v_AfricanAmericanPoverty.png")
+plt.show()
+
+
+# In[74]:
+
+
+p_value
+
+
+# In[75]:
+
+
+white_counties = pd.read_csv("datafiles/white_counties.csv")
+
+
+# In[76]:
+
+
+white_counties.head()
+
+
+# In[77]:
+
+
+white_merge = pd.merge(white_counties, merge_group, on="County ID", how="left")
+
+
+# In[78]:
+
+
+white_merge = white_merge.dropna(how="any")
+
+
+# In[79]:
+
+
+#plot death rate versus poverty rate for Whites
+x_axis = white_merge["All Ages in Poverty Percent"]
+y_axis = white_merge["Death Rate"]
+
+(slope, intercept, _, _, _) = linregress(x_axis, y_axis)
+fit = slope * x_axis + intercept
+slope, intercept, r_value, p_value, std_err = linregress(x_axis, y_axis)
+
+fig, ax = plt.subplots()
+
+fig.suptitle("", fontsize=16, fontweight="bold")
+
+ax.set_xlim(4,35)
+ax.set_ylim(2,8)
+
+ax.plot(x_axis, y_axis, linewidth=0, marker='o')
+ax.plot(x_axis, fit, 'b--')
+plt.scatter(x_axis, y_axis)
+plt.ylabel("Death Rate (per 1000)")
+plt.xlabel("Poverty Rate (%)")
+plt.title("Death Rate v Poverty Rate for Whites")
+plt.savefig("Images/DeathRate_v_PovertyRateWhites.png")
+plt.show()
+
+
+# In[80]:
+
+
+p_value
+
+
+# In[206]:
+
+
+#Heatmap with poverty per county and top ten counties deathrate
+regress_df = regress_df.sort_values(by=["Death Rate"], ascending=False)
+
+
+# In[207]:
+
+
+regress_df = regress_df.reset_index()
+
+
+# In[208]:
+
+
+regress_df.head()
+
+
+# In[209]:
+
+
+regress_df = regress_df.iloc[0:10]
+
+
+# In[210]:
+
+
+regress_df
+
+
+# In[211]:
+
+
+regress_df.to_csv("datafiles/low_IMR_county.csv")
+
+
+# In[212]:
+
+
+gmaps.configure(api_key=gkey)
+#construct heat map of poverty levels from 2007-2016
+locations = merge_group[["Lat", "Lng"]].astype(float)
+poverty_rate = merge_group["All Ages in Poverty Percent"].astype(float)
+fig = gmaps.figure()
+heat_layer = gmaps.heatmap_layer(locations, weights=poverty_rate, 
+                                 dissipating=False, max_intensity=100,
+                                 point_radius = .6)
+
+#drop location markers on the 10 counties
+locations_county = regress_df[["Lat", "Lng"]].astype(float)
+county_layer = gmaps.symbol_layer(
+    locations_county, fill_color='rgba(0, 150, 0, 0.4)',
+    stroke_color='rgba(0, 0, 150, 0.4)', scale=4)
+
+fig = gmaps.figure()
+fig.add_layer(heat_layer)
+fig.add_layer(county_layer)
+fig
+
+
+# In[ ]:
+
+
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+#
+# Logan Caldwell
+#
+
+get_ipython().run_line_magic('matplotlib', 'notebook')
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import random
+
+mothers_age_state_csv = "mothers_age_state_grouped.csv"
+
+df_mothers_age_state = pd.read_csv(mothers_age_state_csv)
+
+df_mothers_age_state.head(15)
+
+
+# In[2]:
+
+
+df_mothers_age_state.describe()
+
+### Dropna working correctly here??
+df_mothers_age_state.dropna(axis=0, how="any")
+df_mothers_age_state["Age of Mother"].unique()
+
+
+# In[3]:
+
+
+df_mothers_age_state.mean()
+
+
+# In[4]:
+
+
+ages_15_19 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "15-19 years"]
+ages_20_24 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "20-24 years"]
+ages_25_29 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "25-29 years"]
+ages_30_34 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "30-34 years"]
+ages_35_39 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "35-39 years"]
+ages_40_44 = df_mothers_age_state[df_mothers_age_state["Age of Mother"] == "40-44 years"]
+
+ages_15_19["Death Rate"] = ages_15_19["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+ages_20_24["Death Rate"] = ages_20_24["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+ages_25_29["Death Rate"] = ages_25_29["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+ages_30_34["Death Rate"] = ages_30_34["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+ages_35_39["Death Rate"] = ages_35_39["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+ages_40_44["Death Rate"] = ages_40_44["Death Rate"].str.replace("\s*\(Unreliable\)", "")
+
+
+# In[5]:
+
+
+ages_15_19["Death Rate"] = ages_15_19["Death Rate"].astype(float)
+ages_20_24["Death Rate"] = ages_20_24["Death Rate"].astype(float)
+ages_25_29["Death Rate"] = ages_25_29["Death Rate"].astype(float)
+ages_30_34["Death Rate"] = ages_30_34["Death Rate"].astype(float)
+ages_35_39["Death Rate"] = ages_35_39["Death Rate"].astype(float)
+ages_40_44["Death Rate"] = ages_40_44["Death Rate"].astype(float)
+
+ages_15_19_IMR_mean = (ages_15_19["Death Rate"].mean())
+ages_20_24_IMR_mean = (ages_20_24["Death Rate"].mean())
+ages_25_29_IMR_mean = (ages_25_29["Death Rate"].mean())
+ages_30_34_IMR_mean = (ages_30_34["Death Rate"].mean())
+ages_35_39_IMR_mean = (ages_35_39["Death Rate"].mean())
+ages_40_44_IMR_mean = (ages_40_44["Death Rate"].mean())
+
+IMR_rate_means_by_age_list = [ages_15_19_IMR_mean,ages_20_24_IMR_mean,ages_25_29_IMR_mean,ages_30_34_IMR_mean,ages_35_39_IMR_mean,ages_40_44_IMR_mean]
+IMR_rate_means_by_age_list
+
+
+# In[6]:
+
+
+df_mothers_age_state_means = df_mothers_age_state.mean()
+df_mothers_age_state_means.head()
+
+
+# In[7]:
+
+
+df_mothers_age_state.set_index("State")
+df_mothers_age_state_grouped = df_mothers_age_state.groupby(by="State", group_keys=True,)
+df_mothers_age_state.mean()
+
+
+# In[8]:
+
+
+age_ticks = [0,1,2,3,4,5]
+age_ranges_list = ["15-19", "20-24", "25-29", "30-34", "35-39", "40-44"]
+
+x=[0,1,2,3,4,5]
+
+
+# In[9]:
+
+
+m_age_IMR_plot = plt.scatter(age_ranges_list, IMR_rate_means_by_age_list, )
+
+
+# In[16]:
+
+
+plt.title("Mother's Age and Infant Mortality Rate")
+plt.xlabel("Age of Mother")
+plt.ylabel("Infant Mortality Rate (%)")
+plt.grid()
+# plt.legend(loc="best", labels=age_ranges_list)
+plt.xlim(-1,6)
+plt.ylim(0, max(IMR_rate_means_by_age_list)+2)
+plt.tight_layout()
+
+
+# In[17]:
+
+
+plt.show()
+
+
+# In[18]:
+
+
+plt.savefig("IMR_and_age_of_mother_plot")
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

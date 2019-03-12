@@ -107,12 +107,12 @@ x=[0,1,2,3,4,5]
 m_age_IMR_plot = plt.scatter(age_ranges_list, IMR_rate_means_by_age_list, )
 
 
-# In[20]:
+# In[16]:
 
 
 plt.title("Mother's Age and Infant Mortality Rate")
 plt.xlabel("Age of Mother")
-plt.ylabel("Infant Mortality Rate")
+plt.ylabel("Infant Mortality Rate (%)")
 plt.grid()
 # plt.legend(loc="best", labels=age_ranges_list)
 plt.xlim(-1,6)
@@ -120,13 +120,13 @@ plt.ylim(0, max(IMR_rate_means_by_age_list)+2)
 plt.tight_layout()
 
 
-# In[21]:
+# In[17]:
 
 
 plt.show()
 
 
-# In[22]:
+# In[18]:
 
 
 plt.savefig("IMR_and_age_of_mother_plot")
