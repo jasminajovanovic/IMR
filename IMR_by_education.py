@@ -349,27 +349,27 @@ fig
 
 # ### AAR Education vs Death Rate
 
-# In[31]:
+# In[53]:
 
 
 aareducation = 'datafiles/Death_Rate_by_AAR_by_Education.csv'
 aareducation_df = pd.read_csv(aareducation, encoding="ISO-8859-1")
 
 
-# In[32]:
+# In[54]:
 
 
 aareducation_sorted =aareducation_df.sort_values(["Death Rate"],ascending=False)
 
 
-# In[33]:
+# In[55]:
 
 
 exclude_unknown_aar = aareducation_sorted.loc[aareducation_sorted['Education']!= "Unknown/Not on certificate"]
 exclude_unknown_aar
 
 
-# In[34]:
+# In[62]:
 
 
 x_axis = exclude_unknown_aar['Education']
@@ -378,13 +378,13 @@ plt.tight_layout()
 plt.ylabel("Death Rate %")
 plt.xlabel("Education level of African American Race")
 plt.bar(x_axis, y_axis, color="b", align="center")
-plt.xticks(exclude_unknown_aar['Education'], rotation="vertical")
+plt.xticks(range(len(x_axis)), ["9-12th\ngrade", "Excluded", "HS\nor GED", "Some\ncollege\ncredit" , "Associate\ndegree", "8th\ngrade\nor less", "Bachelor's\ndegree", "Master's\ndegree", "Doctorate\ndegree"] )
 
 plt.savefig("Images/Education_of_AAR.png")
 plt.show()
 
 
-# In[35]:
+# In[63]:
 
 
 censusaareducation = 'datafiles/AAR_Education_2013_2017.csv'
