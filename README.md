@@ -8,7 +8,7 @@ Logan Caldwell, John Chambers, Jasmina Jovanovic, Hyunsoo Kim, and Ediya Yumukof
 
 ## Project Description:
 
-An investigation of Infant Mortality Rates (IMR) in the United States and the associated factors. 
+The United States has a higher Infant Mortaility Rate than any other wealthy country in the world. We set out to investigate the causes of Infant Mortality Rates (IMR) in the United States and the associated factors. 
 
 ![IMR, US vs Other Countries](Images/imr_by_country.png)
 
@@ -20,6 +20,7 @@ An investigation of Infant Mortality Rates (IMR) in the United States and the as
 4) How does the education level of the mother relate to IMR?
 5) Does the age of the mother play a role in IMR?
 6) Does having health insurance lower the rate of IMR?
+7) Does infants' birthweight affect the IMR?
 
 ## Datasets Used:
 
@@ -28,6 +29,9 @@ https://wonder.cdc.gov/controller/datarequest/D69
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
 http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
 https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&filter=data&islDatasource=BRFSS&islTopic=T9&islFilterby=2&go=GO
+
+
 
 ## Questions - Answered
 
