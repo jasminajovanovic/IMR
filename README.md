@@ -78,8 +78,6 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ![Education level](Images/Education_lever_line.png)
 
-### 6) Does the age of the mother play a role in IMR?
-=======
 ### 5) Does the age of the mother play a role in IMR?
 
 ![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
