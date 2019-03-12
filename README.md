@@ -15,17 +15,16 @@ The United States has a higher Infant Mortaility Rate than any other wealthy cou
 ## Research Questions to Answer:
 
 1) What are the leading causes of infant deaths in the US?
-2) Where is IMR the highest?
-3) Is there a correlation between poverty and IMR?
-4) Do different races experience different levels of IMR?
-5) How does the education level of the mother relate to IMR?
-6) Does the age of the mother play a role in IMR?
-7) Does having health insurance lower the rate of IMR?
-8) Does infants' birthweight affect the IMR?
+2) Is there a correlation between poverty and IMR?
+3) Do different races experience different levels of IMR?
+4) How does the education level of the mother relate to IMR?
+5) Does the age of the mother play a role in IMR?
+6) Does having health insurance lower the rate of IMR?
+7) Does infants' birthweight affect the IMR?
 
 ## Datasets Used:
 
-(not sure if we want to list every single dataset we pulled, or something like "we got data from the CDC")
+
 https://wonder.cdc.gov/controller/datarequest/D69
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
 http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
@@ -43,30 +42,24 @@ https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&fil
 - The leading cause of infant death is extreme immaturity, followed by Sudden Infant Death Syndrome (SIDS). Extremely premature babies are babies born before 28 weeks of gestational age. (Note that there is a correlation between the two leading causes of infant death, since SIDS rates are higher amont premature babies.)
 - Most infant deaths occur either in the first 24 hours after birth as a result of extreme immaturity, or between one month and one year, as a result of SIDS 
 
+### 2) Is there a correlation between poverty and IMR?
 
-### 2) Where is IMR the highest?
-
-*IMR is the highest in the southern and eastern United States.
-
-
-### 3) Is there a correlation between poverty and IMR?
-
-*Poverty and IMR have a postive correlation.
+* Poverty and IMR have a postive correlation.
 
 Average poverty by county for 2007-2016. Markers represent 15 highest IMR states:
 ![Death Rate v African American Poverty](Images/heatmap_poverty_IMR.PNG)
 
 ![Linear regression of death rate versus poverty](Images/deathrateVpoverty_linregress.png)
 
-*There is a clear correlation between IMR and poverty levels. 
+* There is a clear correlation between IMR and poverty levels. 
 
 ![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)
 
 ![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
-*Even though the correlation holds for both whites and African Americans, African Americans experience higher levels of IMR than whites for similar poverty levels. 
+* Even though the correlation holds for both whites and African Americans, African Americans experience higher levels of IMR than whites for similar poverty levels. 
 
-### 4) Do different races experience different levels of IMR?
+### 3) Do different races experience different levels of IMR?
 
 ![IMR by Race](Images/Death%20Rate%20by%20Race.png)
 
@@ -82,11 +75,11 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 - It is possible that there are inaccuracies in the cause of death for the American Indian / Alaska Native race
 
 
-### 5) How does the education level of the mother relate to IMR?
+### 4) How does the education level of the mother relate to IMR?
 
-### 6) Does the age of the mother play a role in IMR?
+### 5) Does the age of the mother play a role in IMR?
 
-### 7) Does having health insurance lower the rate of IMR?
+### 6) Does having health insurance lower the rate of IMR?
 
 ![Death Rate v Total Insurance Level](Images/DeathRate_v_TotalInsurance.png)
 
@@ -100,7 +93,7 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 *There is also a correlation between IMR and having private insurance. 
 
-### 8) Does infants' birthweight affect the IMR?
+### 7) Does infants' birthweight affect the IMR?
 
 
 ## Conclusions
