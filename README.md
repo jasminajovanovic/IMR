@@ -63,6 +63,8 @@ Average poverty by county for 2007-2016. Markers represent top 15 states for IMR
 
 ### 5) Does the age of the mother play a role in IMR?
 
+![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
+
 ### 6) Does having health insurance lower the rate of IMR?
 
 ![Death Rate v Total Insurance Level](Images/DeathRate_v_TotalInsurance.png)
