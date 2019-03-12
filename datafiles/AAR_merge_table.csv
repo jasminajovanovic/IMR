@@ -1,0 +1,795 @@
+,Unnamed: 0,Area name,GEOID,Race,Race Code,Education,Death Rate,State,INTPTLAT,INTPTLONG
+0,0,Jefferson County,1073,Black or African American,2054-5,9th through 12th grade with no diploma,14.18,AL,33.553444,-86.896536
+1,1,Jefferson County,1073,Black or African American,2054-5,High school graduate or GED completed,12.23,AL,33.553444,-86.896536
+2,2,Jefferson County,1073,Black or African American,2054-5,"Some college credit, but not a degree",14.79,AL,33.553444,-86.896536
+3,3,Jefferson County,1073,Black or African American,2054-5,"Associate degree (AA, AS)",14.75,AL,33.553444,-86.896536
+4,4,Jefferson County,1073,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",15.37,AL,33.553444,-86.896536
+5,5,Jefferson County,1073,Black or African American,2054-5,Excluded,16.08,AL,33.553444,-86.896536
+6,6,Madison County,1089,Black or African American,2054-5,9th through 12th grade with no diploma,24.61,AL,34.764238,-86.55108
+7,7,Madison County,1089,Black or African American,2054-5,High school graduate or GED completed,10.77,AL,34.764238,-86.55108
+8,8,Madison County,1089,Black or African American,2054-5,"Some college credit, but not a degree",11.24,AL,34.764238,-86.55108
+9,9,Madison County,1089,Black or African American,2054-5,Excluded,12.31,AL,34.764238,-86.55108
+10,10,Mobile County,1097,Black or African American,2054-5,9th through 12th grade with no diploma,15.01,AL,30.684571999999996,-88.196568
+11,11,Mobile County,1097,Black or African American,2054-5,High school graduate or GED completed,14.33,AL,30.684571999999996,-88.196568
+12,12,Mobile County,1097,Black or African American,2054-5,"Some college credit, but not a degree",12.89,AL,30.684571999999996,-88.196568
+13,13,Mobile County,1097,Black or African American,2054-5,Excluded,11.87,AL,30.684571999999996,-88.196568
+14,23,Maricopa County,4013,Black or African American,2054-5,9th through 12th grade with no diploma,10.43,AZ,33.346540999999995,-112.495534
+15,24,Maricopa County,4013,Black or African American,2054-5,High school graduate or GED completed,10.0,AZ,33.346540999999995,-112.495534
+16,25,Maricopa County,4013,Black or African American,2054-5,"Some college credit, but not a degree",9.7,AZ,33.346540999999995,-112.495534
+17,26,Maricopa County,4013,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.02,AZ,33.346540999999995,-112.495534
+18,27,Maricopa County,4013,Black or African American,2054-5,Excluded,12.43,AZ,33.346540999999995,-112.495534
+19,28,Pima County,4019,Black or African American,2054-5,Excluded,11.25,AZ,32.128523,-111.783027
+20,30,Pulaski County,5119,Black or African American,2054-5,9th through 12th grade with no diploma,17.68,AR,34.770311,-92.312996
+21,31,Pulaski County,5119,Black or African American,2054-5,High school graduate or GED completed,10.61,AR,34.770311,-92.312996
+22,32,Pulaski County,5119,Black or African American,2054-5,"Some college credit, but not a degree",8.22,AR,34.770311,-92.312996
+23,33,Pulaski County,5119,Black or African American,2054-5,Excluded,13.13,AR,34.770311,-92.312996
+24,39,Alameda County,6001,Black or African American,2054-5,9th through 12th grade with no diploma,9.91,CA,37.647139,-121.91248799999998
+25,40,Alameda County,6001,Black or African American,2054-5,High school graduate or GED completed,9.98,CA,37.647139,-121.91248799999998
+26,41,Alameda County,6001,Black or African American,2054-5,"Some college credit, but not a degree",6.46,CA,37.647139,-121.91248799999998
+27,42,Alameda County,6001,Black or African American,2054-5,"Associate degree (AA, AS)",13.32,CA,37.647139,-121.91248799999998
+28,43,Alameda County,6001,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.48,CA,37.647139,-121.91248799999998
+29,44,Alameda County,6001,Black or African American,2054-5,Unknown/Not on certificate,15.77,CA,37.647139,-121.91248799999998
+30,45,Contra Costa County,6013,Black or African American,2054-5,9th through 12th grade with no diploma,10.27,CA,37.919478999999995,-121.95154299999999
+31,46,Contra Costa County,6013,Black or African American,2054-5,High school graduate or GED completed,9.11,CA,37.919478999999995,-121.95154299999999
+32,47,Contra Costa County,6013,Black or African American,2054-5,"Some college credit, but not a degree",7.86,CA,37.919478999999995,-121.95154299999999
+33,48,Fresno County,6019,Black or African American,2054-5,9th through 12th grade with no diploma,16.5,CA,36.761006,-119.655019
+34,49,Fresno County,6019,Black or African American,2054-5,High school graduate or GED completed,14.8,CA,36.761006,-119.655019
+35,50,Fresno County,6019,Black or African American,2054-5,"Some college credit, but not a degree",16.57,CA,36.761006,-119.655019
+36,51,Fresno County,6019,Black or African American,2054-5,"Associate degree (AA, AS)",19.12,CA,36.761006,-119.655019
+37,52,Fresno County,6019,Black or African American,2054-5,Unknown/Not on certificate,25.88,CA,36.761006,-119.655019
+38,53,Kern County,6029,Black or African American,2054-5,9th through 12th grade with no diploma,19.42,CA,35.346629,-118.729506
+39,54,Kern County,6029,Black or African American,2054-5,High school graduate or GED completed,7.33,CA,35.346629,-118.729506
+40,55,Kern County,6029,Black or African American,2054-5,"Some college credit, but not a degree",8.56,CA,35.346629,-118.729506
+41,56,Los Angeles County,6037,Black or African American,2054-5,9th through 12th grade with no diploma,11.03,CA,34.196397999999995,-118.26186200000001
+42,57,Los Angeles County,6037,Black or African American,2054-5,High school graduate or GED completed,9.72,CA,34.196397999999995,-118.26186200000001
+43,58,Los Angeles County,6037,Black or African American,2054-5,"Some college credit, but not a degree",8.09,CA,34.196397999999995,-118.26186200000001
+44,59,Los Angeles County,6037,Black or African American,2054-5,"Associate degree (AA, AS)",6.96,CA,34.196397999999995,-118.26186200000001
+45,60,Los Angeles County,6037,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.11,CA,34.196397999999995,-118.26186200000001
+46,61,Los Angeles County,6037,Black or African American,2054-5,"Master's degree (MA, MS)",4.4,CA,34.196397999999995,-118.26186200000001
+47,62,Los Angeles County,6037,Black or African American,2054-5,"Doctorate (PHD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",6.79,CA,34.196397999999995,-118.26186200000001
+48,63,Los Angeles County,6037,Black or African American,2054-5,Unknown/Not on certificate,25.36,CA,34.196397999999995,-118.26186200000001
+49,64,Orange County,6059,Black or African American,2054-5,High school graduate or GED completed,7.7,CA,33.675686999999996,-117.777207
+50,65,Orange County,6059,Black or African American,2054-5,"Some college credit, but not a degree",8.66,CA,33.675686999999996,-117.777207
+51,66,Riverside County,6065,Black or African American,2054-5,9th through 12th grade with no diploma,12.31,CA,33.729828000000005,-116.00223899999999
+52,67,Riverside County,6065,Black or African American,2054-5,High school graduate or GED completed,9.5,CA,33.729828000000005,-116.00223899999999
+53,68,Riverside County,6065,Black or African American,2054-5,"Some college credit, but not a degree",9.0,CA,33.729828000000005,-116.00223899999999
+54,69,Riverside County,6065,Black or African American,2054-5,"Associate degree (AA, AS)",8.17,CA,33.729828000000005,-116.00223899999999
+55,70,Riverside County,6065,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.97,CA,33.729828000000005,-116.00223899999999
+56,71,Riverside County,6065,Black or African American,2054-5,Unknown/Not on certificate,22.83,CA,33.729828000000005,-116.00223899999999
+57,72,Sacramento County,6067,Black or African American,2054-5,9th through 12th grade with no diploma,12.63,CA,38.450016,-121.340441
+58,73,Sacramento County,6067,Black or African American,2054-5,High school graduate or GED completed,10.9,CA,38.450016,-121.340441
+59,74,Sacramento County,6067,Black or African American,2054-5,"Some college credit, but not a degree",8.11,CA,38.450016,-121.340441
+60,75,Sacramento County,6067,Black or African American,2054-5,Unknown/Not on certificate,14.07,CA,38.450016,-121.340441
+61,76,San Bernardino County,6071,Black or African American,2054-5,9th through 12th grade with no diploma,10.64,CA,34.85722,-116.181197
+62,77,San Bernardino County,6071,Black or African American,2054-5,High school graduate or GED completed,12.26,CA,34.85722,-116.181197
+63,78,San Bernardino County,6071,Black or African American,2054-5,"Some college credit, but not a degree",11.54,CA,34.85722,-116.181197
+64,79,San Bernardino County,6071,Black or African American,2054-5,"Associate degree (AA, AS)",14.58,CA,34.85722,-116.181197
+65,80,San Bernardino County,6071,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.28,CA,34.85722,-116.181197
+66,81,San Bernardino County,6071,Black or African American,2054-5,"Master's degree (MA, MS)",10.5,CA,34.85722,-116.181197
+67,82,San Diego County,6073,Black or African American,2054-5,9th through 12th grade with no diploma,4.81,CA,33.023604,-116.776117
+68,83,San Diego County,6073,Black or African American,2054-5,High school graduate or GED completed,9.43,CA,33.023604,-116.776117
+69,84,San Diego County,6073,Black or African American,2054-5,"Some college credit, but not a degree",7.75,CA,33.023604,-116.776117
+70,85,San Diego County,6073,Black or African American,2054-5,"Associate degree (AA, AS)",10.25,CA,33.023604,-116.776117
+71,86,San Diego County,6073,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.07,CA,33.023604,-116.776117
+72,87,San Diego County,6073,Black or African American,2054-5,Unknown/Not on certificate,12.18,CA,33.023604,-116.776117
+73,88,San Francisco County,6075,Black or African American,2054-5,9th through 12th grade with no diploma,10.48,CA,37.727239000000004,-123.032229
+74,89,San Francisco County,6075,Black or African American,2054-5,High school graduate or GED completed,12.62,CA,37.727239000000004,-123.032229
+75,90,San Francisco County,6075,Black or African American,2054-5,"Some college credit, but not a degree",8.56,CA,37.727239000000004,-123.032229
+76,91,San Francisco County,6075,Black or African American,2054-5,Unknown/Not on certificate,42.02,CA,37.727239000000004,-123.032229
+77,92,San Joaquin County,6077,Black or African American,2054-5,9th through 12th grade with no diploma,13.91,CA,37.934982,-121.272244
+78,93,San Joaquin County,6077,Black or African American,2054-5,High school graduate or GED completed,12.85,CA,37.934982,-121.272244
+79,94,San Joaquin County,6077,Black or African American,2054-5,"Some college credit, but not a degree",13.08,CA,37.934982,-121.272244
+80,95,Santa Clara County,6085,Black or African American,2054-5,"Some college credit, but not a degree",7.78,CA,37.220777000000005,-121.69062199999999
+81,96,Solano County,6095,Black or African American,2054-5,High school graduate or GED completed,10.87,CA,38.267226,-121.939594
+82,97,Solano County,6095,Black or African American,2054-5,"Some college credit, but not a degree",7.76,CA,38.267226,-121.939594
+83,98,Stanislaus County,6099,Black or African American,2054-5,High school graduate or GED completed,14.33,CA,37.562315999999996,-121.002831
+84,101,Adams County,8001,Black or African American,2054-5,"Some college credit, but not a degree",19.45,CO,39.874325,-104.331872
+85,102,Arapahoe County,8005,Black or African American,2054-5,9th through 12th grade with no diploma,13.05,CO,39.644554,-104.33170600000001
+86,103,Arapahoe County,8005,Black or African American,2054-5,High school graduate or GED completed,9.25,CO,39.644554,-104.33170600000001
+87,104,Arapahoe County,8005,Black or African American,2054-5,"Some college credit, but not a degree",8.23,CO,39.644554,-104.33170600000001
+88,105,Arapahoe County,8005,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",15.0,CO,39.644554,-104.33170600000001
+89,106,Arapahoe County,8005,Black or African American,2054-5,Excluded,15.34,CO,39.644554,-104.33170600000001
+90,107,Denver County,8031,Black or African American,2054-5,9th through 12th grade with no diploma,10.9,CO,39.76185,-104.881105
+91,108,Denver County,8031,Black or African American,2054-5,High school graduate or GED completed,12.19,CO,39.76185,-104.881105
+92,109,Denver County,8031,Black or African American,2054-5,"Some college credit, but not a degree",7.57,CO,39.76185,-104.881105
+93,110,Denver County,8031,Black or African American,2054-5,Excluded,10.93,CO,39.76185,-104.881105
+94,111,El Paso County,8041,Black or African American,2054-5,High school graduate or GED completed,12.22,CO,38.827383000000005,-104.527472
+95,112,El Paso County,8041,Black or African American,2054-5,"Some college credit, but not a degree",8.35,CO,38.827383000000005,-104.527472
+96,113,Fairfield County,9001,Black or African American,2054-5,Excluded,10.51,CT,41.227413,-73.36706099999999
+97,114,Hartford County,9003,Black or African American,2054-5,Excluded,11.3,CT,41.806053000000006,-72.732916
+98,115,New Haven County,9009,Black or African American,2054-5,Excluded,10.52,CT,41.349717,-72.900204
+99,116,New London County,9011,Black or African American,2054-5,Excluded,10.33,CT,41.472652000000004,-72.108634
+100,118,New Castle County,10003,Black or African American,2054-5,9th through 12th grade with no diploma,14.63,DE,39.575915,-75.644132
+101,119,New Castle County,10003,Black or African American,2054-5,High school graduate or GED completed,17.79,DE,39.575915,-75.644132
+102,120,New Castle County,10003,Black or African American,2054-5,"Some college credit, but not a degree",12.59,DE,39.575915,-75.644132
+103,121,New Castle County,10003,Black or African American,2054-5,"Associate degree (AA, AS)",19.25,DE,39.575915,-75.644132
+104,122,New Castle County,10003,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.51,DE,39.575915,-75.644132
+105,123,New Castle County,10003,Black or African American,2054-5,"Master's degree (MA, MS)",8.25,DE,39.575915,-75.644132
+106,124,New Castle County,10003,Black or African American,2054-5,Unknown/Not on certificate,48.89,DE,39.575915,-75.644132
+107,128,District of Columbia,11001,Black or African American,2054-5,9th through 12th grade with no diploma,9.66,DC,38.904103000000006,-77.017229
+108,129,District of Columbia,11001,Black or African American,2054-5,High school graduate or GED completed,10.74,DC,38.904103000000006,-77.017229
+109,130,District of Columbia,11001,Black or African American,2054-5,"Some college credit, but not a degree",9.59,DC,38.904103000000006,-77.017229
+110,131,District of Columbia,11001,Black or African American,2054-5,"Associate degree (AA, AS)",16.1,DC,38.904103000000006,-77.017229
+111,132,District of Columbia,11001,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.39,DC,38.904103000000006,-77.017229
+112,133,District of Columbia,11001,Black or African American,2054-5,Unknown/Not on certificate,82.27,DC,38.904103000000006,-77.017229
+113,134,District of Columbia,11001,Black or African American,2054-5,Excluded,14.18,DC,38.904103000000006,-77.017229
+114,135,Brevard County,12009,Black or African American,2054-5,9th through 12th grade with no diploma,18.82,FL,28.298303999999998,-80.700331
+115,136,Brevard County,12009,Black or African American,2054-5,High school graduate or GED completed,10.12,FL,28.298303999999998,-80.700331
+116,137,Brevard County,12009,Black or African American,2054-5,"Some college credit, but not a degree",12.21,FL,28.298303999999998,-80.700331
+117,138,Broward County,12011,Black or African American,2054-5,8th grade or less,11.21,FL,26.193535,-80.476683
+118,139,Broward County,12011,Black or African American,2054-5,9th through 12th grade with no diploma,9.04,FL,26.193535,-80.476683
+119,140,Broward County,12011,Black or African American,2054-5,High school graduate or GED completed,9.07,FL,26.193535,-80.476683
+120,141,Broward County,12011,Black or African American,2054-5,"Some college credit, but not a degree",7.29,FL,26.193535,-80.476683
+121,142,Broward County,12011,Black or African American,2054-5,"Associate degree (AA, AS)",6.68,FL,26.193535,-80.476683
+122,143,Broward County,12011,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.75,FL,26.193535,-80.476683
+123,144,Broward County,12011,Black or African American,2054-5,"Master's degree (MA, MS)",7.57,FL,26.193535,-80.476683
+124,145,Broward County,12011,Black or African American,2054-5,Unknown/Not on certificate,59.45,FL,26.193535,-80.476683
+125,146,Collier County,12021,Black or African American,2054-5,High school graduate or GED completed,13.22,FL,26.118786,-81.40095500000001
+126,147,Duval County,12031,Black or African American,2054-5,8th grade or less,10.87,FL,30.335245,-81.648113
+127,148,Duval County,12031,Black or African American,2054-5,9th through 12th grade with no diploma,12.93,FL,30.335245,-81.648113
+128,149,Duval County,12031,Black or African American,2054-5,High school graduate or GED completed,11.25,FL,30.335245,-81.648113
+129,150,Duval County,12031,Black or African American,2054-5,"Some college credit, but not a degree",12.73,FL,30.335245,-81.648113
+130,151,Duval County,12031,Black or African American,2054-5,"Associate degree (AA, AS)",7.19,FL,30.335245,-81.648113
+131,152,Duval County,12031,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",13.25,FL,30.335245,-81.648113
+132,153,Duval County,12031,Black or African American,2054-5,"Master's degree (MA, MS)",10.29,FL,30.335245,-81.648113
+133,154,Duval County,12031,Black or African American,2054-5,Unknown/Not on certificate,210.14,FL,30.335245,-81.648113
+134,155,Escambia County,12033,Black or African American,2054-5,9th through 12th grade with no diploma,15.23,FL,30.611638,-87.3389
+135,156,Escambia County,12033,Black or African American,2054-5,High school graduate or GED completed,12.4,FL,30.611638,-87.3389
+136,157,Escambia County,12033,Black or African American,2054-5,"Some college credit, but not a degree",11.51,FL,30.611638,-87.3389
+137,158,Hillsborough County,12057,Black or African American,2054-5,8th grade or less,18.55,FL,27.906607,-82.349719
+138,159,Hillsborough County,12057,Black or African American,2054-5,9th through 12th grade with no diploma,16.07,FL,27.906607,-82.349719
+139,160,Hillsborough County,12057,Black or African American,2054-5,High school graduate or GED completed,14.21,FL,27.906607,-82.349719
+140,161,Hillsborough County,12057,Black or African American,2054-5,"Some college credit, but not a degree",14.88,FL,27.906607,-82.349719
+141,162,Hillsborough County,12057,Black or African American,2054-5,"Associate degree (AA, AS)",13.43,FL,27.906607,-82.349719
+142,163,Hillsborough County,12057,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.8,FL,27.906607,-82.349719
+143,164,Hillsborough County,12057,Black or African American,2054-5,Unknown/Not on certificate,102.47,FL,27.906607,-82.349719
+144,165,Lake County,12069,Black or African American,2054-5,High school graduate or GED completed,20.44,FL,28.764113000000002,-81.712282
+145,166,Lee County,12071,Black or African American,2054-5,9th through 12th grade with no diploma,10.95,FL,26.559034999999998,-81.891994
+146,167,Lee County,12071,Black or African American,2054-5,High school graduate or GED completed,13.99,FL,26.559034999999998,-81.891994
+147,168,Lee County,12071,Black or African American,2054-5,"Some college credit, but not a degree",13.11,FL,26.559034999999998,-81.891994
+148,169,Leon County,12073,Black or African American,2054-5,High school graduate or GED completed,10.34,FL,30.45931,-84.2778
+149,170,Leon County,12073,Black or African American,2054-5,"Some college credit, but not a degree",9.56,FL,30.45931,-84.2778
+150,171,Manatee County,12081,Black or African American,2054-5,9th through 12th grade with no diploma,15.08,FL,27.481682,-82.368767
+151,172,Manatee County,12081,Black or African American,2054-5,High school graduate or GED completed,15.72,FL,27.481682,-82.368767
+152,173,Marion County,12083,Black or African American,2054-5,9th through 12th grade with no diploma,14.42,FL,29.202804999999998,-82.0431
+153,174,Marion County,12083,Black or African American,2054-5,High school graduate or GED completed,16.45,FL,29.202804999999998,-82.0431
+154,175,Marion County,12083,Black or African American,2054-5,"Some college credit, but not a degree",11.18,FL,29.202804999999998,-82.0431
+155,176,Miami-Dade County,12086,Black or African American,2054-5,8th grade or less,15.01,FL,25.61058,-80.499137
+156,177,Miami-Dade County,12086,Black or African American,2054-5,9th through 12th grade with no diploma,11.99,FL,25.61058,-80.499137
+157,178,Miami-Dade County,12086,Black or African American,2054-5,High school graduate or GED completed,9.23,FL,25.61058,-80.499137
+158,179,Miami-Dade County,12086,Black or African American,2054-5,"Some college credit, but not a degree",7.59,FL,25.61058,-80.499137
+159,180,Miami-Dade County,12086,Black or African American,2054-5,"Associate degree (AA, AS)",7.83,FL,25.61058,-80.499137
+160,181,Miami-Dade County,12086,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.87,FL,25.61058,-80.499137
+161,182,Miami-Dade County,12086,Black or African American,2054-5,"Master's degree (MA, MS)",6.88,FL,25.61058,-80.499137
+162,183,Miami-Dade County,12086,Black or African American,2054-5,Unknown/Not on certificate,85.25,FL,25.61058,-80.499137
+163,184,Orange County,12095,Black or African American,2054-5,9th through 12th grade with no diploma,12.25,FL,28.514435,-81.323295
+164,185,Orange County,12095,Black or African American,2054-5,High school graduate or GED completed,10.92,FL,28.514435,-81.323295
+165,186,Orange County,12095,Black or African American,2054-5,"Some college credit, but not a degree",11.55,FL,28.514435,-81.323295
+166,187,Orange County,12095,Black or African American,2054-5,"Associate degree (AA, AS)",10.75,FL,28.514435,-81.323295
+167,188,Orange County,12095,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.22,FL,28.514435,-81.323295
+168,189,Orange County,12095,Black or African American,2054-5,"Master's degree (MA, MS)",8.54,FL,28.514435,-81.323295
+169,190,Orange County,12095,Black or African American,2054-5,Unknown/Not on certificate,121.09,FL,28.514435,-81.323295
+170,191,Palm Beach County,12099,Black or African American,2054-5,8th grade or less,8.02,FL,26.649124,-80.448374
+171,192,Palm Beach County,12099,Black or African American,2054-5,9th through 12th grade with no diploma,10.95,FL,26.649124,-80.448374
+172,193,Palm Beach County,12099,Black or African American,2054-5,High school graduate or GED completed,9.73,FL,26.649124,-80.448374
+173,194,Palm Beach County,12099,Black or African American,2054-5,"Some college credit, but not a degree",6.7,FL,26.649124,-80.448374
+174,195,Palm Beach County,12099,Black or African American,2054-5,"Associate degree (AA, AS)",8.1,FL,26.649124,-80.448374
+175,196,Palm Beach County,12099,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.19,FL,26.649124,-80.448374
+176,197,Palm Beach County,12099,Black or African American,2054-5,Unknown/Not on certificate,31.25,FL,26.649124,-80.448374
+177,198,Pasco County,12101,Black or African American,2054-5,High school graduate or GED completed,9.98,FL,28.307465000000004,-82.464584
+178,199,Pinellas County,12103,Black or African American,2054-5,9th through 12th grade with no diploma,15.51,FL,27.903121999999996,-82.739518
+179,200,Pinellas County,12103,Black or African American,2054-5,High school graduate or GED completed,12.66,FL,27.903121999999996,-82.739518
+180,201,Pinellas County,12103,Black or African American,2054-5,"Some college credit, but not a degree",12.39,FL,27.903121999999996,-82.739518
+181,202,Pinellas County,12103,Black or African American,2054-5,"Associate degree (AA, AS)",14.1,FL,27.903121999999996,-82.739518
+182,203,Pinellas County,12103,Black or African American,2054-5,Unknown/Not on certificate,53.25,FL,27.903121999999996,-82.739518
+183,204,Polk County,12105,Black or African American,2054-5,9th through 12th grade with no diploma,10.1,FL,27.953115000000004,-81.69278299999999
+184,205,Polk County,12105,Black or African American,2054-5,High school graduate or GED completed,12.75,FL,27.953115000000004,-81.69278299999999
+185,206,Polk County,12105,Black or African American,2054-5,"Some college credit, but not a degree",11.92,FL,27.953115000000004,-81.69278299999999
+186,207,Polk County,12105,Black or African American,2054-5,"Associate degree (AA, AS)",10.81,FL,27.953115000000004,-81.69278299999999
+187,208,Polk County,12105,Black or African American,2054-5,Unknown/Not on certificate,200.0,FL,27.953115000000004,-81.69278299999999
+188,209,St. Lucie County,12111,Black or African American,2054-5,High school graduate or GED completed,9.69,FL,27.379812,-80.443537
+189,210,Sarasota County,12115,Black or African American,2054-5,High school graduate or GED completed,7.3,FL,27.184386,-82.365835
+190,211,Seminole County,12117,Black or African American,2054-5,9th through 12th grade with no diploma,21.2,FL,28.690092,-81.131989
+191,212,Seminole County,12117,Black or African American,2054-5,High school graduate or GED completed,11.05,FL,28.690092,-81.131989
+192,213,Seminole County,12117,Black or African American,2054-5,"Some college credit, but not a degree",7.58,FL,28.690092,-81.131989
+193,214,Seminole County,12117,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",12.4,FL,28.690092,-81.131989
+194,215,Volusia County,12127,Black or African American,2054-5,9th through 12th grade with no diploma,12.77,FL,29.057769,-81.161792
+195,216,Volusia County,12127,Black or African American,2054-5,High school graduate or GED completed,13.17,FL,29.057769,-81.161792
+196,217,Volusia County,12127,Black or African American,2054-5,"Some college credit, but not a degree",10.0,FL,29.057769,-81.161792
+197,226,Chatham County,13051,Black or African American,2054-5,9th through 12th grade with no diploma,17.62,GA,31.98041,-81.085196
+198,227,Chatham County,13051,Black or African American,2054-5,High school graduate or GED completed,12.99,GA,31.98041,-81.085196
+199,228,Chatham County,13051,Black or African American,2054-5,"Some college credit, but not a degree",9.74,GA,31.98041,-81.085196
+200,229,Clayton County,13063,Black or African American,2054-5,High school graduate or GED completed,13.81,GA,33.542685999999996,-84.35557299999999
+201,230,Clayton County,13063,Black or African American,2054-5,"Some college credit, but not a degree",8.08,GA,33.542685999999996,-84.35557299999999
+202,231,Cobb County,13067,Black or African American,2054-5,9th through 12th grade with no diploma,13.52,GA,33.93994,-84.574166
+203,232,Cobb County,13067,Black or African American,2054-5,High school graduate or GED completed,10.39,GA,33.93994,-84.574166
+204,233,Cobb County,13067,Black or African American,2054-5,"Some college credit, but not a degree",9.39,GA,33.93994,-84.574166
+205,234,Cobb County,13067,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.23,GA,33.93994,-84.574166
+206,235,Cobb County,13067,Black or African American,2054-5,"Master's degree (MA, MS)",7.54,GA,33.93994,-84.574166
+207,236,Cobb County,13067,Black or African American,2054-5,Unknown/Not on certificate,22.29,GA,33.93994,-84.574166
+208,237,Cobb County,13067,Black or African American,2054-5,Excluded,11.92,GA,33.93994,-84.574166
+209,238,DeKalb County,13089,Black or African American,2054-5,9th through 12th grade with no diploma,9.51,GA,33.770661,-84.226343
+210,239,DeKalb County,13089,Black or African American,2054-5,High school graduate or GED completed,10.03,GA,33.770661,-84.226343
+211,240,DeKalb County,13089,Black or African American,2054-5,"Some college credit, but not a degree",7.61,GA,33.770661,-84.226343
+212,241,DeKalb County,13089,Black or African American,2054-5,"Associate degree (AA, AS)",7.69,GA,33.770661,-84.226343
+213,242,DeKalb County,13089,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.69,GA,33.770661,-84.226343
+214,243,DeKalb County,13089,Black or African American,2054-5,"Master's degree (MA, MS)",6.53,GA,33.770661,-84.226343
+215,244,DeKalb County,13089,Black or African American,2054-5,Unknown/Not on certificate,26.14,GA,33.770661,-84.226343
+216,245,DeKalb County,13089,Black or African American,2054-5,Excluded,10.28,GA,33.770661,-84.226343
+217,246,Fulton County,13121,Black or African American,2054-5,8th grade or less,12.73,GA,33.790034000000006,-84.468182
+218,247,Fulton County,13121,Black or African American,2054-5,9th through 12th grade with no diploma,10.37,GA,33.790034000000006,-84.468182
+219,248,Fulton County,13121,Black or African American,2054-5,High school graduate or GED completed,9.29,GA,33.790034000000006,-84.468182
+220,249,Fulton County,13121,Black or African American,2054-5,"Some college credit, but not a degree",9.08,GA,33.790034000000006,-84.468182
+221,250,Fulton County,13121,Black or African American,2054-5,"Associate degree (AA, AS)",9.21,GA,33.790034000000006,-84.468182
+222,251,Fulton County,13121,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.08,GA,33.790034000000006,-84.468182
+223,252,Fulton County,13121,Black or African American,2054-5,"Master's degree (MA, MS)",7.25,GA,33.790034000000006,-84.468182
+224,253,Fulton County,13121,Black or African American,2054-5,Unknown/Not on certificate,16.29,GA,33.790034000000006,-84.468182
+225,254,Fulton County,13121,Black or African American,2054-5,Excluded,12.41,GA,33.790034000000006,-84.468182
+226,255,Gwinnett County,13135,Black or African American,2054-5,9th through 12th grade with no diploma,8.14,GA,33.959146000000004,-84.023087
+227,256,Gwinnett County,13135,Black or African American,2054-5,High school graduate or GED completed,9.68,GA,33.959146000000004,-84.023087
+228,257,Gwinnett County,13135,Black or African American,2054-5,"Some college credit, but not a degree",8.82,GA,33.959146000000004,-84.023087
+229,258,Gwinnett County,13135,Black or African American,2054-5,"Associate degree (AA, AS)",6.78,GA,33.959146000000004,-84.023087
+230,259,Gwinnett County,13135,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.5,GA,33.959146000000004,-84.023087
+231,260,Gwinnett County,13135,Black or African American,2054-5,"Master's degree (MA, MS)",6.14,GA,33.959146000000004,-84.023087
+232,261,Gwinnett County,13135,Black or African American,2054-5,Unknown/Not on certificate,27.69,GA,33.959146000000004,-84.023087
+233,262,Gwinnett County,13135,Black or African American,2054-5,Excluded,10.08,GA,33.959146000000004,-84.023087
+234,272,Honolulu County,15003,Black or African American,2054-5,Excluded,13.32,HI,21.461365,-158.201974
+235,273,Cook County,17031,Black or African American,2054-5,8th grade or less,14.66,IL,41.894294,-87.645455
+236,274,Cook County,17031,Black or African American,2054-5,9th through 12th grade with no diploma,14.12,IL,41.894294,-87.645455
+237,275,Cook County,17031,Black or African American,2054-5,High school graduate or GED completed,13.39,IL,41.894294,-87.645455
+238,276,Cook County,17031,Black or African American,2054-5,"Some college credit, but not a degree",10.6,IL,41.894294,-87.645455
+239,277,Cook County,17031,Black or African American,2054-5,"Associate degree (AA, AS)",12.51,IL,41.894294,-87.645455
+240,278,Cook County,17031,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",11.36,IL,41.894294,-87.645455
+241,279,Cook County,17031,Black or African American,2054-5,"Master's degree (MA, MS)",10.39,IL,41.894294,-87.645455
+242,280,Cook County,17031,Black or African American,2054-5,Unknown/Not on certificate,32.6,IL,41.894294,-87.645455
+243,281,Cook County,17031,Black or African American,2054-5,Excluded,13.48,IL,41.894294,-87.645455
+244,282,DuPage County,17043,Black or African American,2054-5,"Some college credit, but not a degree",8.44,IL,41.852058,-88.086038
+245,283,DuPage County,17043,Black or African American,2054-5,Excluded,16.13,IL,41.852058,-88.086038
+246,284,Kane County,17089,Black or African American,2054-5,9th through 12th grade with no diploma,22.88,IL,41.939594,-88.42804
+247,285,Kane County,17089,Black or African American,2054-5,High school graduate or GED completed,11.96,IL,41.939594,-88.42804
+248,286,Kane County,17089,Black or African American,2054-5,Excluded,7.7,IL,41.939594,-88.42804
+249,287,Lake County,17097,Black or African American,2054-5,9th through 12th grade with no diploma,15.87,IL,42.326440999999996,-87.435976
+250,288,Lake County,17097,Black or African American,2054-5,High school graduate or GED completed,16.83,IL,42.326440999999996,-87.435976
+251,289,Lake County,17097,Black or African American,2054-5,"Some college credit, but not a degree",10.2,IL,42.326440999999996,-87.435976
+252,290,Lake County,17097,Black or African American,2054-5,Excluded,9.5,IL,42.326440999999996,-87.435976
+253,291,Madison County,17119,Black or African American,2054-5,9th through 12th grade with no diploma,27.33,IL,38.827082,-89.900195
+254,292,Madison County,17119,Black or African American,2054-5,"Some college credit, but not a degree",14.29,IL,38.827082,-89.900195
+255,293,Madison County,17119,Black or African American,2054-5,Excluded,12.96,IL,38.827082,-89.900195
+256,294,St. Clair County,17163,Black or African American,2054-5,9th through 12th grade with no diploma,14.81,IL,38.470197999999996,-89.928546
+257,295,St. Clair County,17163,Black or African American,2054-5,High school graduate or GED completed,9.14,IL,38.470197999999996,-89.928546
+258,296,St. Clair County,17163,Black or African American,2054-5,"Some college credit, but not a degree",13.54,IL,38.470197999999996,-89.928546
+259,297,St. Clair County,17163,Black or African American,2054-5,Excluded,11.31,IL,38.470197999999996,-89.928546
+260,298,Will County,17197,Black or African American,2054-5,High school graduate or GED completed,12.94,IL,41.448474,-87.97845600000001
+261,299,Will County,17197,Black or African American,2054-5,"Some college credit, but not a degree",10.66,IL,41.448474,-87.97845600000001
+262,300,Will County,17197,Black or African American,2054-5,Excluded,13.65,IL,41.448474,-87.97845600000001
+263,301,Winnebago County,17201,Black or African American,2054-5,9th through 12th grade with no diploma,12.24,IL,42.337396000000005,-89.16120500000001
+264,302,Winnebago County,17201,Black or African American,2054-5,High school graduate or GED completed,11.84,IL,42.337396000000005,-89.16120500000001
+265,303,Winnebago County,17201,Black or African American,2054-5,Excluded,15.6,IL,42.337396000000005,-89.16120500000001
+266,310,Allen County,18003,Black or African American,2054-5,9th through 12th grade with no diploma,17.8,IN,41.091854999999995,-85.07223
+267,311,Allen County,18003,Black or African American,2054-5,High school graduate or GED completed,20.07,IN,41.091854999999995,-85.07223
+268,312,Allen County,18003,Black or African American,2054-5,"Some college credit, but not a degree",18.47,IN,41.091854999999995,-85.07223
+269,313,Allen County,18003,Black or African American,2054-5,Excluded,16.76,IN,41.091854999999995,-85.07223
+270,314,Lake County,18089,Black or African American,2054-5,9th through 12th grade with no diploma,11.75,IN,41.472246999999996,-87.374337
+271,315,Lake County,18089,Black or African American,2054-5,High school graduate or GED completed,13.44,IN,41.472246999999996,-87.374337
+272,316,Lake County,18089,Black or African American,2054-5,"Some college credit, but not a degree",11.66,IN,41.472246999999996,-87.374337
+273,317,Lake County,18089,Black or African American,2054-5,"Associate degree (AA, AS)",13.21,IN,41.472246999999996,-87.374337
+274,318,Lake County,18089,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.36,IN,41.472246999999996,-87.374337
+275,319,Lake County,18089,Black or African American,2054-5,Unknown/Not on certificate,45.28,IN,41.472246999999996,-87.374337
+276,320,Lake County,18089,Black or African American,2054-5,Excluded,12.48,IN,41.472246999999996,-87.374337
+277,321,Marion County,18097,Black or African American,2054-5,9th through 12th grade with no diploma,12.8,IN,39.782976,-86.13579399999999
+278,322,Marion County,18097,Black or African American,2054-5,High school graduate or GED completed,14.52,IN,39.782976,-86.13579399999999
+279,323,Marion County,18097,Black or African American,2054-5,"Some college credit, but not a degree",12.06,IN,39.782976,-86.13579399999999
+280,324,Marion County,18097,Black or African American,2054-5,"Associate degree (AA, AS)",11.42,IN,39.782976,-86.13579399999999
+281,325,Marion County,18097,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",12.4,IN,39.782976,-86.13579399999999
+282,326,Marion County,18097,Black or African American,2054-5,Excluded,14.95,IN,39.782976,-86.13579399999999
+283,327,St. Joseph County,18141,Black or African American,2054-5,9th through 12th grade with no diploma,15.16,IN,41.617699,-86.288159
+284,328,St. Joseph County,18141,Black or African American,2054-5,High school graduate or GED completed,18.98,IN,41.617699,-86.288159
+285,329,St. Joseph County,18141,Black or African American,2054-5,"Some college credit, but not a degree",12.22,IN,41.617699,-86.288159
+286,330,St. Joseph County,18141,Black or African American,2054-5,Excluded,22.19,IN,41.617699,-86.288159
+287,336,Polk County,19153,Black or African American,2054-5,9th through 12th grade with no diploma,9.57,IA,41.684816,-93.56897099999999
+288,337,Polk County,19153,Black or African American,2054-5,High school graduate or GED completed,16.01,IA,41.684816,-93.56897099999999
+289,338,Polk County,19153,Black or African American,2054-5,"Some college credit, but not a degree",7.52,IA,41.684816,-93.56897099999999
+290,339,Polk County,19153,Black or African American,2054-5,Excluded,17.18,IA,41.684816,-93.56897099999999
+291,344,Johnson County,20091,Black or African American,2054-5,High school graduate or GED completed,15.48,KS,38.883907,-94.82233000000001
+292,345,Johnson County,20091,Black or African American,2054-5,"Some college credit, but not a degree",12.58,KS,38.883907,-94.82233000000001
+293,346,Sedgwick County,20173,Black or African American,2054-5,9th through 12th grade with no diploma,18.92,KS,37.681045000000005,-97.461054
+294,347,Sedgwick County,20173,Black or African American,2054-5,High school graduate or GED completed,14.96,KS,37.681045000000005,-97.461054
+295,348,Sedgwick County,20173,Black or African American,2054-5,"Some college credit, but not a degree",12.87,KS,37.681045000000005,-97.461054
+296,349,Sedgwick County,20173,Black or African American,2054-5,"Associate degree (AA, AS)",33.51,KS,37.681045000000005,-97.461054
+297,354,Fayette County,21067,Black or African American,2054-5,9th through 12th grade with no diploma,10.95,KY,38.040676,-84.458274
+298,355,Fayette County,21067,Black or African American,2054-5,High school graduate or GED completed,8.4,KY,38.040676,-84.458274
+299,356,Fayette County,21067,Black or African American,2054-5,"Some college credit, but not a degree",12.46,KY,38.040676,-84.458274
+300,357,Jefferson County,21111,Black or African American,2054-5,9th through 12th grade with no diploma,12.27,KY,38.189532,-85.657624
+301,358,Jefferson County,21111,Black or African American,2054-5,High school graduate or GED completed,11.29,KY,38.189532,-85.657624
+302,359,Jefferson County,21111,Black or African American,2054-5,"Some college credit, but not a degree",9.73,KY,38.189532,-85.657624
+303,360,Jefferson County,21111,Black or African American,2054-5,"Associate degree (AA, AS)",9.09,KY,38.189532,-85.657624
+304,361,Jefferson County,21111,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.33,KY,38.189532,-85.657624
+305,367,Caddo Parish,22017,Black or African American,2054-5,9th through 12th grade with no diploma,18.25,LA,32.577195,-93.882423
+306,368,Caddo Parish,22017,Black or African American,2054-5,High school graduate or GED completed,14.4,LA,32.577195,-93.882423
+307,369,Caddo Parish,22017,Black or African American,2054-5,"Some college credit, but not a degree",15.52,LA,32.577195,-93.882423
+308,370,Caddo Parish,22017,Black or African American,2054-5,Excluded,18.83,LA,32.577195,-93.882423
+309,371,East Baton Rouge Parish,22033,Black or African American,2054-5,8th grade or less,16.23,LA,30.54393,-91.093131
+310,372,East Baton Rouge Parish,22033,Black or African American,2054-5,9th through 12th grade with no diploma,19.02,LA,30.54393,-91.093131
+311,373,East Baton Rouge Parish,22033,Black or African American,2054-5,High school graduate or GED completed,15.11,LA,30.54393,-91.093131
+312,374,East Baton Rouge Parish,22033,Black or African American,2054-5,"Some college credit, but not a degree",15.31,LA,30.54393,-91.093131
+313,375,East Baton Rouge Parish,22033,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.75,LA,30.54393,-91.093131
+314,376,East Baton Rouge Parish,22033,Black or African American,2054-5,"Master's degree (MA, MS)",19.15,LA,30.54393,-91.093131
+315,377,East Baton Rouge Parish,22033,Black or African American,2054-5,Excluded,14.17,LA,30.54393,-91.093131
+316,378,Jefferson Parish,22051,Black or African American,2054-5,9th through 12th grade with no diploma,11.72,LA,29.522281,-90.081001
+317,379,Jefferson Parish,22051,Black or African American,2054-5,High school graduate or GED completed,9.63,LA,29.522281,-90.081001
+318,380,Jefferson Parish,22051,Black or African American,2054-5,"Some college credit, but not a degree",8.88,LA,29.522281,-90.081001
+319,381,Jefferson Parish,22051,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",12.78,LA,29.522281,-90.081001
+320,382,Jefferson Parish,22051,Black or African American,2054-5,Excluded,9.98,LA,29.522281,-90.081001
+321,383,Orleans Parish,22071,Black or African American,2054-5,9th through 12th grade with no diploma,9.78,LA,30.053420000000003,-89.934502
+322,384,Orleans Parish,22071,Black or African American,2054-5,High school graduate or GED completed,9.92,LA,30.053420000000003,-89.934502
+323,385,Orleans Parish,22071,Black or African American,2054-5,"Some college credit, but not a degree",6.87,LA,30.053420000000003,-89.934502
+324,386,Orleans Parish,22071,Black or African American,2054-5,Excluded,10.32,LA,30.053420000000003,-89.934502
+325,396,Cumberland County,23005,Black or African American,2054-5,Excluded,9.7,ME,43.808347999999995,-70.330375
+326,398,Anne Arundel County,24003,Black or African American,2054-5,"Some college credit, but not a degree",10.43,MD,38.991619,-76.560874
+327,399,Anne Arundel County,24003,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.93,MD,38.991619,-76.560874
+328,400,Anne Arundel County,24003,Black or African American,2054-5,Excluded,10.5,MD,38.991619,-76.560874
+329,401,Baltimore County,24005,Black or African American,2054-5,9th through 12th grade with no diploma,13.34,MD,39.443166999999995,-76.616569
+330,402,Baltimore County,24005,Black or African American,2054-5,High school graduate or GED completed,9.96,MD,39.443166999999995,-76.616569
+331,403,Baltimore County,24005,Black or African American,2054-5,"Some college credit, but not a degree",9.67,MD,39.443166999999995,-76.616569
+332,404,Baltimore County,24005,Black or African American,2054-5,"Associate degree (AA, AS)",13.54,MD,39.443166999999995,-76.616569
+333,405,Baltimore County,24005,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.73,MD,39.443166999999995,-76.616569
+334,406,Baltimore County,24005,Black or African American,2054-5,"Master's degree (MA, MS)",7.37,MD,39.443166999999995,-76.616569
+335,407,Baltimore County,24005,Black or African American,2054-5,Unknown/Not on certificate,124.09,MD,39.443166999999995,-76.616569
+336,408,Baltimore County,24005,Black or African American,2054-5,Excluded,12.37,MD,39.443166999999995,-76.616569
+337,409,Montgomery County,24031,Black or African American,2054-5,9th through 12th grade with no diploma,10.15,MD,39.137381,-77.203063
+338,410,Montgomery County,24031,Black or African American,2054-5,High school graduate or GED completed,11.33,MD,39.137381,-77.203063
+339,411,Montgomery County,24031,Black or African American,2054-5,"Some college credit, but not a degree",7.99,MD,39.137381,-77.203063
+340,412,Montgomery County,24031,Black or African American,2054-5,"Associate degree (AA, AS)",8.03,MD,39.137381,-77.203063
+341,413,Montgomery County,24031,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.29,MD,39.137381,-77.203063
+342,414,Montgomery County,24031,Black or African American,2054-5,"Master's degree (MA, MS)",7.67,MD,39.137381,-77.203063
+343,415,Montgomery County,24031,Black or African American,2054-5,Unknown/Not on certificate,48.31,MD,39.137381,-77.203063
+344,416,Montgomery County,24031,Black or African American,2054-5,Excluded,9.39,MD,39.137381,-77.203063
+345,417,Prince George's County,24033,Black or African American,2054-5,9th through 12th grade with no diploma,12.73,MD,38.82588,-76.847272
+346,418,Prince George's County,24033,Black or African American,2054-5,High school graduate or GED completed,11.08,MD,38.82588,-76.847272
+347,419,Prince George's County,24033,Black or African American,2054-5,"Some college credit, but not a degree",9.69,MD,38.82588,-76.847272
+348,420,Prince George's County,24033,Black or African American,2054-5,"Associate degree (AA, AS)",7.63,MD,38.82588,-76.847272
+349,421,Prince George's County,24033,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.12,MD,38.82588,-76.847272
+350,422,Prince George's County,24033,Black or African American,2054-5,"Master's degree (MA, MS)",7.42,MD,38.82588,-76.847272
+351,423,Prince George's County,24033,Black or African American,2054-5,Unknown/Not on certificate,46.36,MD,38.82588,-76.847272
+352,424,Prince George's County,24033,Black or African American,2054-5,Excluded,12.38,MD,38.82588,-76.847272
+353,425,Baltimore city,24510,Black or African American,2054-5,9th through 12th grade with no diploma,10.04,MD,39.300032,-76.610476
+354,426,Baltimore city,24510,Black or African American,2054-5,High school graduate or GED completed,13.89,MD,39.300032,-76.610476
+355,427,Baltimore city,24510,Black or African American,2054-5,"Some college credit, but not a degree",8.81,MD,39.300032,-76.610476
+356,428,Baltimore city,24510,Black or African American,2054-5,"Associate degree (AA, AS)",9.55,MD,39.300032,-76.610476
+357,429,Baltimore city,24510,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.23,MD,39.300032,-76.610476
+358,430,Baltimore city,24510,Black or African American,2054-5,"Master's degree (MA, MS)",11.55,MD,39.300032,-76.610476
+359,431,Baltimore city,24510,Black or African American,2054-5,Unknown/Not on certificate,218.54,MD,39.300032,-76.610476
+360,432,Baltimore city,24510,Black or African American,2054-5,Excluded,15.78,MD,39.300032,-76.610476
+361,441,Bristol County,25005,Black or African American,2054-5,Excluded,11.54,MA,41.747624,-71.088963
+362,442,Essex County,25009,Black or African American,2054-5,Excluded,6.49,MA,42.642711,-70.865107
+363,443,Hampden County,25013,Black or African American,2054-5,Excluded,9.59,MA,42.136198,-72.635648
+364,444,Middlesex County,25017,Black or African American,2054-5,"Some college credit, but not a degree",6.9,MA,42.481711,-71.394917
+365,445,Middlesex County,25017,Black or African American,2054-5,Excluded,7.4,MA,42.481711,-71.394917
+366,446,Norfolk County,25021,Black or African American,2054-5,Excluded,5.49,MA,42.171751,-71.181116
+367,447,Plymouth County,25023,Black or African American,2054-5,Excluded,7.83,MA,41.987196000000004,-70.74194200000001
+368,448,Suffolk County,25025,Black or African American,2054-5,9th through 12th grade with no diploma,6.52,MA,42.338551,-71.018253
+369,449,Suffolk County,25025,Black or African American,2054-5,High school graduate or GED completed,9.74,MA,42.338551,-71.018253
+370,450,Suffolk County,25025,Black or African American,2054-5,"Some college credit, but not a degree",7.35,MA,42.338551,-71.018253
+371,451,Suffolk County,25025,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.41,MA,42.338551,-71.018253
+372,452,Suffolk County,25025,Black or African American,2054-5,Excluded,7.57,MA,42.338551,-71.018253
+373,453,Worcester County,25027,Black or African American,2054-5,"Some college credit, but not a degree",11.78,MA,42.311693,-71.940282
+374,454,Worcester County,25027,Black or African American,2054-5,Excluded,9.17,MA,42.311693,-71.940282
+375,456,Genesee County,26049,Black or African American,2054-5,9th through 12th grade with no diploma,16.27,MI,43.021077000000005,-83.706372
+376,457,Genesee County,26049,Black or African American,2054-5,High school graduate or GED completed,12.03,MI,43.021077000000005,-83.706372
+377,458,Genesee County,26049,Black or African American,2054-5,"Some college credit, but not a degree",14.97,MI,43.021077000000005,-83.706372
+378,459,Genesee County,26049,Black or African American,2054-5,Excluded,14.58,MI,43.021077000000005,-83.706372
+379,460,Ingham County,26065,Black or African American,2054-5,High school graduate or GED completed,12.56,MI,42.603534,-84.373811
+380,461,Ingham County,26065,Black or African American,2054-5,"Some college credit, but not a degree",9.83,MI,42.603534,-84.373811
+381,462,Ingham County,26065,Black or African American,2054-5,Excluded,12.71,MI,42.603534,-84.373811
+382,463,Kent County,26081,Black or African American,2054-5,9th through 12th grade with no diploma,13.43,MI,43.032497,-85.547446
+383,464,Kent County,26081,Black or African American,2054-5,High school graduate or GED completed,11.9,MI,43.032497,-85.547446
+384,465,Kent County,26081,Black or African American,2054-5,"Some college credit, but not a degree",13.86,MI,43.032497,-85.547446
+385,466,Kent County,26081,Black or African American,2054-5,Excluded,10.97,MI,43.032497,-85.547446
+386,467,Macomb County,26099,Black or African American,2054-5,9th through 12th grade with no diploma,15.07,MI,42.671493,-82.91085600000001
+387,468,Macomb County,26099,Black or African American,2054-5,High school graduate or GED completed,7.75,MI,42.671493,-82.91085600000001
+388,469,Macomb County,26099,Black or African American,2054-5,"Some college credit, but not a degree",8.2,MI,42.671493,-82.91085600000001
+389,470,Macomb County,26099,Black or African American,2054-5,"Associate degree (AA, AS)",17.14,MI,42.671493,-82.91085600000001
+390,471,Macomb County,26099,Black or African American,2054-5,Unknown/Not on certificate,32.84,MI,42.671493,-82.91085600000001
+391,472,Macomb County,26099,Black or African American,2054-5,Excluded,11.88,MI,42.671493,-82.91085600000001
+392,473,Oakland County,26125,Black or African American,2054-5,9th through 12th grade with no diploma,10.01,MI,42.660452,-83.38421
+393,474,Oakland County,26125,Black or African American,2054-5,High school graduate or GED completed,14.68,MI,42.660452,-83.38421
+394,475,Oakland County,26125,Black or African American,2054-5,"Some college credit, but not a degree",13.12,MI,42.660452,-83.38421
+395,476,Oakland County,26125,Black or African American,2054-5,"Associate degree (AA, AS)",11.5,MI,42.660452,-83.38421
+396,477,Oakland County,26125,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.19,MI,42.660452,-83.38421
+397,478,Oakland County,26125,Black or African American,2054-5,Excluded,13.93,MI,42.660452,-83.38421
+398,479,Washtenaw County,26161,Black or African American,2054-5,High school graduate or GED completed,15.37,MI,42.252327,-83.844634
+399,480,Washtenaw County,26161,Black or African American,2054-5,"Some college credit, but not a degree",9.18,MI,42.252327,-83.844634
+400,481,Washtenaw County,26161,Black or African American,2054-5,Excluded,13.95,MI,42.252327,-83.844634
+401,482,Wayne County,26163,Black or African American,2054-5,9th through 12th grade with no diploma,15.13,MI,42.284664,-83.261953
+402,483,Wayne County,26163,Black or African American,2054-5,High school graduate or GED completed,12.57,MI,42.284664,-83.261953
+403,484,Wayne County,26163,Black or African American,2054-5,"Some college credit, but not a degree",13.64,MI,42.284664,-83.261953
+404,485,Wayne County,26163,Black or African American,2054-5,"Associate degree (AA, AS)",9.29,MI,42.284664,-83.261953
+405,486,Wayne County,26163,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.48,MI,42.284664,-83.261953
+406,487,Wayne County,26163,Black or African American,2054-5,Unknown/Not on certificate,40.08,MI,42.284664,-83.261953
+407,488,Wayne County,26163,Black or African American,2054-5,Excluded,15.63,MI,42.284664,-83.261953
+408,493,Anoka County,27003,Black or African American,2054-5,Excluded,8.75,MN,45.27411,-93.242723
+409,494,Dakota County,27037,Black or African American,2054-5,Excluded,6.28,MN,44.670893,-93.062481
+410,495,Hennepin County,27053,Black or African American,2054-5,9th through 12th grade with no diploma,14.42,MN,45.006121,-93.475228
+411,496,Hennepin County,27053,Black or African American,2054-5,High school graduate or GED completed,11.1,MN,45.006121,-93.475228
+412,497,Hennepin County,27053,Black or African American,2054-5,"Some college credit, but not a degree",6.71,MN,45.006121,-93.475228
+413,498,Hennepin County,27053,Black or African American,2054-5,"Associate degree (AA, AS)",8.9,MN,45.006121,-93.475228
+414,499,Hennepin County,27053,Black or African American,2054-5,Unknown/Not on certificate,24.63,MN,45.006121,-93.475228
+415,500,Hennepin County,27053,Black or African American,2054-5,Excluded,9.63,MN,45.006121,-93.475228
+416,501,Ramsey County,27123,Black or African American,2054-5,9th through 12th grade with no diploma,15.35,MN,45.01525,-93.10014100000001
+417,502,Ramsey County,27123,Black or African American,2054-5,High school graduate or GED completed,10.88,MN,45.01525,-93.10014100000001
+418,503,Ramsey County,27123,Black or African American,2054-5,"Some college credit, but not a degree",8.15,MN,45.01525,-93.10014100000001
+419,504,Ramsey County,27123,Black or African American,2054-5,Excluded,10.31,MN,45.01525,-93.10014100000001
+420,509,Hinds County,28049,Black or African American,2054-5,Excluded,12.55,MS,32.267788,-90.46601700000001
+421,519,Jackson County,29095,Black or African American,2054-5,9th through 12th grade with no diploma,10.42,MO,39.005441,-94.343326
+422,520,Jackson County,29095,Black or African American,2054-5,High school graduate or GED completed,10.65,MO,39.005441,-94.343326
+423,521,Jackson County,29095,Black or African American,2054-5,"Some college credit, but not a degree",9.6,MO,39.005441,-94.343326
+424,522,Jackson County,29095,Black or African American,2054-5,Excluded,11.52,MO,39.005441,-94.343326
+425,523,St. Louis County,29189,Black or African American,2054-5,9th through 12th grade with no diploma,12.86,MO,38.640702000000005,-90.445954
+426,524,St. Louis County,29189,Black or African American,2054-5,High school graduate or GED completed,12.27,MO,38.640702000000005,-90.445954
+427,525,St. Louis County,29189,Black or African American,2054-5,"Some college credit, but not a degree",12.03,MO,38.640702000000005,-90.445954
+428,526,St. Louis County,29189,Black or African American,2054-5,"Associate degree (AA, AS)",12.32,MO,38.640702000000005,-90.445954
+429,527,St. Louis County,29189,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.11,MO,38.640702000000005,-90.445954
+430,528,St. Louis County,29189,Black or African American,2054-5,Excluded,14.93,MO,38.640702000000005,-90.445954
+431,529,St. Louis city,29510,Black or African American,2054-5,9th through 12th grade with no diploma,12.72,MO,38.635699,-90.244582
+432,530,St. Louis city,29510,Black or African American,2054-5,High school graduate or GED completed,12.22,MO,38.635699,-90.244582
+433,531,St. Louis city,29510,Black or African American,2054-5,"Some college credit, but not a degree",14.08,MO,38.635699,-90.244582
+434,532,St. Louis city,29510,Black or African American,2054-5,Excluded,14.24,MO,38.635699,-90.244582
+435,537,Douglas County,31055,Black or African American,2054-5,9th through 12th grade with no diploma,13.96,NE,41.297090999999995,-96.154066
+436,538,Douglas County,31055,Black or African American,2054-5,High school graduate or GED completed,12.87,NE,41.297090999999995,-96.154066
+437,539,Douglas County,31055,Black or African American,2054-5,"Some college credit, but not a degree",11.5,NE,41.297090999999995,-96.154066
+438,540,Douglas County,31055,Black or African American,2054-5,"Associate degree (AA, AS)",16.52,NE,41.297090999999995,-96.154066
+439,542,Clark County,32003,Black or African American,2054-5,9th through 12th grade with no diploma,10.21,NV,36.214257,-115.01381200000002
+440,543,Clark County,32003,Black or African American,2054-5,High school graduate or GED completed,7.79,NV,36.214257,-115.01381200000002
+441,544,Clark County,32003,Black or African American,2054-5,"Some college credit, but not a degree",9.65,NV,36.214257,-115.01381200000002
+442,545,Clark County,32003,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",13.15,NV,36.214257,-115.01381200000002
+443,546,Clark County,32003,Black or African American,2054-5,Excluded,10.27,NV,36.214257,-115.01381200000002
+444,547,Washoe County,32031,Black or African American,2054-5,Excluded,14.29,NV,40.734015,-119.662272
+445,548,Atlantic County,34001,Black or African American,2054-5,Excluded,16.35,NJ,39.469353999999996,-74.633758
+446,549,Bergen County,34003,Black or African American,2054-5,Excluded,6.38,NJ,40.959697999999996,-74.074727
+447,550,Burlington County,34005,Black or African American,2054-5,Excluded,10.17,NJ,39.875786,-74.66300600000001
+448,551,Camden County,34007,Black or African American,2054-5,Excluded,14.94,NJ,39.802352,-74.961251
+449,552,Essex County,34013,Black or African American,2054-5,Excluded,10.04,NJ,40.7874,-74.24629200000001
+450,553,Gloucester County,34015,Black or African American,2054-5,Excluded,14.51,NJ,39.722875,-75.145679
+451,554,Hudson County,34017,Black or African American,2054-5,Excluded,7.49,NJ,40.731375,-74.078601
+452,555,Mercer County,34021,Black or African American,2054-5,Excluded,15.77,NJ,40.282503000000005,-74.703724
+453,556,Middlesex County,34023,Black or African American,2054-5,Excluded,6.66,NJ,40.439621,-74.40743
+454,557,Monmouth County,34025,Black or African American,2054-5,Excluded,9.05,NJ,40.287048,-74.152446
+455,558,Morris County,34027,Black or African American,2054-5,Excluded,9.55,NJ,40.858896,-74.547292
+456,559,Ocean County,34029,Black or African American,2054-5,Excluded,9.24,NJ,39.865669,-74.258864
+457,560,Passaic County,34031,Black or African American,2054-5,Excluded,6.3,NJ,41.037890000000004,-74.29828
+458,561,Somerset County,34035,Black or African American,2054-5,Excluded,7.38,NJ,40.565527,-74.619938
+459,562,Union County,34039,Black or African American,2054-5,Excluded,7.76,NJ,40.659871,-74.308696
+460,565,Albany County,36001,Black or African American,2054-5,9th through 12th grade with no diploma,15.77,NY,42.58824,-73.97400999999999
+461,566,Albany County,36001,Black or African American,2054-5,High school graduate or GED completed,17.97,NY,42.58824,-73.97400999999999
+462,567,Albany County,36001,Black or African American,2054-5,"Some college credit, but not a degree",13.98,NY,42.58824,-73.97400999999999
+463,568,Albany County,36001,Black or African American,2054-5,"Associate degree (AA, AS)",14.66,NY,42.58824,-73.97400999999999
+464,569,Bronx County,36005,Black or African American,2054-5,8th grade or less,9.17,NY,40.848711,-73.852939
+465,570,Bronx County,36005,Black or African American,2054-5,9th through 12th grade with no diploma,8.35,NY,40.848711,-73.852939
+466,571,Bronx County,36005,Black or African American,2054-5,High school graduate or GED completed,6.57,NY,40.848711,-73.852939
+467,572,Bronx County,36005,Black or African American,2054-5,"Some college credit, but not a degree",5.09,NY,40.848711,-73.852939
+468,573,Bronx County,36005,Black or African American,2054-5,"Associate degree (AA, AS)",6.15,NY,40.848711,-73.852939
+469,574,Bronx County,36005,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",4.46,NY,40.848711,-73.852939
+470,575,Bronx County,36005,Black or African American,2054-5,"Master's degree (MA, MS)",6.78,NY,40.848711,-73.852939
+471,576,Bronx County,36005,Black or African American,2054-5,Unknown/Not on certificate,21.08,NY,40.848711,-73.852939
+472,577,Bronx County,36005,Black or African American,2054-5,Excluded,7.76,NY,40.848711,-73.852939
+473,578,Dutchess County,36027,Black or African American,2054-5,High school graduate or GED completed,15.31,NY,41.75477,-73.740041
+474,579,Dutchess County,36027,Black or African American,2054-5,"Some college credit, but not a degree",10.47,NY,41.75477,-73.740041
+475,580,Erie County,36029,Black or African American,2054-5,9th through 12th grade with no diploma,15.1,NY,42.752759000000005,-78.778192
+476,581,Erie County,36029,Black or African American,2054-5,High school graduate or GED completed,16.54,NY,42.752759000000005,-78.778192
+477,582,Erie County,36029,Black or African American,2054-5,"Some college credit, but not a degree",11.38,NY,42.752759000000005,-78.778192
+478,583,Erie County,36029,Black or African American,2054-5,"Associate degree (AA, AS)",11.03,NY,42.752759000000005,-78.778192
+479,584,Erie County,36029,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.46,NY,42.752759000000005,-78.778192
+480,585,Erie County,36029,Black or African American,2054-5,Unknown/Not on certificate,61.7,NY,42.752759000000005,-78.778192
+481,586,Kings County,36047,Black or African American,2054-5,8th grade or less,4.32,NY,40.635045,-73.95064
+482,587,Kings County,36047,Black or African American,2054-5,9th through 12th grade with no diploma,9.28,NY,40.635045,-73.95064
+483,588,Kings County,36047,Black or African American,2054-5,High school graduate or GED completed,8.45,NY,40.635045,-73.95064
+484,589,Kings County,36047,Black or African American,2054-5,"Some college credit, but not a degree",6.36,NY,40.635045,-73.95064
+485,590,Kings County,36047,Black or African American,2054-5,"Associate degree (AA, AS)",6.55,NY,40.635045,-73.95064
+486,591,Kings County,36047,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.01,NY,40.635045,-73.95064
+487,592,Kings County,36047,Black or African American,2054-5,"Master's degree (MA, MS)",3.92,NY,40.635045,-73.95064
+488,593,Kings County,36047,Black or African American,2054-5,Unknown/Not on certificate,23.26,NY,40.635045,-73.95064
+489,594,Kings County,36047,Black or African American,2054-5,Excluded,8.71,NY,40.635045,-73.95064
+490,595,Monroe County,36055,Black or African American,2054-5,9th through 12th grade with no diploma,15.74,NY,43.464475,-77.66465600000001
+491,596,Monroe County,36055,Black or African American,2054-5,High school graduate or GED completed,13.7,NY,43.464475,-77.66465600000001
+492,597,Monroe County,36055,Black or African American,2054-5,"Some college credit, but not a degree",11.46,NY,43.464475,-77.66465600000001
+493,598,Monroe County,36055,Black or African American,2054-5,"Associate degree (AA, AS)",9.54,NY,43.464475,-77.66465600000001
+494,599,Nassau County,36059,Black or African American,2054-5,9th through 12th grade with no diploma,10.38,NY,40.729612,-73.589414
+495,600,Nassau County,36059,Black or African American,2054-5,High school graduate or GED completed,14.66,NY,40.729612,-73.589414
+496,601,Nassau County,36059,Black or African American,2054-5,"Some college credit, but not a degree",7.24,NY,40.729612,-73.589414
+497,602,Nassau County,36059,Black or African American,2054-5,"Associate degree (AA, AS)",9.97,NY,40.729612,-73.589414
+498,603,Nassau County,36059,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.27,NY,40.729612,-73.589414
+499,604,Nassau County,36059,Black or African American,2054-5,"Master's degree (MA, MS)",7.32,NY,40.729612,-73.589414
+500,605,New York County,36061,Black or African American,2054-5,8th grade or less,12.5,NY,40.776641999999995,-73.970187
+501,606,New York County,36061,Black or African American,2054-5,9th through 12th grade with no diploma,7.59,NY,40.776641999999995,-73.970187
+502,607,New York County,36061,Black or African American,2054-5,High school graduate or GED completed,10.28,NY,40.776641999999995,-73.970187
+503,608,New York County,36061,Black or African American,2054-5,"Some college credit, but not a degree",8.73,NY,40.776641999999995,-73.970187
+504,609,New York County,36061,Black or African American,2054-5,"Associate degree (AA, AS)",7.05,NY,40.776641999999995,-73.970187
+505,610,New York County,36061,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.4,NY,40.776641999999995,-73.970187
+506,611,New York County,36061,Black or African American,2054-5,Excluded,8.84,NY,40.776641999999995,-73.970187
+507,612,Onondaga County,36067,Black or African American,2054-5,9th through 12th grade with no diploma,15.77,NY,43.006516,-76.196134
+508,613,Onondaga County,36067,Black or African American,2054-5,High school graduate or GED completed,9.5,NY,43.006516,-76.196134
+509,614,Onondaga County,36067,Black or African American,2054-5,"Some college credit, but not a degree",12.99,NY,43.006516,-76.196134
+510,615,Orange County,36071,Black or African American,2054-5,9th through 12th grade with no diploma,14.51,NY,41.402409999999996,-74.306252
+511,616,Orange County,36071,Black or African American,2054-5,High school graduate or GED completed,9.42,NY,41.402409999999996,-74.306252
+512,617,Orange County,36071,Black or African American,2054-5,"Some college credit, but not a degree",14.83,NY,41.402409999999996,-74.306252
+513,618,Queens County,36081,Black or African American,2054-5,9th through 12th grade with no diploma,9.88,NY,40.658566,-73.83801700000001
+514,619,Queens County,36081,Black or African American,2054-5,High school graduate or GED completed,7.04,NY,40.658566,-73.83801700000001
+515,620,Queens County,36081,Black or African American,2054-5,"Some college credit, but not a degree",7.5,NY,40.658566,-73.83801700000001
+516,621,Queens County,36081,Black or African American,2054-5,"Associate degree (AA, AS)",7.37,NY,40.658566,-73.83801700000001
+517,622,Queens County,36081,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.17,NY,40.658566,-73.83801700000001
+518,623,Queens County,36081,Black or African American,2054-5,"Master's degree (MA, MS)",8.31,NY,40.658566,-73.83801700000001
+519,624,Queens County,36081,Black or African American,2054-5,Excluded,8.43,NY,40.658566,-73.83801700000001
+520,625,Richmond County,36085,Black or African American,2054-5,9th through 12th grade with no diploma,11.42,NY,40.561263000000004,-74.1399
+521,626,Richmond County,36085,Black or African American,2054-5,High school graduate or GED completed,7.96,NY,40.561263000000004,-74.1399
+522,627,Richmond County,36085,Black or African American,2054-5,"Some college credit, but not a degree",8.0,NY,40.561263000000004,-74.1399
+523,628,Richmond County,36085,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.88,NY,40.561263000000004,-74.1399
+524,629,Richmond County,36085,Black or African American,2054-5,Excluded,10.53,NY,40.561263000000004,-74.1399
+525,630,Rockland County,36087,Black or African American,2054-5,High school graduate or GED completed,14.08,NY,41.154627000000005,-74.024662
+526,631,Rockland County,36087,Black or African American,2054-5,Unknown/Not on certificate,42.8,NY,41.154627000000005,-74.024662
+527,632,Suffolk County,36103,Black or African American,2054-5,9th through 12th grade with no diploma,7.65,NY,40.943554,-72.69221800000001
+528,633,Suffolk County,36103,Black or African American,2054-5,High school graduate or GED completed,9.08,NY,40.943554,-72.69221800000001
+529,634,Suffolk County,36103,Black or African American,2054-5,"Some college credit, but not a degree",6.73,NY,40.943554,-72.69221800000001
+530,635,Suffolk County,36103,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.21,NY,40.943554,-72.69221800000001
+531,636,Suffolk County,36103,Black or African American,2054-5,Unknown/Not on certificate,71.66,NY,40.943554,-72.69221800000001
+532,637,Westchester County,36119,Black or African American,2054-5,9th through 12th grade with no diploma,9.92,NY,41.152770000000004,-73.745912
+533,638,Westchester County,36119,Black or African American,2054-5,High school graduate or GED completed,8.25,NY,41.152770000000004,-73.745912
+534,639,Westchester County,36119,Black or African American,2054-5,"Some college credit, but not a degree",8.99,NY,41.152770000000004,-73.745912
+535,640,Westchester County,36119,Black or African American,2054-5,"Associate degree (AA, AS)",12.32,NY,41.152770000000004,-73.745912
+536,641,Westchester County,36119,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.8,NY,41.152770000000004,-73.745912
+537,642,Westchester County,36119,Black or African American,2054-5,Unknown/Not on certificate,18.07,NY,41.152770000000004,-73.745912
+538,649,Cumberland County,37051,Black or African American,2054-5,9th through 12th grade with no diploma,15.7,NC,35.050191999999996,-78.82871899999999
+539,650,Cumberland County,37051,Black or African American,2054-5,High school graduate or GED completed,17.32,NC,35.050191999999996,-78.82871899999999
+540,651,Cumberland County,37051,Black or African American,2054-5,"Some college credit, but not a degree",12.23,NC,35.050191999999996,-78.82871899999999
+541,652,Cumberland County,37051,Black or African American,2054-5,"Associate degree (AA, AS)",15.87,NC,35.050191999999996,-78.82871899999999
+542,653,Cumberland County,37051,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",11.19,NC,35.050191999999996,-78.82871899999999
+543,654,Cumberland County,37051,Black or African American,2054-5,Excluded,13.11,NC,35.050191999999996,-78.82871899999999
+544,655,Durham County,37063,Black or African American,2054-5,9th through 12th grade with no diploma,13.26,NC,36.033822,-78.87812
+545,656,Durham County,37063,Black or African American,2054-5,"Some college credit, but not a degree",12.48,NC,36.033822,-78.87812
+546,657,Forsyth County,37067,Black or African American,2054-5,High school graduate or GED completed,13.55,NC,36.132466,-80.256961
+547,658,Forsyth County,37067,Black or African American,2054-5,"Some college credit, but not a degree",10.0,NC,36.132466,-80.256961
+548,659,Forsyth County,37067,Black or African American,2054-5,Excluded,19.39,NC,36.132466,-80.256961
+549,660,Guilford County,37081,Black or African American,2054-5,9th through 12th grade with no diploma,9.93,NC,36.079065,-79.78866500000001
+550,661,Guilford County,37081,Black or African American,2054-5,High school graduate or GED completed,12.63,NC,36.079065,-79.78866500000001
+551,662,Guilford County,37081,Black or African American,2054-5,"Some college credit, but not a degree",10.2,NC,36.079065,-79.78866500000001
+552,663,Guilford County,37081,Black or African American,2054-5,"Associate degree (AA, AS)",13.38,NC,36.079065,-79.78866500000001
+553,664,Guilford County,37081,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.1,NC,36.079065,-79.78866500000001
+554,665,Guilford County,37081,Black or African American,2054-5,"Master's degree (MA, MS)",14.86,NC,36.079065,-79.78866500000001
+555,666,Guilford County,37081,Black or African American,2054-5,Excluded,13.97,NC,36.079065,-79.78866500000001
+556,667,Mecklenburg County,37119,Black or African American,2054-5,9th through 12th grade with no diploma,9.65,NC,35.246862,-80.833832
+557,668,Mecklenburg County,37119,Black or African American,2054-5,High school graduate or GED completed,11.1,NC,35.246862,-80.833832
+558,669,Mecklenburg County,37119,Black or African American,2054-5,"Some college credit, but not a degree",10.53,NC,35.246862,-80.833832
+559,670,Mecklenburg County,37119,Black or African American,2054-5,"Associate degree (AA, AS)",7.71,NC,35.246862,-80.833832
+560,671,Mecklenburg County,37119,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.07,NC,35.246862,-80.833832
+561,672,Mecklenburg County,37119,Black or African American,2054-5,"Master's degree (MA, MS)",10.05,NC,35.246862,-80.833832
+562,673,Mecklenburg County,37119,Black or African American,2054-5,Excluded,10.74,NC,35.246862,-80.833832
+563,674,Wake County,37183,Black or African American,2054-5,9th through 12th grade with no diploma,15.85,NC,35.789846000000004,-78.650624
+564,675,Wake County,37183,Black or African American,2054-5,High school graduate or GED completed,11.52,NC,35.789846000000004,-78.650624
+565,676,Wake County,37183,Black or African American,2054-5,"Some college credit, but not a degree",11.0,NC,35.789846000000004,-78.650624
+566,677,Wake County,37183,Black or African American,2054-5,"Associate degree (AA, AS)",9.86,NC,35.789846000000004,-78.650624
+567,678,Wake County,37183,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.75,NC,35.789846000000004,-78.650624
+568,679,Wake County,37183,Black or African American,2054-5,"Master's degree (MA, MS)",8.96,NC,35.789846000000004,-78.650624
+569,680,Wake County,37183,Black or African American,2054-5,Excluded,13.27,NC,35.789846000000004,-78.650624
+570,691,Butler County,39017,Black or African American,2054-5,High school graduate or GED completed,16.55,OH,39.439747,-84.56573399999999
+571,692,Butler County,39017,Black or African American,2054-5,"Some college credit, but not a degree",9.48,OH,39.439747,-84.56573399999999
+572,693,Cuyahoga County,39035,Black or African American,2054-5,9th through 12th grade with no diploma,15.64,OH,41.760391999999996,-81.72421700000001
+573,694,Cuyahoga County,39035,Black or African American,2054-5,High school graduate or GED completed,14.52,OH,41.760391999999996,-81.72421700000001
+574,695,Cuyahoga County,39035,Black or African American,2054-5,"Some college credit, but not a degree",13.81,OH,41.760391999999996,-81.72421700000001
+575,696,Cuyahoga County,39035,Black or African American,2054-5,"Associate degree (AA, AS)",11.29,OH,41.760391999999996,-81.72421700000001
+576,697,Cuyahoga County,39035,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.82,OH,41.760391999999996,-81.72421700000001
+577,698,Cuyahoga County,39035,Black or African American,2054-5,"Master's degree (MA, MS)",8.18,OH,41.760391999999996,-81.72421700000001
+578,699,Cuyahoga County,39035,Black or African American,2054-5,Unknown/Not on certificate,85.83,OH,41.760391999999996,-81.72421700000001
+579,700,Franklin County,39049,Black or African American,2054-5,8th grade or less,7.83,OH,39.969575,-83.006865
+580,701,Franklin County,39049,Black or African American,2054-5,9th through 12th grade with no diploma,14.54,OH,39.969575,-83.006865
+581,702,Franklin County,39049,Black or African American,2054-5,High school graduate or GED completed,13.12,OH,39.969575,-83.006865
+582,703,Franklin County,39049,Black or African American,2054-5,"Some college credit, but not a degree",12.49,OH,39.969575,-83.006865
+583,704,Franklin County,39049,Black or African American,2054-5,"Associate degree (AA, AS)",15.65,OH,39.969575,-83.006865
+584,705,Franklin County,39049,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.69,OH,39.969575,-83.006865
+585,706,Franklin County,39049,Black or African American,2054-5,"Master's degree (MA, MS)",12.29,OH,39.969575,-83.006865
+586,707,Franklin County,39049,Black or African American,2054-5,Unknown/Not on certificate,26.45,OH,39.969575,-83.006865
+587,708,Hamilton County,39061,Black or African American,2054-5,9th through 12th grade with no diploma,17.92,OH,39.196927,-84.544187
+588,709,Hamilton County,39061,Black or African American,2054-5,High school graduate or GED completed,15.22,OH,39.196927,-84.544187
+589,710,Hamilton County,39061,Black or African American,2054-5,"Some college credit, but not a degree",14.49,OH,39.196927,-84.544187
+590,711,Hamilton County,39061,Black or African American,2054-5,"Associate degree (AA, AS)",12.86,OH,39.196927,-84.544187
+591,712,Hamilton County,39061,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.23,OH,39.196927,-84.544187
+592,713,Hamilton County,39061,Black or African American,2054-5,Unknown/Not on certificate,55.17,OH,39.196927,-84.544187
+593,714,Lorain County,39093,Black or African American,2054-5,9th through 12th grade with no diploma,12.61,OH,41.438805,-82.179722
+594,715,Lorain County,39093,Black or African American,2054-5,High school graduate or GED completed,12.12,OH,41.438805,-82.179722
+595,716,Lorain County,39093,Black or African American,2054-5,"Some college credit, but not a degree",11.09,OH,41.438805,-82.179722
+596,717,Lucas County,39095,Black or African American,2054-5,9th through 12th grade with no diploma,13.46,OH,41.682321,-83.468903
+597,718,Lucas County,39095,Black or African American,2054-5,High school graduate or GED completed,10.94,OH,41.682321,-83.468903
+598,719,Lucas County,39095,Black or African American,2054-5,"Some college credit, but not a degree",12.83,OH,41.682321,-83.468903
+599,720,Mahoning County,39099,Black or African American,2054-5,9th through 12th grade with no diploma,21.57,OH,41.01088,-80.77039599999999
+600,721,Mahoning County,39099,Black or African American,2054-5,High school graduate or GED completed,10.14,OH,41.01088,-80.77039599999999
+601,722,Mahoning County,39099,Black or African American,2054-5,"Some college credit, but not a degree",18.15,OH,41.01088,-80.77039599999999
+602,723,Montgomery County,39113,Black or African American,2054-5,9th through 12th grade with no diploma,16.56,OH,39.753735999999996,-84.290591
+603,724,Montgomery County,39113,Black or African American,2054-5,High school graduate or GED completed,11.64,OH,39.753735999999996,-84.290591
+604,725,Montgomery County,39113,Black or African American,2054-5,"Some college credit, but not a degree",12.15,OH,39.753735999999996,-84.290591
+605,726,Montgomery County,39113,Black or African American,2054-5,"Associate degree (AA, AS)",12.23,OH,39.753735999999996,-84.290591
+606,727,Stark County,39151,Black or African American,2054-5,9th through 12th grade with no diploma,17.94,OH,40.814131,-81.365667
+607,728,Stark County,39151,Black or African American,2054-5,High school graduate or GED completed,15.85,OH,40.814131,-81.365667
+608,729,Stark County,39151,Black or African American,2054-5,"Some college credit, but not a degree",14.75,OH,40.814131,-81.365667
+609,730,Summit County,39153,Black or African American,2054-5,9th through 12th grade with no diploma,16.69,OH,41.121851,-81.534936
+610,731,Summit County,39153,Black or African American,2054-5,High school graduate or GED completed,10.47,OH,41.121851,-81.534936
+611,732,Summit County,39153,Black or African American,2054-5,"Some college credit, but not a degree",12.92,OH,41.121851,-81.534936
+612,733,Summit County,39153,Black or African American,2054-5,"Associate degree (AA, AS)",10.85,OH,41.121851,-81.534936
+613,740,Oklahoma County,40109,Black or African American,2054-5,9th through 12th grade with no diploma,11.16,OK,35.554611,-97.409401
+614,741,Oklahoma County,40109,Black or African American,2054-5,High school graduate or GED completed,15.4,OK,35.554611,-97.409401
+615,742,Oklahoma County,40109,Black or African American,2054-5,"Some college credit, but not a degree",10.32,OK,35.554611,-97.409401
+616,743,Oklahoma County,40109,Black or African American,2054-5,Excluded,13.54,OK,35.554611,-97.409401
+617,744,Tulsa County,40143,Black or African American,2054-5,9th through 12th grade with no diploma,15.59,OK,36.120318,-95.941813
+618,745,Tulsa County,40143,Black or African American,2054-5,High school graduate or GED completed,16.12,OK,36.120318,-95.941813
+619,746,Tulsa County,40143,Black or African American,2054-5,"Some college credit, but not a degree",17.12,OK,36.120318,-95.941813
+620,747,Tulsa County,40143,Black or African American,2054-5,Excluded,13.63,OK,36.120318,-95.941813
+621,753,Multnomah County,41051,Black or African American,2054-5,9th through 12th grade with no diploma,10.82,OR,45.547693,-122.41717299999999
+622,754,Multnomah County,41051,Black or African American,2054-5,High school graduate or GED completed,9.75,OR,45.547693,-122.41717299999999
+623,755,Multnomah County,41051,Black or African American,2054-5,"Some college credit, but not a degree",8.14,OR,45.547693,-122.41717299999999
+624,756,Multnomah County,41051,Black or African American,2054-5,Excluded,13.59,OR,45.547693,-122.41717299999999
+625,757,Allegheny County,42003,Black or African American,2054-5,9th through 12th grade with no diploma,14.51,PA,40.469757,-79.980451
+626,758,Allegheny County,42003,Black or African American,2054-5,High school graduate or GED completed,14.98,PA,40.469757,-79.980451
+627,759,Allegheny County,42003,Black or African American,2054-5,"Some college credit, but not a degree",13.78,PA,40.469757,-79.980451
+628,760,Allegheny County,42003,Black or African American,2054-5,"Associate degree (AA, AS)",9.82,PA,40.469757,-79.980451
+629,761,Allegheny County,42003,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.27,PA,40.469757,-79.980451
+630,762,Allegheny County,42003,Black or African American,2054-5,Unknown/Not on certificate,195.4,PA,40.469757,-79.980451
+631,763,Berks County,42011,Black or African American,2054-5,9th through 12th grade with no diploma,11.92,PA,40.413957,-75.92685999999999
+632,764,Berks County,42011,Black or African American,2054-5,High school graduate or GED completed,17.86,PA,40.413957,-75.92685999999999
+633,765,Berks County,42011,Black or African American,2054-5,"Some college credit, but not a degree",16.84,PA,40.413957,-75.92685999999999
+634,766,Bucks County,42017,Black or African American,2054-5,Unknown/Not on certificate,30.88,PA,40.336887,-75.10706
+635,767,Chester County,42029,Black or African American,2054-5,High school graduate or GED completed,7.97,PA,39.973965,-75.749732
+636,768,Chester County,42029,Black or African American,2054-5,"Some college credit, but not a degree",11.66,PA,39.973965,-75.749732
+637,769,Dauphin County,42043,Black or African American,2054-5,9th through 12th grade with no diploma,12.11,PA,40.412565,-76.79263399999999
+638,770,Dauphin County,42043,Black or African American,2054-5,High school graduate or GED completed,12.45,PA,40.412565,-76.79263399999999
+639,771,Dauphin County,42043,Black or African American,2054-5,"Some college credit, but not a degree",12.28,PA,40.412565,-76.79263399999999
+640,772,Delaware County,42045,Black or African American,2054-5,9th through 12th grade with no diploma,11.41,PA,39.91667,-75.398786
+641,773,Delaware County,42045,Black or African American,2054-5,High school graduate or GED completed,11.72,PA,39.91667,-75.398786
+642,774,Delaware County,42045,Black or African American,2054-5,"Some college credit, but not a degree",13.18,PA,39.91667,-75.398786
+643,775,Delaware County,42045,Black or African American,2054-5,"Associate degree (AA, AS)",17.24,PA,39.91667,-75.398786
+644,776,Delaware County,42045,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.17,PA,39.91667,-75.398786
+645,777,Delaware County,42045,Black or African American,2054-5,Unknown/Not on certificate,85.3,PA,39.91667,-75.398786
+646,778,Erie County,42049,Black or African American,2054-5,9th through 12th grade with no diploma,10.44,PA,42.117952,-80.096386
+647,779,Erie County,42049,Black or African American,2054-5,High school graduate or GED completed,16.84,PA,42.117952,-80.096386
+648,780,Erie County,42049,Black or African American,2054-5,"Some college credit, but not a degree",12.42,PA,42.117952,-80.096386
+649,781,Lancaster County,42071,Black or African American,2054-5,9th through 12th grade with no diploma,11.32,PA,40.041992,-76.250198
+650,782,Lancaster County,42071,Black or African American,2054-5,High school graduate or GED completed,13.53,PA,40.041992,-76.250198
+651,783,Lehigh County,42077,Black or African American,2054-5,9th through 12th grade with no diploma,6.93,PA,40.614241,-75.590627
+652,784,Lehigh County,42077,Black or African American,2054-5,High school graduate or GED completed,14.39,PA,40.614241,-75.590627
+653,785,Lehigh County,42077,Black or African American,2054-5,"Some college credit, but not a degree",9.42,PA,40.614241,-75.590627
+654,786,Luzerne County,42079,Black or African American,2054-5,9th through 12th grade with no diploma,14.81,PA,41.172787,-75.976035
+655,787,Luzerne County,42079,Black or African American,2054-5,"Some college credit, but not a degree",17.8,PA,41.172787,-75.976035
+656,788,Montgomery County,42091,Black or African American,2054-5,9th through 12th grade with no diploma,15.22,PA,40.209998999999996,-75.370201
+657,789,Montgomery County,42091,Black or African American,2054-5,High school graduate or GED completed,12.65,PA,40.209998999999996,-75.370201
+658,790,Montgomery County,42091,Black or African American,2054-5,"Some college credit, but not a degree",10.09,PA,40.209998999999996,-75.370201
+659,791,Montgomery County,42091,Black or African American,2054-5,"Master's degree (MA, MS)",11.31,PA,40.209998999999996,-75.370201
+660,792,Northampton County,42095,Black or African American,2054-5,High school graduate or GED completed,14.12,PA,40.752790999999995,-75.307447
+661,793,Philadelphia County,42101,Black or African American,2054-5,8th grade or less,5.99,PA,40.009376,-75.133346
+662,794,Philadelphia County,42101,Black or African American,2054-5,9th through 12th grade with no diploma,12.75,PA,40.009376,-75.133346
+663,795,Philadelphia County,42101,Black or African American,2054-5,High school graduate or GED completed,10.47,PA,40.009376,-75.133346
+664,796,Philadelphia County,42101,Black or African American,2054-5,"Some college credit, but not a degree",9.21,PA,40.009376,-75.133346
+665,797,Philadelphia County,42101,Black or African American,2054-5,"Associate degree (AA, AS)",8.61,PA,40.009376,-75.133346
+666,798,Philadelphia County,42101,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.13,PA,40.009376,-75.133346
+667,799,Philadelphia County,42101,Black or African American,2054-5,"Master's degree (MA, MS)",5.59,PA,40.009376,-75.133346
+668,800,Philadelphia County,42101,Black or African American,2054-5,Unknown/Not on certificate,114.45,PA,40.009376,-75.133346
+669,801,York County,42133,Black or African American,2054-5,High school graduate or GED completed,11.09,PA,39.921751,-76.728889
+670,802,York County,42133,Black or African American,2054-5,"Some college credit, but not a degree",15.1,PA,39.921751,-76.728889
+671,809,Providence County,44007,Black or African American,2054-5,Excluded,10.1,RI,41.869765,-71.578626
+672,811,Charleston County,45019,Black or African American,2054-5,9th through 12th grade with no diploma,10.88,SC,32.800458,-79.94248
+673,812,Charleston County,45019,Black or African American,2054-5,High school graduate or GED completed,10.22,SC,32.800458,-79.94248
+674,813,Charleston County,45019,Black or African American,2054-5,"Some college credit, but not a degree",9.09,SC,32.800458,-79.94248
+675,814,Charleston County,45019,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.21,SC,32.800458,-79.94248
+676,815,Charleston County,45019,Black or African American,2054-5,Unknown/Not on certificate,106.67,SC,32.800458,-79.94248
+677,816,Greenville County,45045,Black or African American,2054-5,9th through 12th grade with no diploma,12.9,SC,34.892645,-82.372077
+678,817,Greenville County,45045,Black or African American,2054-5,High school graduate or GED completed,11.68,SC,34.892645,-82.372077
+679,818,Greenville County,45045,Black or African American,2054-5,"Some college credit, but not a degree",11.03,SC,34.892645,-82.372077
+680,819,Greenville County,45045,Black or African American,2054-5,"Associate degree (AA, AS)",9.67,SC,34.892645,-82.372077
+681,820,Richland County,45079,Black or African American,2054-5,9th through 12th grade with no diploma,11.53,SC,34.029095,-80.898037
+682,821,Richland County,45079,Black or African American,2054-5,High school graduate or GED completed,12.32,SC,34.029095,-80.898037
+683,822,Richland County,45079,Black or African American,2054-5,"Some college credit, but not a degree",9.43,SC,34.029095,-80.898037
+684,823,Richland County,45079,Black or African American,2054-5,"Associate degree (AA, AS)",11.47,SC,34.029095,-80.898037
+685,824,Richland County,45079,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.59,SC,34.029095,-80.898037
+686,825,Richland County,45079,Black or African American,2054-5,"Master's degree (MA, MS)",7.88,SC,34.029095,-80.898037
+687,826,Spartanburg County,45083,Black or African American,2054-5,9th through 12th grade with no diploma,8.17,SC,34.93329,-81.99106
+688,827,Spartanburg County,45083,Black or African American,2054-5,High school graduate or GED completed,8.72,SC,34.93329,-81.99106
+689,828,Spartanburg County,45083,Black or African American,2054-5,"Some college credit, but not a degree",8.19,SC,34.93329,-81.99106
+690,838,Davidson County,47037,Black or African American,2054-5,8th grade or less,7.92,TN,36.169129,-86.78479
+691,839,Davidson County,47037,Black or African American,2054-5,9th through 12th grade with no diploma,14.36,TN,36.169129,-86.78479
+692,840,Davidson County,47037,Black or African American,2054-5,High school graduate or GED completed,11.44,TN,36.169129,-86.78479
+693,841,Davidson County,47037,Black or African American,2054-5,"Some college credit, but not a degree",9.08,TN,36.169129,-86.78479
+694,842,Davidson County,47037,Black or African American,2054-5,"Associate degree (AA, AS)",12.42,TN,36.169129,-86.78479
+695,843,Davidson County,47037,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",8.79,TN,36.169129,-86.78479
+696,844,Davidson County,47037,Black or African American,2054-5,Unknown/Not on certificate,78.19,TN,36.169129,-86.78479
+697,845,Hamilton County,47065,Black or African American,2054-5,9th through 12th grade with no diploma,15.0,TN,35.160762,-85.197711
+698,846,Hamilton County,47065,Black or African American,2054-5,High school graduate or GED completed,13.84,TN,35.160762,-85.197711
+699,847,Hamilton County,47065,Black or African American,2054-5,"Some college credit, but not a degree",11.95,TN,35.160762,-85.197711
+700,848,Knox County,47093,Black or African American,2054-5,9th through 12th grade with no diploma,13.99,TN,35.992726,-83.937721
+701,849,Knox County,47093,Black or African American,2054-5,High school graduate or GED completed,9.45,TN,35.992726,-83.937721
+702,850,Knox County,47093,Black or African American,2054-5,"Some college credit, but not a degree",15.02,TN,35.992726,-83.937721
+703,851,Shelby County,47157,Black or African American,2054-5,8th grade or less,12.8,TN,35.183794,-89.895397
+704,852,Shelby County,47157,Black or African American,2054-5,9th through 12th grade with no diploma,14.96,TN,35.183794,-89.895397
+705,853,Shelby County,47157,Black or African American,2054-5,High school graduate or GED completed,14.36,TN,35.183794,-89.895397
+706,854,Shelby County,47157,Black or African American,2054-5,"Some college credit, but not a degree",12.82,TN,35.183794,-89.895397
+707,855,Shelby County,47157,Black or African American,2054-5,"Associate degree (AA, AS)",15.04,TN,35.183794,-89.895397
+708,856,Shelby County,47157,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",11.95,TN,35.183794,-89.895397
+709,857,Shelby County,47157,Black or African American,2054-5,"Master's degree (MA, MS)",9.42,TN,35.183794,-89.895397
+710,858,Shelby County,47157,Black or African American,2054-5,Unknown/Not on certificate,27.3,TN,35.183794,-89.895397
+711,865,Bell County,48027,Black or African American,2054-5,High school graduate or GED completed,7.44,TX,31.042314,-97.4814
+712,866,Bell County,48027,Black or African American,2054-5,"Some college credit, but not a degree",9.08,TX,31.042314,-97.4814
+713,867,Bexar County,48029,Black or African American,2054-5,9th through 12th grade with no diploma,12.39,TX,29.448671,-98.520147
+714,868,Bexar County,48029,Black or African American,2054-5,High school graduate or GED completed,8.21,TX,29.448671,-98.520147
+715,869,Bexar County,48029,Black or African American,2054-5,"Some college credit, but not a degree",8.49,TX,29.448671,-98.520147
+716,870,Bexar County,48029,Black or African American,2054-5,"Associate degree (AA, AS)",7.12,TX,29.448671,-98.520147
+717,871,Bexar County,48029,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",11.21,TX,29.448671,-98.520147
+718,872,Collin County,48085,Black or African American,2054-5,High school graduate or GED completed,6.99,TX,33.194736999999996,-96.579723
+719,873,Collin County,48085,Black or African American,2054-5,"Some college credit, but not a degree",7.23,TX,33.194736999999996,-96.579723
+720,874,Collin County,48085,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",4.09,TX,33.194736999999996,-96.579723
+721,875,Collin County,48085,Black or African American,2054-5,"Master's degree (MA, MS)",9.23,TX,33.194736999999996,-96.579723
+722,876,Dallas County,48113,Black or African American,2054-5,9th through 12th grade with no diploma,12.72,TX,32.766987,-96.778424
+723,877,Dallas County,48113,Black or African American,2054-5,High school graduate or GED completed,12.48,TX,32.766987,-96.778424
+724,878,Dallas County,48113,Black or African American,2054-5,"Some college credit, but not a degree",10.48,TX,32.766987,-96.778424
+725,879,Dallas County,48113,Black or African American,2054-5,"Associate degree (AA, AS)",13.68,TX,32.766987,-96.778424
+726,880,Dallas County,48113,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.42,TX,32.766987,-96.778424
+727,881,Dallas County,48113,Black or African American,2054-5,"Master's degree (MA, MS)",9.11,TX,32.766987,-96.778424
+728,882,Dallas County,48113,Black or African American,2054-5,Unknown/Not on certificate,111.84,TX,32.766987,-96.778424
+729,883,Denton County,48121,Black or African American,2054-5,High school graduate or GED completed,10.01,TX,33.205132,-97.12114
+730,884,Denton County,48121,Black or African American,2054-5,"Some college credit, but not a degree",9.85,TX,33.205132,-97.12114
+731,885,Denton County,48121,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.18,TX,33.205132,-97.12114
+732,886,El Paso County,48141,Black or African American,2054-5,High school graduate or GED completed,12.13,TX,31.766479999999998,-106.241424
+733,887,El Paso County,48141,Black or African American,2054-5,"Some college credit, but not a degree",12.29,TX,31.766479999999998,-106.241424
+734,888,Fort Bend County,48157,Black or African American,2054-5,High school graduate or GED completed,10.93,TX,29.526602,-95.771015
+735,889,Fort Bend County,48157,Black or African American,2054-5,"Some college credit, but not a degree",7.03,TX,29.526602,-95.771015
+736,890,Fort Bend County,48157,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",6.54,TX,29.526602,-95.771015
+737,891,Fort Bend County,48157,Black or African American,2054-5,"Master's degree (MA, MS)",7.69,TX,29.526602,-95.771015
+738,892,Galveston County,48167,Black or African American,2054-5,High school graduate or GED completed,9.87,TX,29.228246999999996,-94.895511
+739,893,Galveston County,48167,Black or African American,2054-5,"Some college credit, but not a degree",11.34,TX,29.228246999999996,-94.895511
+740,894,Harris County,48201,Black or African American,2054-5,8th grade or less,10.21,TX,29.857273,-95.39303699999999
+741,895,Harris County,48201,Black or African American,2054-5,9th through 12th grade with no diploma,12.0,TX,29.857273,-95.39303699999999
+742,896,Harris County,48201,Black or African American,2054-5,High school graduate or GED completed,11.3,TX,29.857273,-95.39303699999999
+743,897,Harris County,48201,Black or African American,2054-5,"Some college credit, but not a degree",9.53,TX,29.857273,-95.39303699999999
+744,898,Harris County,48201,Black or African American,2054-5,"Associate degree (AA, AS)",10.2,TX,29.857273,-95.39303699999999
+745,899,Harris County,48201,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",7.44,TX,29.857273,-95.39303699999999
+746,900,Harris County,48201,Black or African American,2054-5,"Master's degree (MA, MS)",8.14,TX,29.857273,-95.39303699999999
+747,901,Harris County,48201,Black or African American,2054-5,Unknown/Not on certificate,117.32,TX,29.857273,-95.39303699999999
+748,902,Jefferson County,48245,Black or African American,2054-5,9th through 12th grade with no diploma,11.04,TX,29.854,-94.149331
+749,903,Jefferson County,48245,Black or African American,2054-5,High school graduate or GED completed,13.25,TX,29.854,-94.149331
+750,904,Jefferson County,48245,Black or African American,2054-5,"Some college credit, but not a degree",9.25,TX,29.854,-94.149331
+751,905,Jefferson County,48245,Black or African American,2054-5,"Associate degree (AA, AS)",24.29,TX,29.854,-94.149331
+752,906,Montgomery County,48339,Black or African American,2054-5,High school graduate or GED completed,12.01,TX,30.300611,-95.49471899999999
+753,907,Tarrant County,48439,Black or African American,2054-5,9th through 12th grade with no diploma,12.94,TX,32.772119,-97.291224
+754,908,Tarrant County,48439,Black or African American,2054-5,High school graduate or GED completed,15.18,TX,32.772119,-97.291224
+755,909,Tarrant County,48439,Black or African American,2054-5,"Some college credit, but not a degree",10.42,TX,32.772119,-97.291224
+756,910,Tarrant County,48439,Black or African American,2054-5,"Associate degree (AA, AS)",10.33,TX,32.772119,-97.291224
+757,911,Tarrant County,48439,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",9.72,TX,32.772119,-97.291224
+758,912,Tarrant County,48439,Black or African American,2054-5,"Master's degree (MA, MS)",9.63,TX,32.772119,-97.291224
+759,913,Travis County,48453,Black or African American,2054-5,9th through 12th grade with no diploma,16.57,TX,30.239513,-97.69126999999999
+760,914,Travis County,48453,Black or African American,2054-5,High school graduate or GED completed,7.75,TX,30.239513,-97.69126999999999
+761,915,Travis County,48453,Black or African American,2054-5,"Some college credit, but not a degree",9.53,TX,30.239513,-97.69126999999999
+762,916,Travis County,48453,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",11.75,TX,30.239513,-97.69126999999999
+763,925,Salt Lake County,49035,Black or African American,2054-5,High school graduate or GED completed,15.56,UT,40.667883,-111.92424
+764,926,Salt Lake County,49035,Black or African American,2054-5,Excluded,9.29,UT,40.667883,-111.92424
+765,927,Chesterfield County,51041,Black or African American,2054-5,Excluded,9.12,VA,37.378434000000006,-77.585847
+766,928,Fairfax County,51059,Black or African American,2054-5,"Some college credit, but not a degree",11.37,VA,38.82952,-77.273252
+767,929,Fairfax County,51059,Black or African American,2054-5,Excluded,8.24,VA,38.82952,-77.273252
+768,930,Henrico County,51087,Black or African American,2054-5,High school graduate or GED completed,14.93,VA,37.631269,-77.651922
+769,931,Henrico County,51087,Black or African American,2054-5,Excluded,11.35,VA,37.631269,-77.651922
+770,932,Prince William County,51153,Black or African American,2054-5,Excluded,10.93,VA,38.701119,-77.479579
+771,933,Virginia Beach city,51810,Black or African American,2054-5,High school graduate or GED completed,15.4,VA,36.779984999999996,-76.025209
+772,934,Virginia Beach city,51810,Black or African American,2054-5,"Some college credit, but not a degree",7.4,VA,36.779984999999996,-76.025209
+773,935,Virginia Beach city,51810,Black or African American,2054-5,Excluded,11.13,VA,36.779984999999996,-76.025209
+774,944,King County,53033,Black or African American,2054-5,8th grade or less,6.73,WA,47.490598999999996,-121.833996
+775,945,King County,53033,Black or African American,2054-5,9th through 12th grade with no diploma,7.13,WA,47.490598999999996,-121.833996
+776,946,King County,53033,Black or African American,2054-5,High school graduate or GED completed,7.47,WA,47.490598999999996,-121.833996
+777,947,King County,53033,Black or African American,2054-5,"Some college credit, but not a degree",7.37,WA,47.490598999999996,-121.833996
+778,948,King County,53033,Black or African American,2054-5,"Associate degree (AA, AS)",9.34,WA,47.490598999999996,-121.833996
+779,949,King County,53033,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",5.19,WA,47.490598999999996,-121.833996
+780,950,King County,53033,Black or African American,2054-5,Unknown/Not on certificate,18.9,WA,47.490598999999996,-121.833996
+781,951,Pierce County,53053,Black or African American,2054-5,9th through 12th grade with no diploma,10.53,WA,47.051415000000006,-122.15324199999999
+782,952,Pierce County,53053,Black or African American,2054-5,High school graduate or GED completed,11.03,WA,47.051415000000006,-122.15324199999999
+783,953,Pierce County,53053,Black or African American,2054-5,"Some college credit, but not a degree",8.16,WA,47.051415000000006,-122.15324199999999
+784,957,Dane County,55025,Black or African American,2054-5,High school graduate or GED completed,12.58,WI,43.067468,-89.417852
+785,958,Dane County,55025,Black or African American,2054-5,"Some college credit, but not a degree",16.44,WI,43.067468,-89.417852
+786,959,Dane County,55025,Black or African American,2054-5,Excluded,14.92,WI,43.067468,-89.417852
+787,960,Milwaukee County,55079,Black or African American,2054-5,9th through 12th grade with no diploma,14.84,WI,43.01766,-87.481554
+788,961,Milwaukee County,55079,Black or African American,2054-5,High school graduate or GED completed,11.15,WI,43.01766,-87.481554
+789,962,Milwaukee County,55079,Black or African American,2054-5,"Some college credit, but not a degree",16.16,WI,43.01766,-87.481554
+790,963,Milwaukee County,55079,Black or African American,2054-5,"Associate degree (AA, AS)",12.71,WI,43.01766,-87.481554
+791,964,Milwaukee County,55079,Black or African American,2054-5,"Bachelor's degree (BA, AB, BS)",10.02,WI,43.01766,-87.481554
+792,965,Milwaukee County,55079,Black or African American,2054-5,Unknown/Not on certificate,73.77,WI,43.01766,-87.481554
+793,966,Milwaukee County,55079,Black or African American,2054-5,Excluded,14.07,WI,43.01766,-87.481554
