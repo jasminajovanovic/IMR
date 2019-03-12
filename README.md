@@ -53,9 +53,8 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 * There is a clear correlation between IMR and poverty levels. 
 
-![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)
+![Death Rate v White Poverty](Images/DeathRate_v_PovertyRateWhites.png)![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
-![Death Rate v African American Poverty](Images/DeathRate_v_AfricanAmericanPoverty.png)
 
 * Even though the correlation holds for both Whites and African Americans, African Americans experience higher levels of IMR than Whites for similar poverty levels. 
 
@@ -77,6 +76,10 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ### 4) How does the education level of the mother relate to IMR?
 
+![Education level](Images/Education_lever_line.png)
+
+### 6) Does the age of the mother play a role in IMR?
+=======
 ### 5) Does the age of the mother play a role in IMR?
 
 ![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
