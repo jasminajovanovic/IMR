@@ -203,7 +203,7 @@ death_rates_county = death_rates_county.rename(columns={"County Code": "County I
 death_rates_county.head()
 
 
-# In[88]:
+# In[204]:
 
 
 #merge CDC data on death rates per county with poverty and county location data
@@ -216,7 +216,7 @@ regress_df = pd.merge(death_rates_county, merge_group, on="County ID", how="left
 regress_df.head()
 
 
-# In[90]:
+# In[205]:
 
 
 #remove all rows with missing values
@@ -636,44 +636,44 @@ plt.show()
 p_value
 
 
-# In[91]:
+# In[206]:
 
 
 #Heatmap with poverty per county and top ten counties deathrate
-regress_df = regress_df.sort_values(by=["Death Rate"], ascending=True)
+regress_df = regress_df.sort_values(by=["Death Rate"], ascending=False)
 
 
-# In[92]:
+# In[207]:
 
 
 regress_df = regress_df.reset_index()
 
 
-# In[93]:
+# In[208]:
 
 
 regress_df.head()
 
 
-# In[94]:
+# In[209]:
 
 
 regress_df = regress_df.iloc[0:10]
 
 
-# In[95]:
+# In[210]:
 
 
 regress_df
 
 
-# In[96]:
+# In[211]:
 
 
 regress_df.to_csv("datafiles/low_IMR_county.csv")
 
 
-# In[87]:
+# In[212]:
 
 
 gmaps.configure(api_key=gkey)
