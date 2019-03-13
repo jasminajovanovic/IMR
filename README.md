@@ -82,6 +82,8 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 ### 4) How does the education level of the mother relate to IMR?
 
 ![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
+
+
 In every state, differences in infant mortality are seen between babies born to the most-educated mothers, who are least likely to die in the first year of life, and babies born to mothers with less education.
 
 African American Infants whose mothers received less than 12 years of education are, in some states, almost twice as likely to die as those born to college (or higher) educated mothers.
