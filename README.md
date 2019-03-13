@@ -8,7 +8,7 @@ Logan Caldwell, John Chambers, Jasmina Jovanovic, Hyunsoo Kim, and Ediya Yumukof
 
 ## Project Description:
 
-The United States has a higher Infant Mortaility Rate than any other wealthy country in the world. We set out to investigate the causes of Infant Mortality Rates (IMR) in the United States and the associated factors. 
+The United States has a higher Infant Mortaility Rate than any other wealthy country in the world. We set out to investigate the causes of Infant Deaths in the United States and the associated factors. 
 
 ![IMR, US vs Other Countries](Images/imr_by_country.png)
 
