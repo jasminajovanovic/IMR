@@ -36,6 +36,9 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 * World Health Organization
 https://www.who.int/gho/database/en/
 
+* Kaiser Family Foundation
+https://www.kff.org/statedata/
+
 ## Data Wrangling Methodology
 
 * Most of the datasets obtained from the CDC had some results that were unreliable. We removed those rows that were marked unreliable (statistically not significant, with fewer than 20 deaths in that category)
