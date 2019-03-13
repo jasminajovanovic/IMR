@@ -90,6 +90,8 @@ https://www.kff.org/statedata/
 
 ![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
 
+* The IMR is highest with very young mothers and mothers over 40
+* We don't know for sure why IMR is so high with very young mothers, but suspect that it may be related to level of education or poverty
 
 ### Is there a correlation between poverty and IMR?
 
@@ -124,6 +126,7 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 * More hypothesis that we tested can be see in our code (e.g. mother's obesity and hyptertension, month in which prenatal care began)
 * The factors with the strongest correlations with IMR are race and poverty
 * Even when contorlling for race, no single factor could explain the differences in IMR between African American and White/Asian babies (the biggest gap in IMR)
+* There is not a strong correlation between mother being overweight and IMR
 
 ## Limitations
 
