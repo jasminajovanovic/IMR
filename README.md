@@ -108,12 +108,14 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ## Conclusions
 
-*The counties with the highest IMRs are in the southern and eastern United States.
-*The factors with the strongest correlations with IMR are x, y, and z.
-*In addition to the above factors, there appears to be a strong racial component in IMR which deserves further examination. 
+* We identified multiple factors that affect IMR: mother's age, mother's education level, race, infant's birth weight, poverty, and rate of public insurance coverage
+* More hypothesis that we tested can be see in our code (e.g. mother's obesity and hyptertension, month in which prenatal care began)
+* The factors with the strongest correlations with IMR are race and poverty
+* Even when contorlling for race, no single factor could explain the differences in IMR between African American and White/Asian babies (the biggest gap in IMR)
 
 ## Suggestions for Further Study
 
 * Examine racial differences in terms of rates of public versus private health insurance
+* Examine racial diferences in terms of access to quality hospitals and the probability of an extremely premature infant to survive
 * Examine correlation between vitamin D defficiency and premature labor between different races
 
