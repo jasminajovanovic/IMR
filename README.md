@@ -72,11 +72,11 @@ https://www.kff.org/statedata/
 ### Does infants' birthweight affect the IMR?
 ![Infant Mortality Rate by Birth Weight](Images/bw_Birth%20Weights%20Infant%20Mortality%20Rate.png)
 
-- Babies with less than 1 kg (2.2 lb) of newborn babies have the highest mortality rate.
+- Babies weighing less than 1 kg (2.2 lb) at birth have the highest mortality rate.
 
 ![Factors of having preterm baby or low birth weight baby](Images/bw_IMR%20Factors%20by%20Race.png)
 
-- Overweight was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
+- Rate of overweight mothers was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
 
 ### How does the education level of the mother relate to IMR?
 
