@@ -82,6 +82,10 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 ### 4) How does the education level of the mother relate to IMR?
 
 ![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
+In every state, differences in infant mortality are seen between babies born to the most-educated mothers, who are least likely to die in the first year of life, and babies born to mothers with less education.
+
+African American Infants whose mothers received less than 12 years of education are, in some states, almost twice as likely to die as those born to college (or higher) educated mothers.
+
 
 ### 5) Does the age of the mother play a role in IMR?
 
@@ -111,6 +115,7 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 *The counties with the highest IMRs are in the southern and eastern United States.
 *The factors with the strongest correlations with IMR are x, y, and z.
 *In addition to the above factors, there appears to be a strong racial component in IMR which deserves further examination. 
+*In addition to other factors, including race and maternal age, maternal educational level is significantly linked to infant mortality risk.
 
 ## Suggestions for Further Study
 
