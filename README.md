@@ -126,6 +126,7 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 * In some cases where we worked we multiple data sources, one data source includes an extra year compared to the other
 * CDC datasource contained a lot of NaN fields, which may skew the results
+* In some datasets Hispanics are categorized as a race, while in others they are not. Most of our analysis of IMR did not include Hispanics as a separate race
 
 ## Suggestions for Further Study
 
