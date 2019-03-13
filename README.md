@@ -69,7 +69,7 @@ https://www.who.int/gho/database/en/
 
 ### How does the education level of the mother relate to IMR?
 
-![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
+![Education level](Images/Education_lever_line.png)
 
 * In every state, differences in infant mortality are seen between babies born to the most-educated mothers, who are least likely to die in the first year of life, and babies born to mothers with less education.
 
