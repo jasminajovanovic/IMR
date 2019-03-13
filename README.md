@@ -75,6 +75,8 @@ https://www.who.int/gho/database/en/
 
 * African American Infants whose mothers received less than 12 years of education are, in some states, almost twice as likely to die as those born to college (or higher) educated mothers.
 
+* African American Infants' death rate is still much higher than average, even when comparing same levels of education
+
 ### Does the age of the mother play a role in IMR?
 
 ![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
