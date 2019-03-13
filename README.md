@@ -69,6 +69,14 @@ https://www.kff.org/statedata/
 - African American babies have double the rate of every leading cause of death compared to White babies
 - It is possible that there are inaccuracies in the cause of death for the American Indian / Alaska Native race
 
+### Does infants' birthweight affect the IMR?
+![Infant Mortality Rate by Birth Weight](Images/bw_Birth%20Weights%20Infant%20Mortality%20Rate.png)
+
+- Babies with less than 1 kg (2.2 lb) of newborn babies have the highest mortality rate.
+
+![Factors of having preterm baby or low birth weight baby](Images/bw_IMR%20Factors%20by%20Race.png)
+
+- Overweight was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
 
 ### How does the education level of the mother relate to IMR?
 
@@ -109,14 +117,6 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 * There is a positive correlation between IMR and having public insurance or private insurance
 
-### Does infants' birthweight affect the IMR?
-![Infant Mortality Rate by Birth Weight](Images/bw_Birth%20Weights%20Infant%20Mortality%20Rate.png)
-
-- Babies with less than 1 kg (2.2 lb) of newborn babies have the highest mortality rate.
-
-![Factors of having preterm baby or low birth weight baby](Images/bw_IMR%20Factors%20by%20Race.png)
-
-- Overweight was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
 
 ## Conclusions
 
