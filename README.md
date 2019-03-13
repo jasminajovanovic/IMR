@@ -80,11 +80,13 @@ https://www.kff.org/statedata/
 
 ### How does the education level of the mother relate to IMR?
 
-![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
+![Education level](Images/Education_lever_line.png)
 
 * In every state, differences in infant mortality are seen between babies born to the most-educated mothers, who are least likely to die in the first year of life, and babies born to mothers with less education.
 
 * African American Infants whose mothers received less than 12 years of education are, in some states, almost twice as likely to die as those born to college (or higher) educated mothers.
+
+* African American Infants' death rate is still much higher than average, even when comparing same levels of education
 
 ### Does the age of the mother play a role in IMR?
 
