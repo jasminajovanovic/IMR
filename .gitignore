@@ -105,5 +105,3 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# myIMR_all
-IMR-all.ipynb
