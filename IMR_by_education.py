@@ -48,7 +48,7 @@ del exclude_unknown['Deaths']
 del exclude_unknown['Education Code']
 del exclude_unknown['Births']
 del exclude_unknown['Notes']
-exclude_unknown.head()
+exclude_unknown
 
 
 # In[ ]:
@@ -57,11 +57,18 @@ exclude_unknown.head()
 
 
 
-# In[6]:
+# In[49]:
 
 
-plt.plot(exclude_unknown["Death Rate"], 
-            exclude_unknown["Education"])
+x_axis = exclude_unknown['Education']
+y_axis = exclude_unknown['Death Rate']
+
+# plt.plot(exclude_unknown["Education"],
+#          exclude_unknown["Death Rate"]
+         
+#          )
+plt.plot(x_axis, y_axis)
+
 
 # Incorporate the other graph properties
 plt.style.use('seaborn')
@@ -69,8 +76,9 @@ plt.title(f"Death rate by Education level 2007-2016")
 plt.ylabel("Death Rate (per 1000)")
 plt.xlabel("Education level")
 plt.grid(True)
-plt.xlim(2, 10)
-plt.ylim(0, 9)
+plt.xticks((range(len(x_axis))), ["9-12th\ngrade", "HS\nor GED", "Excluded", "8th\ngrade\nor less", "Some\ncollege\ncredit", "Associate\ndegree",  "Bachelor's\ndegree", "Master's\ndegree", "Doctorate\ndegree"])
+plt.xlim(-0.5, 8.2)
+plt.ylim(3, 9)
 # Save the figure
 plt.savefig("Images/Education_lever_line.png")
 
@@ -78,7 +86,7 @@ plt.savefig("Images/Education_lever_line.png")
 plt.show()
 
 
-# In[7]:
+# In[48]:
 
 
 x_axis = exclude_unknown['Education']
@@ -196,7 +204,7 @@ merge_table['Weighted Education Score'] = merge_table.apply(weighted_education, 
 merge_table
 
 
-# In[20]:
+# In[38]:
 
 
 # Store latitude and longitude in locations
@@ -227,7 +235,7 @@ highcounties_df = pd.read_csv(highcounties, encoding="ISO-8859-1")
 highcounties_df
 
 
-# In[22]:
+# In[39]:
 
 
 coordinates3 = [
@@ -244,7 +252,7 @@ coordinates3 = [
 ]
 
 
-# In[23]:
+# In[40]:
 
 
 figure_layout3 = {
@@ -257,7 +265,7 @@ figure_layout3 = {
 fig3 = gmaps.figure(layout=figure_layout3)
 
 
-# In[24]:
+# In[41]:
 
 
 # Assign the marker layer to a variable
@@ -267,7 +275,7 @@ fig.add_layer(markers3)
 #fig
 
 
-# In[25]:
+# In[42]:
 
 
 fig = gmaps.figure()
@@ -288,7 +296,7 @@ lowcounties_df = pd.read_csv(lowcounties, encoding="ISO-8859-1")
 lowcounties_df
 
 
-# In[27]:
+# In[43]:
 
 
 coordinates4 = [
@@ -305,7 +313,7 @@ coordinates4 = [
 ]
 
 
-# In[28]:
+# In[44]:
 
 
 figure_layout4 = {
@@ -318,7 +326,7 @@ figure_layout4 = {
 fig4 = gmaps.figure(layout=figure_layout4)
 
 
-# In[29]:
+# In[45]:
 
 
 # Assign the marker layer to a variable
@@ -328,7 +336,7 @@ fig.add_layer(markers4)
 #fig
 
 
-# In[30]:
+# In[46]:
 
 
 fig = gmaps.figure()
@@ -341,27 +349,27 @@ fig
 
 # ### AAR Education vs Death Rate
 
-# In[31]:
+# In[53]:
 
 
 aareducation = 'datafiles/Death_Rate_by_AAR_by_Education.csv'
 aareducation_df = pd.read_csv(aareducation, encoding="ISO-8859-1")
 
 
-# In[32]:
+# In[54]:
 
 
 aareducation_sorted =aareducation_df.sort_values(["Death Rate"],ascending=False)
 
 
-# In[33]:
+# In[55]:
 
 
 exclude_unknown_aar = aareducation_sorted.loc[aareducation_sorted['Education']!= "Unknown/Not on certificate"]
 exclude_unknown_aar
 
 
-# In[34]:
+# In[62]:
 
 
 x_axis = exclude_unknown_aar['Education']
@@ -370,13 +378,13 @@ plt.tight_layout()
 plt.ylabel("Death Rate %")
 plt.xlabel("Education level of African American Race")
 plt.bar(x_axis, y_axis, color="b", align="center")
-plt.xticks(exclude_unknown_aar['Education'], rotation="vertical")
+plt.xticks(range(len(x_axis)), ["9-12th\ngrade", "Excluded", "HS\nor GED", "Some\ncollege\ncredit" , "Associate\ndegree", "8th\ngrade\nor less", "Bachelor's\ndegree", "Master's\ndegree", "Doctorate\ndegree"] )
 
 plt.savefig("Images/Education_of_AAR.png")
 plt.show()
 
 
-# In[35]:
+# In[63]:
 
 
 censusaareducation = 'datafiles/AAR_Education_2013_2017.csv'

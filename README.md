@@ -24,12 +24,17 @@ The United States has a higher Infant Mortaility Rate than any other wealthy cou
 
 ## Datasets Used:
 
+* CDC
+https://wonder.cdc.gov/
 
-https://wonder.cdc.gov/controller/datarequest/D69
+* US Census
 https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic05_acs.xls
-http://www2.census.gov/geo/docs/maps-data/data/gazetteer/2017_Gazetteer/2017_Gaz_counties_national.zip
+
+* USDA
 https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
-https://nccd.cdc.gov/DHDSP_DTM/rdPage.aspx?rdReport=DHDSP_DTM.ExploreByTopic&filter=data&islDatasource=BRFSS&islTopic=T9&islFilterby=2&go=GO
+
+* World Health Organization
+https://www.who.int/gho/database/en/
 
 
 
@@ -76,7 +81,11 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 
 ### 4) How does the education level of the mother relate to IMR?
 
+![Education level](Images/Education_lever_line.png)![AAR Education level](Images/Education_of_AAR.png)
+
 ### 5) Does the age of the mother play a role in IMR?
+
+![Death Rate v Age of Mother](Images/IMR_and_age_of_mother_plot.png)
 
 ### 6) Does having health insurance lower the rate of IMR?
 
@@ -89,7 +98,13 @@ Average poverty by county for 2007-2016. Markers represent 15 highest IMR states
 * There is a positive correlation between IMR and having public insurance or private insurance
 
 ### 7) Does infants' birthweight affect the IMR?
+![Infant Mortality Rate by Birth Weight](Images/bw_Birth%20Weights%20Infant%20Mortality%20Rate.png)
 
+- Babies with less than 1 kg (2.2 lb) of newborn babies have the highest mortality rate.
+
+![Factors of having preterm baby or low birth weight baby](Images/bw_IMR%20Factors%20by%20Race.png)
+
+- Overweight was high in Hispanics, White, and American Indian, but Infant Mortality was relatively low.
 
 ## Conclusions
 
