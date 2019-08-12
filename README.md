@@ -8,11 +8,11 @@ Logan Caldwell, John Chambers, Jasmina Jovanovic, Hyunsoo Kim, and Ediya Yumukof
 
 ## Project Description:
 
-The United States has a higher Infant Mortaility Rate than any other wealthy country in the world. We set out to investigate the causes of Infant Deaths in the United States and the associated factors. 
+The United States has a higher Infant Mortaility Rate than any other developed country. We set out to investigate the causes of Infant Deaths in the United States and the associated factors. 
 
 ![IMR, US vs Other Countries](Images/imr_by_country.png)
 
-## Research Questions to Answer:
+## Research Questions:
 
 * What are the leading causes of infant deaths in the US?
 * Is there a correlation between poverty and IMR?
@@ -45,7 +45,7 @@ https://www.kff.org/statedata/
 * In other cases, we kept rows that had NaN values in them, for instance if the education level of the mother was not reported. We made a call on case by case basis based on what portion of the overall results that category represents
 * In addition to data from the CDC we relied on the US Census, USDA, Kaiser Family Foundation datasets. Any merging of the dataframes was performed on a well defined key, such as county ID
 
-## Questions - Answered
+## Analysis
 
 ### What are the leading casuses of infant deaths in the US?
 
